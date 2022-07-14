@@ -156,7 +156,7 @@ That has written the following files:
 - `Gemfile`
 - `index.markdown`: a dummy home page
 
-__Ignore the other steps on the GitHub web pages!__
+__Ignore the other steps on the GitHub web pages for now!__
 
 Edit `_config.yml`:
 
@@ -303,3 +303,10 @@ Configuration file: .../just-the-docs-tests/_config.yml
 Just the Docs Tests now builds as desired locally, with this single page as `Home`!
 
 Commit the changes to the repository on GitHub.
+
+GitHub Pages now builds the site successfully!
+
+Question:
+
+> Is there a simpler way to configure a site using Just the Docs
+> so that it builds both locally _and_ on GitHub Pages?
