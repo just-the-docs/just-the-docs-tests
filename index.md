@@ -71,3 +71,33 @@ layout: default
 That worked okay for me: 
 my browser (Safari on macOS) shows a correctly formatted website
 using Just the Docs.
+
+## Quick start: Use as a GitHub Pages remote theme
+
+- Add Just the Docs to your Jekyll site’s `_config.yml` as a remote theme
+
+    `_config.yml` updated to:
+
+    ```yml
+    title: Just the Docs Tests
+    theme: just-the-docs
+    remote_theme: just-the-docs/just-the-docs
+    ```
+    
+    Using the gem-based them still works.
+    But the site doesn't build on Pages:
+    
+    ```
+    Configuration file: /github/workspace/./_config.yml
+    Theme: just-the-docs
+    github-pages 227 | Error:  The just-the-docs theme could not be found.
+    ```
+    
+    Commenting-out the `theme` doesn't work locally:
+    
+    ```
+    Build Warning: Layout 'default' requested in index.md does not exist.
+    ```
+
+    Putting the `remote_theme` _before_ the `theme` eliminates the build warning
+    when using the gem-based theme.
