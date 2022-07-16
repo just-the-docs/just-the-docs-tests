@@ -5,20 +5,18 @@ layout: home
 
 # Tests for Just the Docs
 
-It is possible to create a Jekyll website on GitHub,
-and use GitHub Pages to build and serve it.
-But we strongly recommend to install Jekyll locally:
+Just the Docs is a remote theme for use on websites built with Jekyll.
+We strongly recommend to install Jekyll locally:
 
-- You can then test your changes before publication.
+- You can then preview and test changes before publication.
 - Jekyll takes only a few seconds to build the updated website locally,
     whereas GitHub Pages may take up to 20 minutes.
 
-The current instructions on the [Just the Docs home page](https://just-the-docs.github.io/just-the-docs/)
-are a bit unclear about how to create a Jekyll website
-that builds both locally and on GitHub Pages
-using Just the Docs as a remote theme. 
+The current instructions on the [Just the Docs home page](https://just-the-docs.github.io/just-the-docs/) are a bit unclear
+about how to create a Jekyll website that builds _both_ locally _and_ on GitHub Pages.
+They refer to 
 However, they cite [an example repository](https://github.com/pmarsceill/jtd-remote),
-which suggests the following:
+which suggests the following steps:
 
 1. Install Bundler:
 
@@ -44,6 +42,9 @@ which suggests the following:
     remote_theme: just-the-docs/just-the-docs
     plugins:
       - jekyll-remote-theme
+    aux_links:
+      My Website on GitHub:
+        - //github.com/.../my-website
     ```
 
 1. Create `Gemfile`:

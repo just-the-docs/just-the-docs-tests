@@ -2,3 +2,6 @@ title: Just the Docs Tests
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+aux_links:
+  Just the Docs Tests on GitHub:
+    - //github.com/just-the-docs/just-the-docs-tests
