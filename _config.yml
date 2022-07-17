@@ -1,5 +1,5 @@
 title: Just the Docs Tests
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.3.3
 plugins:
   - jekyll-remote-theme
 aux_links:

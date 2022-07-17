@@ -1,7 +1,3 @@
-title: Home
-layout: home
----
-
 # Tests for Just the Docs
 
 First, let's test the instructions on the [Just the Docs home page](https://just-the-docs.github.io/just-the-docs/).

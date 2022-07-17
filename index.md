@@ -5,27 +5,25 @@ layout: home
 
 # Tests for Just the Docs
 
-Just the Docs is a remote theme for use on websites built with Jekyll.
-We strongly recommend to install Jekyll locally:
+Just the Docs is a remote theme for use with Jekyll.
+We are developing this website to test the features of Just the Docs.
+The source code of the web pages illustrates how to use the tested features,
+and the published pages shows their resulting effects.
+See the Just the Docs website for the main documentation of the theme.
 
-- You can then preview and test changes before publication.
-- Jekyll takes only a few seconds to build the updated website locally,
-    whereas GitHub Pages may take up to 20 minutes.
+The rest of this page explains how we created this website
+so that we can build and preview the site locally
+before publishing it on GitHub Pages.
 
-The current instructions on the [Just the Docs home page](https://just-the-docs.github.io/just-the-docs/) are a bit unclear
-about how to create a Jekyll website that builds _both_ locally _and_ on GitHub Pages.
-They refer to 
-However, they cite [an example repository](https://github.com/pmarsceill/jtd-remote),
-which suggests the following steps:
-
-1. Install Bundler:
+1.  Install Bundler:
 
     ```sh
     gem install bundler
     ```
     
-1. Create a repository for your website on GitHub, with a local copy,
-    and with `.gitignore`:
+1.  Create the repository `just-the-docs-tests` on GitHub, and make a local copy.
+    
+1.  Create `.gitignore`:
 
     ```
     _site
@@ -38,26 +36,35 @@ which suggests the following steps:
 1. Create `_config.yml`:
 
     ```yml
-    title: My Website
-    remote_theme: just-the-docs/just-the-docs
+    title: Just the Docs Tests
+    remote_theme: just-the-docs/just-the-docs@v0.3.3
     plugins:
       - jekyll-remote-theme
     aux_links:
-      My Website on GitHub:
-        - //github.com/.../my-website
+      Just the Docs Tests on GitHub:
+        - //github.com/just-the-docs/just-the-docs-tests
     ```
+    
+    Note: 
+    The release tag `@v0.3.3` above ensures that Jekyll uses version 0.3.3
+    of the theme whenever it builds the website.
 
-1. Create `Gemfile`:
+1.  Create `Gemfile`:
 
-    ```rb
+    ```ruby
     source 'https://rubygems.org'
     gem "jekyll", "~> 3.9"
     gem "kramdown-parser-gfm"
     gem "jekyll-remote-theme"
-    gem "just-the-docs"
+    gem "just-the-docs", "0.3.3"
     ```
+    
+    Warning:
+    It appears that with the current version of `jekyll-remote-theme`,
+    Jekyll does not check the consistency of version numbers specified in
+    `_config.yml` and in `Gemfile`.
 
-1. Create `index.md`:
+1.  Create `index.md`:
 
     ```md
     ---
@@ -65,13 +72,14 @@ which suggests the following steps:
     layout: home
     ---
 
-    # My Website Home Page
+    # Tests for Just the Docs
+    
+    ...
     ```
 
-1. Run the following in your repository directory:
+1.  Run `bundle install`. Log:
 
-    ```sh
-    $ bundle install
+    ```
     Using rake 13.0.6
     Using public_suffix 4.0.7
     Using addressable 2.8.0
@@ -106,8 +114,11 @@ which suggests the following steps:
     Using kramdown-parser-gfm 1.1.0
     Bundle complete! 4 Gemfile dependencies, 32 gems now installed.
     Use `bundle info [gemname]` to see where a bundled gem is installed.
+    ```
 
-    $ bundle exec jekyll serve
+1.  Run `bundle exec jekyll serve`. Log:
+
+    ```
     Configuration file: .../just-the-docs-tests/_config.yml
                 Source: .../just-the-docs-tests
            Destination: .../just-the-docs-tests/_site
