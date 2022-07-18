@@ -2,6 +2,7 @@ title: Just the Docs Tests
 remote_theme: just-the-docs/just-the-docs@v0.3.3
 plugins:
   - jekyll-remote-theme
+  - jekyll-default-layout
 aux_links:
   Just the Docs Tests on GitHub:
     - //github.com/just-the-docs/just-the-docs-tests
