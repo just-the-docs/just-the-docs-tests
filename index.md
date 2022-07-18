@@ -5,15 +5,23 @@ layout: home
 
 # Tests for Just the Docs
 
-Just the Docs is a remote theme for use with Jekyll.
-We are developing this website to test the features of Just the Docs.
+[Just the Docs] is a [remote theme] for use with the static website generator [Jekyll].
+The theme is responsive, easily customizable, and hosted on [GitHub Pages].
+It supports documentation pages, but (currently) not blogs.
+
+We are developing this website to test various features of Just the Docs.
 The source code of the web pages illustrates how to use the tested features,
-and the published pages shows their resulting effects.
-See the Just the Docs website for the main documentation of the theme.
+and the published pages show their resulting effects.
+See the [Just the Docs website] for the main documentation of the theme.
 
 The rest of this page explains how we created this website
-so that we can build and preview the site locally
-before publishing it on GitHub Pages.
+so that we can build and preview the site locally before publishing it on GitHub Pages.
+The explanation aims to be as simple as possible;
+it could be regarded as a test of the guidance for [getting started]
+shown on the theme home page (which can confuse users new to Jekyll).
+
+Note that some of the files shown below will subsequently be updated,
+to support further tests.
 
 1.  Install Bundler:
 
@@ -21,9 +29,9 @@ before publishing it on GitHub Pages.
     gem install bundler
     ```
     
-1.  Create the repository `just-the-docs-tests` on GitHub, and make a local copy.
+1.  Create the repository [`just-the-docs-tests`] on GitHub, and make a local copy.
     
-1.  Create `.gitignore`:
+1.  Create [`.gitignore`]\:
 
     ```
     _site
@@ -33,7 +41,7 @@ before publishing it on GitHub Pages.
     vendor
     ```
 
-1. Create `_config.yml`:
+1. Create [`_config.yml`]\:
 
     ```yml
     title: Just the Docs Tests
@@ -47,9 +55,9 @@ before publishing it on GitHub Pages.
     
     Note: 
     The release tag `@v0.3.3` above ensures that Jekyll uses version 0.3.3
-    of the theme whenever it builds the website.
+    of the theme when it builds the website.
 
-1.  Create `Gemfile`:
+1.  Create [`Gemfile`]\:
 
     ```ruby
     source 'https://rubygems.org'
@@ -60,11 +68,10 @@ before publishing it on GitHub Pages.
     ```
     
     Warning:
-    It appears that with the current version of `jekyll-remote-theme`,
-    Jekyll does not check the consistency of version numbers specified in
-    `_config.yml` and in `Gemfile`.
+    Jekyll does not check that the theme version specified in `_config.yml`
+    is consistent with that specified in `Gemfile`.
 
-1.  Create `index.md`:
+1.  Create [`index.md`]\:
 
     ```md
     ---
@@ -87,7 +94,7 @@ before publishing it on GitHub Pages.
     ```
 
 1.  Run `bundle exec jekyll serve`.
-    The log depends on local details:
+    The log depends partly on some local details:
 
     ```
     Configuration file: [...]/just-the-docs-tests/_config.yml
@@ -101,3 +108,5 @@ before publishing it on GitHub Pages.
         Server address: http://127.0.0.1:4000
       Server running... press ctrl-c to stop.
     ```
+
+{% include links.md %}
