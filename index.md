@@ -94,7 +94,7 @@ to support further tests.
     ```
 
 1.  Run `bundle exec jekyll serve`.
-    The log depends partly on some local details:
+    The log depends partly on some local details, elided below:
 
     ```
     Configuration file: [...]/just-the-docs-tests/_config.yml
