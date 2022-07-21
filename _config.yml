@@ -1,5 +1,6 @@
 title: Just the Docs Tests
 remote_theme: just-the-docs/just-the-docs@v0.3.3
+# remote_theme: just-the-docs/just-the-docs@v0.4.0
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout

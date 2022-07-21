@@ -1,3 +1,8 @@
+---
+title: Homeless
+layout: default
+---
+
 # Tests for Just the Docs
 
 First, let's test the instructions on the [Just the Docs home page](https://just-the-docs.github.io/just-the-docs/).
@@ -305,3 +310,7 @@ Question:
 
 > Is there a simpler way to configure a site using Just the Docs
 > so that it builds both locally _and_ on GitHub Pages?
+
+Answer:
+
+> Yes: see the current [Home page](.).
