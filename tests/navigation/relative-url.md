@@ -1,6 +1,7 @@
 ---
 title: "Relative URLs ❌"
 parent: Navigation Links
+grand_parent: Tests
 ---
 
 # Navigation URLs are relative

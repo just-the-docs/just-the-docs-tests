@@ -1,5 +1,7 @@
 ---
-title: Homeless
+title: Left Home
+parent: Docs
+grand_parent: Tests
 layout: default
 ---
 

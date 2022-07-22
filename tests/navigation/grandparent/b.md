@@ -1,7 +1,7 @@
 ---
 title: B
 has_children: true
-nav_order: Grandparents ❌ B
+nav_order: Tests B
 ---
 
 # B
