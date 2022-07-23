@@ -7,3 +7,46 @@ plugins:
 aux_links:
   Just the Docs Tests on GitHub:
     - //github.com/just-the-docs/just-the-docs-tests
+permalink: pretty
+
+collections:
+  docs:
+    output: true
+  color:
+    output: true
+  navigation:
+    output: true
+  styling:
+    output: true
+  theme-docs:
+    output: true
+
+just_the_docs:
+  collections:
+    docs:
+      name:
+    color:
+      name: Color Tests
+    navigation:
+      name: Navigation Tests
+    styling:
+      name: Styling Tests
+    theme-docs:
+      name: Theme Docs Tests
+
+defaults:
+  -
+    scope: {type: docs}
+    values: {layout: default}
+  -
+    scope: {type: color}
+    values: {layout: default}
+  -
+    scope: {type: navigation}
+    values: {layout: default}
+  -
+    scope: {type: styling}
+    values: {layout: default}
+  -
+    scope: {type: theme-docs}
+    values: {layout: default}
