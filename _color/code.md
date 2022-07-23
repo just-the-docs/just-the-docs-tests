@@ -24,8 +24,10 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 ## Dark color scheme
 
-When previewing this page with the `dark` color scheme:, code highlighting uses the [Pygments](https://stylishthemes.github.io/Syntax-Themes/pygments/) theme
-*Tomorrow Night*. ❌
+When previewing this page with the `dark` color scheme:, code highlighting uses
+the ~~[Pygments](https://stylishthemes.github.io/Syntax-Themes/pygments/) theme
+*Tomorrow Night*~~ [OneDarkJekyll].
+It still seems low contrast, compared to the dark mode highlighting on GitHub.
 
 An example of Ruby code:
 
@@ -69,3 +71,4 @@ class String
   end
 end
 ```
+{% include links.md %}

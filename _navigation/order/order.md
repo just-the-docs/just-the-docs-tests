@@ -4,12 +4,12 @@ title: Navigation Order ❌
 
 # Navigation Order
 
-- ❌ [Default](default), using `title` instead of `nav_order` fields.
+- ❌ [Default](../default/index), using `title` instead of `nav_order` fields.
 
-- [Strings](strings), lexicographically ordered, possibly case-insensitively.
+- [Strings](../strings/index), lexicographically ordered, possibly case-insensitively.
 
-- [Integers](integers), numerically ordered.
+- [Integers](../integers/index), numerically ordered.
 
-- [Floats](floats), numerically ordered.
+- [Floats](../floats/index), numerically ordered.
 
-- [Mixture](mixture), with numbers before strings.
+- [Mixture](../mixture/index), with numbers before strings.

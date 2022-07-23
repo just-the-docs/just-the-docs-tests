@@ -1,7 +1,5 @@
 ---
 title: Grandparents ❌
-parent: Navigation
-grand_parent: Tests
 ---
 
 # Grandparents

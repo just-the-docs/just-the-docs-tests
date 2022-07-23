@@ -1,6 +1,7 @@
 [Jekyll]: https://jekyllrb.com/
 [remote theme]: https://github.com/benbalter/jekyll-remote-theme
 [GitHub Pages]: https://pages.github.com
+[OneDarkJekyll]: https://github.com/mgyongyosi/OneDarkJekyll
 
 [Just the Docs]:         https://github.com/just-the-docs/just-the-docs-tests
 [Just the Docs website]: https://just-the-docs.github.io/just-the-docs/
