@@ -128,16 +128,19 @@ the files themselves.
 The release tag `@v0.3.3` used in `_config.yml` above ensures that Jekyll uses
 the current release (version 0.3.3) of the theme when it builds your website.
 
-To switch to using the current RC for version 0.4.0,
-make the following change to the `gem` specification for `just-the-docs`
+To switch to using the current RC for version 0.4.0-dev, replace `@v0.3.3`
+by `@v0.4.0-dev` in `_config.yml`:
+
+```yml
+remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
+```
+
+_and_ make the following change to the `gem` specification for `just-the-docs`
 in the `Gemfile`:
 
 ```ruby
-gem "just-the-docs", github: "just-the-docs/just-the-docs", branch: "v0.4.0"
+gem "just-the-docs", github: "just-the-docs/just-the-docs", branch: "v0.4.0-dev"
 ```
-
-Note: You cannot use `just-the-docs/just-the-docs@v0.4.0` in your `_config.yml`
-until version 0.4.0 has actually been _released_.
 
 ## Using Jekyll 4 for building locally
 
@@ -165,9 +168,9 @@ To report an issue with using the current version (`v0.3.3`) of Just the Docs,
 check whether it has already been reported at [Just the Docs Issues] by searching
 for both open and closed issues.
 If it has not been reported,
-check also whether it is still an issue when using the current RC (`v0.4.0`) of
+check also whether it is still an issue when using the current RC (`v0.4.0-dev`) of
 Just the Docs.
 If it is, submit it at [Just the Docs Issues] as a new issue,
-mentioning that it is present in both `v0.3.3` and `v0.4.0`.
+mentioning that it is present in both `v0.3.3` and `v0.4.0-dev`.
 
 {% include links.md %}
