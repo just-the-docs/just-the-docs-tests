@@ -1,5 +1,5 @@
 ---
-title: Grandparents ❌
+title: Grandparents ✅
 ---
 
 # Grandparents
@@ -23,7 +23,7 @@ B
   - D
 ```
 
-❌ The breadcrumbs in the grandchild of A should include a link to the child C of A.
+✅ The breadcrumbs in the grandchild of A should include a link to the child C of A.
 
 The breadcrumbs in the grandchild of B should include a link to the child C of B.
 
@@ -50,6 +50,6 @@ F
 G
 ```
 
-❌ The breadcrumbs in the grandchild G should start with a link to its grandparent E.
+✅ The breadcrumbs in the grandchild G should start with a link to its grandparent E.
 
-❌ The navigation link to the grandchild G should not appear as a child of top-level F.
+✅ The navigation link to the grandchild G should not appear as a child of top-level F.

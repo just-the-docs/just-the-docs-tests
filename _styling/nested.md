@@ -1,10 +1,10 @@
 ---
-title: Nested lists ❌
+title: Lists of lists ✅
 ---
 
-# Nested lists
+# Lists of lists
 
-## Ordered list numbering ❌
+## Ordered list numbering ✅
 
 1. Ordered List 1
     * Unordered List 1
@@ -12,15 +12,11 @@ title: Nested lists ❌
             * Unordered List 2
                 * Unordered List 3
 
-----
-
 1. Ordered List 1
     1. Ordered List 2 - Item 1
         * Unordered List 1 - Item 1
         * Unordered List 1 - Item 2
     2. Ordered List 2 - Item 2
-
-----
 
 1. Ordered List 1 - Item 1
     1. Ordered List 2 - Item 1
@@ -29,9 +25,9 @@ title: Nested lists ❌
     2. Ordered List 2 - Item 2
 2. Ordered List 1 - Item 2
 
-----
+## Task lists
 
-### Nesting task lists ❌
+### Nesting task lists ✅
 
  - [ ] level 1 item (task)
     - [ ] level 2 item (task)
@@ -39,7 +35,7 @@ title: Nested lists ❌
  - [ ] level 1 item (task)
  - [ ] level 1 item (task)
 
-### Nesting a ul in a task list ❌
+### Nesting a ul in a task list ✅
 
  - [ ] level 1 item (task)
     - level 2 item (ul)

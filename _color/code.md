@@ -2,7 +2,7 @@
 title: Code highlighting ❌
 ---
 
-# Code highlighting
+# Code highlighting ❌
 
 The following button toggles between the `light` and `dark` color schemes on this page:
 
@@ -27,7 +27,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 When previewing this page with the `dark` color scheme:, code highlighting uses
 the ~~[Pygments](https://stylishthemes.github.io/Syntax-Themes/pygments/) theme
 *Tomorrow Night*~~ [OneDarkJekyll].
-It still seems low contrast, compared to the dark mode highlighting on GitHub.
+It still seems low contrast, compared to the dark mode highlighting on GitHub. ❌
 
 An example of Ruby code:
 

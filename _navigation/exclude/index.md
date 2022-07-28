@@ -1,5 +1,5 @@
 ---
-title: Exclusion ❌
+title: Exclusion ✅
 ---
 
 # Exclusion
@@ -16,5 +16,5 @@ title: Exclusion ❌
 
 - A non-excluded child page or grandchild page does not appear if its parent is excluded.
 
-- ❌ All ordinary pages are excluded when a collection is added!
-  For example, the navigation panel should start with a link to [README](/README).
+- ✅ Ordinary pages should not be excluded when a collection is added!
+  For example, the navigation panel should start with a link to [Home](/).

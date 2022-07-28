@@ -1,8 +1,9 @@
 ---
-title: Description lists
+title: Description lists ❌
+parent: Lists of blocks ❌
 ---
 
-# Description lists
+# Description lists ❌
 
 The first child element of each `dd` element in a `dl` list should be aligned with the preceding `dt` element in the following examples.
 
@@ -73,7 +74,7 @@ term
 
   paragraph text
 
-term
+term ❌
 
 : ***
 

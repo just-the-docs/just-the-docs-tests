@@ -1,7 +1,6 @@
 ---
 title: Home
 layout: home
-permalink: ..
 ---
 
 # Tests for Just the Docs
@@ -151,12 +150,16 @@ install and use the same version of Jekyll to build websites locally
 
 To use Jekyll 4 _locally_, you can simply replace `~> 3.9` by `~> 4.2`
 in your `Gemfile`.
-Just the Docs aims to produce the same results when using Jekyll version 3.9.3
-and version 4.2.2.
+Just the Docs aims to produce the same results when using Jekyll version 3.9.2
+and 4.2.2.
 Jekyll 4 is considerably faster than Jekyll 3.
 
 Unfortunately, to use Jekyll 4 for building your website _on GitHub Pages_
-is not quite so straightforward: you need to specify it using GitHub Actions.
+is not quite so straightforward: you need to specify it using GitHub Actions.[^gh-actions]
+
+[^gh-actions]:
+    GitHub has recently introduced simple workflows for [GitHub Actions] to 
+    build websites on GitHub Pages with Jekyll 4.
 
 ## Reporting issues
 

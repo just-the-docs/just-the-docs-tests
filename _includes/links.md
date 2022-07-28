@@ -2,6 +2,7 @@
 [remote theme]: https://github.com/benbalter/jekyll-remote-theme
 [GitHub Pages]: https://pages.github.com
 [OneDarkJekyll]: https://github.com/mgyongyosi/OneDarkJekyll
+[GitHub Actions]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 
 [Just the Docs]:         https://github.com/just-the-docs/just-the-docs-tests
 [Just the Docs website]: https://just-the-docs.github.io/just-the-docs/
