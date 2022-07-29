@@ -60,13 +60,13 @@ end
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### [](#header-5)Header 5 ❌
+##### [](#header-5)Header 5 ✅
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### [](#header-6)Header 6 ❌
+###### [](#header-6)Header 6 ✅
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -109,7 +109,7 @@ end
   - level 2 item
 - level 1 item
 
-### Nesting ~~an ol in ul in an ol~~ ❌ a ul in ol in a ul
+### Nesting ~~an ol in ul in an ol~~ ✅ a ul in ol in a ul
 
 - level 1 item (ul)
   1. level 2 item (ol)
@@ -133,7 +133,7 @@ end
 - [ ] Hello, this is another TODO item
 - [x] ❌ Goodbye, this item is done
 
-### Nesting task lists ❌
+### Nesting task lists ✅
 
 - [ ] level 1 item (task)
    - [ ] level 2 item (task)
@@ -141,7 +141,7 @@ end
 - [ ] level 1 item (task)
 - [ ] level 1 item (task)
 
-### Nesting a ul in a task list ❌
+### Nesting a ul in a task list ✅
 
 - [ ] level 1 item (task)
    - level 2 item (ul)
