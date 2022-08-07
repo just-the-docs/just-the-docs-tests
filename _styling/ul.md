@@ -1,11 +1,12 @@
 ---
-title: Unordered lists ❌
-parent: Lists of blocks ❌
+title: Unordered lists
+parent: Lists of blocks
 ---
 
-# Unordered lists ❌
+# Unordered lists
 
-The first child element of each `li` element in a `ul` list should be aligned with the preceding bullet in the following examples.
+The first child element of each `li` element in a `ul` list should be aligned with
+the preceding bullet in the following examples.
 
 - paragraph text
 

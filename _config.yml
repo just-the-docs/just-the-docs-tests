@@ -1,5 +1,8 @@
 title: Just the Docs Tests
 # remote_theme: just-the-docs/just-the-docs@v0.3.3
+url: https://just-the-docs.github.io
+baseurl: /just-the-docs-tests
+
 remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
 plugins:
   - jekyll-remote-theme
@@ -9,10 +12,18 @@ aux_links:
     - //github.com/just-the-docs/just-the-docs-tests
 permalink: pretty
 
+mermaid_enabled: false
+
 collections:
+  collection-1:
+    output: true
+  collection-2:
+    output: true
   color:
     output: true
   navigation:
+    output: true
+  search:
     output: true
   styling:
     output: true
@@ -26,15 +37,30 @@ just_the_docs:
     navigation:
       name: Navigation Tests
       nav_fold: true
+    search:
+      name: Search Tests
+      nav_fold: false
     styling:
       name: Styling Tests
       nav_fold: true
     theme-docs:
       name: Theme Docs Tests
+    collection-1:
+      name: Collection 1
+      nav_fold: true
+    collection-2:
+      name: Collection 2
+      nav_fold: true
 
 defaults:
   -
     scope: {path: "docs/*", type: pages}
+    values: {layout: default}
+  -
+    scope: {type: collection-1}
+    values: {layout: default}
+  -
+    scope: {type: collection-2}
     values: {layout: default}
   -
     scope: {type: color}
@@ -43,8 +69,53 @@ defaults:
     scope: {type: navigation}
     values: {layout: default}
   -
+    scope: {type: search}
+    values: {layout: default}
+  -
     scope: {type: styling}
     values: {layout: default}
   -
     scope: {type: theme-docs}
     values: {layout: default}
+
+# callouts_opacity: 0.15
+callouts_level: loud
+
+callouts:
+  admonition:
+    # title:
+    color: grey-lt
+  attention:
+    title: Attention
+    color: purple
+  caution:
+    title: Caution
+    color: yellow
+  custom:
+    title: Custom
+    color: pink
+    opacity: 0.3
+  danger:
+    title: Danger
+    color: red
+  error:
+    title: Error
+    color: red
+  highlight:
+    color: yellow
+    opacity: 0.5
+  hint:
+    title: Hint
+    color: grey-dk
+  important:
+    title: Important
+    color: green
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: grey-dk
+  warning:
+    title: Warning
+    color: red

@@ -1,10 +1,10 @@
 ---
-title: Code highlighting ❌
+title: Code highlighting
 ---
 
-# Code highlighting ❌
+# Code highlighting
 
-The following button toggles between the `light` and `dark` color schemes on this page:
+The following button toggles between the `light` and `dark` schemes on this page:
 
 <button class="btn js-toggle-dark-mode">Show the dark color scheme</button>
 
@@ -22,12 +22,11 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-## Dark color scheme
+1.  Check that the code below is clearly highlighted in the light scheme. 
 
-When previewing this page with the `dark` color scheme:, code highlighting uses
-the ~~[Pygments](https://stylishthemes.github.io/Syntax-Themes/pygments/) theme
-*Tomorrow Night*~~ [OneDarkJekyll].
-It still seems low contrast, compared to the dark mode highlighting on GitHub. ❌
+1.  Select the dark mode.
+
+1.  Check that the code below is clearly highlighted in the dark scheme. ✅
 
 An example of Ruby code:
 

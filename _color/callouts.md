@@ -1,11 +1,10 @@
 ---
 title: Callouts
-nav_exclude: true
 ---
 
 # Callouts
 
-The configuration of the callouts shown below is in [`_config_tests.yml`](https://github.com/pdmosses/just-the-docs/blob/callouts/_config_tests.yml).
+The following button toggles between the `light` and `dark` schemes on this page:
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
@@ -22,6 +21,10 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
+
+1.  Check the styling and colors of the callouts shown below in the light scheme. ✅
+
+1.  Check the styling and colors of the callouts shown below in the dark scheme.  ✅
 
 ## Admonition
 

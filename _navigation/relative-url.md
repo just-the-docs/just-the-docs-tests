@@ -1,14 +1,10 @@
 ---
-title: Relative URLs ✅
+title: Relative URLs
 ---
 
-# Navigation URLs are relative ✅
+# Relative URLs
 
-Check that the generated HTML does _not_ contain the string `href="http`
-for the generated navigation links in:
-
-- ✅ Navigation panel
-
-- ✅ Table of contents
-
-- ✅ Breadcrumbs
+1.  Open an editor on the HTML of [a page with a parent and children](/navigation/grandparent/ac).
+    
+1.  Check that the only occurrences of the string `"http` are in 
+    `head`, `svg`, and `footer` elements. ✅

@@ -1,5 +1,5 @@
 ---
-title: Testing Home ❌
+title: Testing Home
 ---
 
 # Testing Home
@@ -312,4 +312,4 @@ Question:
 
 Answer:
 
-> Yes: see the current [Home page](.).
+> Yes: use a template!

@@ -1,9 +1,12 @@
 ---
-title: Lists of blocks ❌
+title: Lists of blocks
 has_children: true
 ---
 
-# Lists of blocks ❌
+# Lists of blocks
 
-The layout seems correct,
-except when the first list item is a horizontal rule.
+Check that the vertical alignment of the list items is generally correct
+on the following pages. ✅
+
+Check that the vertical alignment of horizontal rules in list items is correct
+on the following pages. ❌

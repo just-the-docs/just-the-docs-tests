@@ -1,10 +1,10 @@
 ---
-title: Navigation Order ❌
+title: Navigation order
 ---
 
-# Navigation Order
+# Navigation order
 
-- ❌ [Default](../default/index), using `title` instead of `nav_order` fields.
+- [Default](../default/index), using `title` instead of `nav_order` fields.
 
 - [Strings](../strings/index), lexicographically ordered, possibly case-insensitively.
 
