@@ -3,7 +3,8 @@ title: Just the Docs Tests
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
-remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
+# remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
+remote_theme: just-the-docs/just-the-docs@fix-mermaid-include
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
@@ -12,14 +13,14 @@ aux_links:
     - //github.com/just-the-docs/just-the-docs-tests
 permalink: pretty
 
-mermaid_enabled: false
-
 collections:
   collection-1:
     output: true
   collection-2:
     output: true
   color:
+    output: true
+  components:
     output: true
   navigation:
     output: true
@@ -34,6 +35,9 @@ just_the_docs:
   collections:
     color:
       name: Color Tests
+    components:
+      name: UI Component Tests
+      nav_fold: false
     navigation:
       name: Navigation Tests
       nav_fold: true
@@ -64,6 +68,9 @@ defaults:
     values: {layout: default}
   -
     scope: {type: color}
+    values: {layout: default}
+  -
+    scope: {type: components}
     values: {layout: default}
   -
     scope: {type: navigation}

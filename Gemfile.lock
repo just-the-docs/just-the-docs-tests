@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/just-the-docs/just-the-docs.git
-  revision: 1bef041a01ec2b03956a574633923ecd753f4a04
-  branch: v0.4.0-dev
+  revision: a59d78675dd74489ee9bd2cb2fba28cac17e40cc
+  branch: fix-mermaid-include
   specs:
     just-the-docs (0.3.3)
       jekyll (>= 3.8.5)
