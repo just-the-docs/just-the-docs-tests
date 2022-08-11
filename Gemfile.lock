@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/just-the-docs/just-the-docs.git
-  revision: a59d78675dd74489ee9bd2cb2fba28cac17e40cc
+  revision: 6dea8528e810c60ff77d29427b24a46e4b4d7949
   branch: fix-mermaid-include
   specs:
     just-the-docs (0.3.3)

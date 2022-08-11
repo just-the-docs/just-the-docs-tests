@@ -7,6 +7,9 @@ title: Mermaid
 1.  Build and serve this site locally with a `_config.yml`
     that does not mention `mermaid`.
 
+1.  Check that `_site/index.html` contains only two occurrences of `mermaid` or `Mermaid`
+    (in the navigation) and that the file ends with `</div> </body> </html>`. ✅
+
 1.  Check that the Javascript console does not report any errors
     when you browse this site. ✅
 
@@ -15,7 +18,6 @@ title: Mermaid
     ```yaml
     mermaid:
       version: "9.1.3"
-      theme: "default"
     ```
     
     then rebuild and serve this site locally.
@@ -33,21 +35,14 @@ title: Mermaid
         C-->D;
     ```
 
-1.  Add the following settings to `_config.yml`:
+1.  Create `_includes/mermaid_config.js` with contents:
 
-    ```yaml
-    mermaid:
-      version: "9.1.3"
-      theme: "default"
-      logLevel: 'fatal',
-      sequence:
-        diagramMarginX: 50
-        actorMargin: 50
-      gantt:
-        barGap: 4
-        topPadding: 50
+    ```js
+    {
+      theme: "forest"
+    }
     ```
     
     then rebuild and serve this site locally.
     
-1.  Check that the appearance of the previous mermaid diagram has changed as expected. ❌
+1.  Check that the appearance of the previous mermaid diagram has changed as expected. ✅
