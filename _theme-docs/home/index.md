@@ -109,7 +109,7 @@ we need to _remove_ the `theme` and _use a `Gemfile`_!?
 The docs include the following advice:
 
 > If you’re hosting your site on GitHub Pages, 
-> [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll)
+> [set up GitHub Pages and Jekyll locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 > so that you can more easily work in your development environment.
 
 That page includes:
