@@ -4,7 +4,7 @@ url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
 # remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
-remote_theme: just-the-docs/just-the-docs@fix-mermaid-include
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
