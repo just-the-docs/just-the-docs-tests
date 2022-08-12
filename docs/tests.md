@@ -25,4 +25,4 @@ for the theme.
 Some of the marked places had or still have unsatisfactory formatting
 only in the dark color scheme.
 
-[Markdown kitchen sink]: {% link docs/markdown.md %}
+[Markdown kitchen sink]: {{ site.baseurl }}{% link docs/markdown.md %}
