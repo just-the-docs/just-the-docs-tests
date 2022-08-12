@@ -1,8 +1,8 @@
 ---
-title: Search input
+title: Search input color
 ---
 
-# Search input
+# Search input color
 
 The following button toggles between the `light` and `dark` color schemes on this page:
 
