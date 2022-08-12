@@ -1,5 +1,6 @@
 ---
 title: Testing Home
+nav_exclude: true
 ---
 
 # Testing Home
@@ -120,7 +121,7 @@ That page includes:
 > 
 > - Install Jekyll.
 > - Create a Jekyll site. For more information, 
->     see "[Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/articles/creating-a-github-pages-site-with-jekyll)."
+>     see "[Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)."
 
 There we find:
 
