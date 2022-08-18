@@ -36,7 +36,7 @@ Just the Docs Tests website
 To get started smoothly, copy the listed code from this webpage -- _not_ from
 the files themselves.
 
-## Using the current release of Just the Docs
+## Using the v0.3.3 release of Just the Docs
 
 1.  Install Bundler:
 
@@ -77,8 +77,7 @@ the files themselves.
 
     ```ruby
     source 'https://rubygems.org'
-    gem "jekyll", "~> 3.9"
-    gem "kramdown-parser-gfm"
+    gem "jekyll", "~> 3.8.7"
     gem "jekyll-remote-theme"
     gem "just-the-docs", "0.3.3"
     ```
@@ -99,9 +98,8 @@ the files themselves.
     The log includes the following lines:
 
     ```
-    Using jekyll 3.9.2
+    Using jekyll 3.8.7
     Using just-the-docs 0.3.3
-    Bundle complete! 4 Gemfile dependencies, 32 gems now installed.
     ```
 
 1.  Run `bundle exec jekyll serve`.
@@ -122,35 +120,35 @@ the files themselves.
 
 1.  Browse your website at `localhost:4000`.
 
-## Using the current RC of Just the Docs
+## Using RC v0.4.0.rc1 of Just the Docs
 
 The release tag `@v0.3.3` used in `_config.yml` above ensures that Jekyll uses
 the current release (version 0.3.3) of the theme when it builds your website.
 
-To switch to using the current RC for version 0.4.0-dev, replace `@v0.3.3`
-by `@v0.4.0-dev` in `_config.yml`:
+To switch to using the current RC for version 0.4.0, replace `@v0.3.3`
+by `@v0.4.0.rc1` in `_config.yml`:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0-dev
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 ```
 
 _and_ make the following change to the `gem` specification for `just-the-docs`
 in the `Gemfile`:
 
 ```ruby
-gem "just-the-docs", github: "just-the-docs/just-the-docs", branch: "v0.4.0-dev"
+gem "just-the-docs", "v0.4.0.rc1"
 ```
 
 ## Using Jekyll 4 for building locally
 
-GitHub Pages currently uses Jekyll version 3.9.2 to build websites.
-The gem version specification `~> 3.9` currently ensures that you will
+GitHub Pages (probably) uses Jekyll version 3.8.7 to build Just the Docs websites.
+The gem version specification `"~> 3.8.7"` ensures that you will
 install and use the same version of Jekyll to build websites locally
 (assuming that you're using Bundler).
 
-To use Jekyll 4 _locally_, you can simply replace `~> 3.9` by `~> 4.2`
+To use Jekyll 4 _locally_, you can simply replace `"~> 3.8.7"` by `"~> 4.2"`
 in your `Gemfile`.
-Just the Docs aims to produce the same results when using Jekyll version 3.9.2
+Just the Docs aims to produce the same results when using Jekyll version 3.8.7
 and 4.2.2.
 Jekyll 4 is considerably faster than Jekyll 3.
 
@@ -167,13 +165,12 @@ To report an apparent mistake on this website,
 check whether it has already been reported at [Just the Docs Tests Issues],
 and otherwise submit it there as a new issue.
 
-To report an issue with using the current version (`v0.3.3`) of Just the Docs,
+To report an issue with using version 0.3.3 of Just the Docs,
 check whether it has already been reported at [Just the Docs Issues] by searching
-for both open and closed issues.
+both open and closed issues.
 If it has not been reported,
-check also whether it is still an issue when using the current RC (`v0.4.0-dev`) of
-Just the Docs.
+check also whether it is still an issue when using version 0.4.0.rc1.
 If it is, submit it at [Just the Docs Issues] as a new issue,
-mentioning that it is present in both `v0.3.3` and `v0.4.0-dev`.
+mentioning that it is present in both `v0.3.3` and `v0.4.0.rc1`.
 
 {% include links.md %}
