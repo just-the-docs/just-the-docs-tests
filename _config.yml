@@ -10,8 +10,15 @@ plugins:
   - jekyll-default-layout
 aux_links:
   Just the Docs Tests on GitHub:
-    - //github.com/just-the-docs/just-the-docs-tests
+    - https://github.com/just-the-docs/just-the-docs-tests
 permalink: pretty
+
+gh_edit_link: true
+gh_edit_link_text: This page on GitHub
+gh_edit_repository: https://github.com/just-the-docs/just-the-docs-tests
+gh_edit_branch: main
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: tree
 
 collections_dir: collections
 
