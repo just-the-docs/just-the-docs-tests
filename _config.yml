@@ -13,6 +13,8 @@ aux_links:
     - //github.com/just-the-docs/just-the-docs-tests
 permalink: pretty
 
+collections_dir: collections
+
 collections:
   collection-1:
     output: true
