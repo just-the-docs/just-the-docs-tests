@@ -23,3 +23,9 @@ It seems unlikely that different types of `nav_order` values are needed for the 
     Aa
     aa
     ```
+
+    {: .note }
+    The default order of numeric titles depends on which version of Jekyll is used
+    to build the site: 
+    the default build on GitHub Pages uses Jekyll 3.9 and gives lexicographic order,
+    but when using Jekyll 4, `2` precedes `10`. ❌

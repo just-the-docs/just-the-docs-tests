@@ -13,8 +13,8 @@ Digits precede letters, and numeric titles are ordered lexicographically: `"10"`
 
 1.  Check that the titles of the children of this page are shown in the order:
     ```
-    2
     10
+    2
     A
     Aa
     aa
