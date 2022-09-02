@@ -23,6 +23,8 @@ gh_edit_view_mode: tree
 collections_dir: collections
 
 collections:
+  tests:
+    output: true
   collection-1:
     output: true
   collection-2:
@@ -42,6 +44,8 @@ collections:
 
 just_the_docs:
   collections:
+    tests:
+      name: Tests
     color:
       name: Color Tests
     components:
@@ -67,31 +71,7 @@ just_the_docs:
 
 defaults:
   -
-    scope: {path: "docs/*", type: pages}
-    values: {layout: default}
-  -
-    scope: {type: collection-1}
-    values: {layout: default}
-  -
-    scope: {type: collection-2}
-    values: {layout: default}
-  -
-    scope: {type: color}
-    values: {layout: default}
-  -
-    scope: {type: components}
-    values: {layout: default}
-  -
-    scope: {type: navigation}
-    values: {layout: default}
-  -
-    scope: {type: search}
-    values: {layout: default}
-  -
-    scope: {type: styling}
-    values: {layout: default}
-  -
-    scope: {type: theme-docs}
+    scope: {path: "_*"}
     values: {layout: default}
 
 # callouts_opacity: 0.15
