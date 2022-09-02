@@ -10,9 +10,9 @@ for particular features
 
 Browsing the pages may be useful for regression testing when developing PRs
 intended for inclusion in future releases.
-The symbol ✅ draws attention to places where the _current_ release (`v0.3.3`)
+The symbol ✅ draws attention to places where release `0.3.3`
 produces unsatisfactory formatting or navigation,
-already fixed in the candidate for the _next_ release (`v0.4.0-dev`);
+but the issue has already been fixed in the current candidate for the _next_ release (`0.4.0`);
 the symbol ❌ indicates that the issue has not yet been fixed.
 
 For more rigorous regression testing, we should add unit tests for _all_ features,
