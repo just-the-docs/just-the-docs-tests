@@ -1,9 +1,9 @@
-title: Just the Docs Tests
+title: Just the Docs Tests v0.4.0.rc1
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
-remote_theme: just-the-docs/just-the-docs@v0.3.3
-# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
+# remote_theme: just-the-docs/just-the-docs@v0.3.3
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: pdmosses/just-the-docs@fix-nav-performance
 plugins:
   - jekyll-remote-theme
@@ -71,7 +71,7 @@ just_the_docs:
 
 defaults:
   -
-    scope: {path: "_*"}
+    scope: {path: "collections/*"}
     values: {layout: default}
 
 # callouts_opacity: 0.15
