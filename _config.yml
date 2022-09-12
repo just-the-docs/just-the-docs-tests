@@ -1,4 +1,4 @@
-title: Just the Docs Tests v0.4.0.rc1
+title: Just the Docs Tests
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
@@ -19,6 +19,16 @@ gh_edit_repository: https://github.com/just-the-docs/just-the-docs-tests
 gh_edit_branch: main
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: tree
+
+compress_html:
+  # clippings: all
+  # comments: all
+  # endings: all
+  # startings: []
+  blanklines: true
+  # profile: false
+  # ignore:
+  #   envs: all
 
 collections_dir: collections
 

@@ -2,6 +2,12 @@
 title: Home
 ---
 
+JtD version
+: {{ site.remote_theme | split: "@" | slice: 1 | join: "" }}
+
+Jekyll version
+: 3.8.7
+
 The main documentation pages of this theme illustrate the use of many of its features,
 which to some extent tests their implementation.
 The pages linked in the navigation panel here provide further test cases
