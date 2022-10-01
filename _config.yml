@@ -3,11 +3,17 @@ url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
 # remote_theme: just-the-docs/just-the-docs@v0.3.3
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
-# remote_theme: pdmosses/just-the-docs@fix-nav-performance
+# remote_theme: just-the-docs/just-the-docs
+# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
+remote_theme: pdmosses/just-the-docs@optimize-simple-nav-cases
+# remote_theme: pdmosses/just-the-docs@4396b6b1c836f354bb7aa7edc1a06a49f137d615
+
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
+  - jekyll-seo-tag
+  - rake
+
 aux_links:
   Just the Docs Tests on GitHub:
     - https://github.com/just-the-docs/just-the-docs-tests
@@ -19,16 +25,6 @@ gh_edit_repository: https://github.com/just-the-docs/just-the-docs-tests
 gh_edit_branch: main
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: tree
-
-compress_html:
-  # clippings: all
-  # comments: all
-  # endings: all
-  # startings: []
-  blanklines: true
-  # profile: false
-  # ignore:
-  #   envs: all
 
 collections_dir: collections
 
@@ -126,5 +122,5 @@ callouts:
     title: Warning
     color: red
 
-# mermaid:
-#   version: "9.1.3"
+mermaid:
+  version: "9.1.3"

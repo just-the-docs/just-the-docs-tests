@@ -7,6 +7,9 @@ title: Collections
 1.  Check that the link to the [Home page] appears in the navigation panel
     above the first collection. ✅
 
+1.  Check that the link to the [Home page] has the same appearance as the
+    links to top-level pages in collections.
+
 1.  Check that the names of collections appear in the order specified in 
     `_config.yml`.
   

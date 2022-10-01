@@ -13,3 +13,5 @@ title: Navigation order
 - [Floats](../floats/index/), numerically ordered.
 
 - [Mixture](../mixture/index/), with numbers before strings.
+
+- [Reverse](../reverse/index/), with descending order.

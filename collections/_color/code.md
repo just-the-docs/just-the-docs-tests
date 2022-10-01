@@ -22,11 +22,30 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-1.  Check that the code below is clearly highlighted in the light scheme. 
+1.  Check that the code below is clearly highlighted in the light scheme. ✅
 
-1.  Select the dark mode.
+1.  Show the dark color scheme using the above button.
 
 1.  Check that the code below is clearly highlighted in the dark scheme. ✅
+
+1.  Add a custom scheme that makes a visible difference, e.g.:
+    
+    ```scss
+    $nav-width: 400px;
+    ```
+    
+    Update `_config.yml` to use the custom scheme.
+
+1.  Check that the code below is clearly highlighted in the custom scheme. ❌
+
+1.  Change the custom scheme to be based on the `dark` scheme by:
+
+    ```scss
+    @import "./color_schemes/dark";
+    $nav-width: 400px;
+    ```
+
+1.  Check that the code below is clearly highlighted in the customized dark scheme. ✅
 
 An example of Ruby code:
 
@@ -70,4 +89,5 @@ class String
   end
 end
 ```
+
 {% include links.md %}

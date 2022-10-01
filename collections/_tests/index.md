@@ -62,23 +62,32 @@ the files themselves.
 
     ```yml
     title: My website
+    url: https://my-github-username.github.io
+    baseurl: /my-website
+
     remote_theme: just-the-docs/just-the-docs@v0.3.3
     plugins:
       - jekyll-remote-theme
       - jekyll-default-layout
+      - jekyll-seo-tag
+      - rake
+
     aux_links:
       My website on GitHub:
-        - //github.com/my-github-username/my-website
+        - https://github.com/my-github-username/my-website
     permalink: pretty
     ```
 
 1.  Create `.../my-website/Gemfile`:
 
     ```ruby
-    source 'https://rubygems.org'
-    gem "jekyll", "~> 3.8.7"
+    source "https://rubygems.org"
+    gem "jekyll", "~> 3.8.5" # used for building on GitHub Pages
     gem "jekyll-remote-theme"
-    gem "just-the-docs", "0.3.3"
+    gem "jekyll-default-layout" # avoids the need for `layout: default`
+    gem "jekyll-seo-tag", ">= 2.0"
+    gem "rake", ">= 12.3.1"
+
     ```
 
 1.  Create `.../my-website/index.md`:
@@ -93,13 +102,7 @@ the files themselves.
     ...
     ```
 
-1.  Run `bundle install`.
-    The log includes the following lines:
-
-    ```
-    Using jekyll 3.8.7
-    Using just-the-docs 0.3.3
-    ```
+1.  Run `bundle install` (or `bundle update`, which ignores `Gemfile.lock`).
 
 1.  Run `bundle exec jekyll serve`.
     The log depends partly on some local details, elided below:
@@ -119,44 +122,29 @@ the files themselves.
 
 1.  Browse your website at `localhost:4000`.
 
-## Using RC v0.4.0.rc1 of Just the Docs
+## Using a pre-release of Just the Docs v0.4.0
 
-The release tag `@v0.3.3` used in `_config.yml` above ensures that Jekyll uses
-the current release (version 0.3.3) of the theme when it builds your website.
+The release tag `@v0.3.3` in `_config.yml` above ensures that Jekyll uses
+the latest _release_ (version 0.3.3) of the theme when it builds your website.
 
-To switch to using the current RC for version 0.4.0, replace `@v0.3.3`
-by `@v0.4.0.rc1` in `_config.yml`:
+To switch to using the latest _pre-release_ for version 0.4.0, replace `@v0.3.3`
+by `@v0.4.0.rc2` in `_config.yml`:
 
 ```yml
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
-```
-
-_and_ make the following change to the `gem` specification for `just-the-docs`
-in the `Gemfile`:
-
-```ruby
-gem "just-the-docs", "v0.4.0.rc1"
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 ```
 
 ## Using Jekyll 4 for building locally
 
-GitHub Pages (probably) uses Jekyll version 3.8.7 to build Just the Docs websites.
-The gem version specification `"~> 3.8.7"` ensures that you will
-install and use the same version of Jekyll to build websites locally
+GitHub Pages uses Jekyll version 3.8.5 to build Just the Docs websites.
+The gem version specification `"~> 3.8.5"` ensures that you will
+install and use a corresponding version to build websites locally
 (assuming that you're using Bundler).
 
-To use Jekyll 4 _locally_, you can simply replace `"~> 3.8.7"` by `"~> 4.2"`
-in your `Gemfile`.
-Just the Docs aims to produce the same results when using Jekyll version 3.8.7
-and 4.2.2.
-Jekyll 4 is considerably faster than Jekyll 3.
-
-Unfortunately, to use Jekyll 4 for building your website _on GitHub Pages_
-is not quite so straightforward: you need to specify it using GitHub Actions.[^gh-actions]
-
-[^gh-actions]:
-    GitHub has recently introduced simple workflows for [GitHub Actions] to 
-    build websites on GitHub Pages with Jekyll 4.
+To use Jekyll 4 locally, you can simply replace `"~> 3.8.5"` by `">= 3.8.5"`
+in your `Gemfile` and run `bundle update`.
+Jekyll 4 is considerably faster than Jekyll 3,
+but has some breaking changes.
 
 ## Reporting issues
 
@@ -168,8 +156,8 @@ To report an issue with using version 0.3.3 of Just the Docs,
 check whether it has already been reported at [Just the Docs Issues] by searching
 both open and closed issues.
 If it has not been reported,
-check also whether it is still an issue when using version 0.4.0.rc1.
+check also whether it is still an issue when using the latest pre-release of v0.4.0.
 If it is, submit it at [Just the Docs Issues] as a new issue,
-mentioning that it is present in both `v0.3.3` and `v0.4.0.rc1`.
+mentioning that it is present in both `v0.3.3` and the pre-release version.
 
 {% include links.md %}

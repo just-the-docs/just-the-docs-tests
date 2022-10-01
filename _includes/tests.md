@@ -1,3 +1,17 @@
+[active grandchild link class]:                           /just-the-docs-tests/navigation/active-grandchild
+[accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
+
+
+[pages and collections]:                                  /just-the-docs-tests/navigation/collections
+[breadcrumb behaviour …]:                                 /just-the-docs-tests/navigation/grandparent/index
+[sites with no child pages]:                              /just-the-docs-tests/navigation/top-level
+[TOC/breadcrumbs for multiple collections]:               /just-the-docs-tests/navigation/grandparent/index
+[collection configuration option `nav_fold`]:             /just-the-docs-tests/navigation/expanders
+[indentation and color for folded collection navigation]: /just-the-docs-tests/navigation/collections
+[scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
+[`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/order/reverse/index
+
+
 [dark highlighting]:          /just-the-docs-tests/color/code
 [set color for search input]: /just-the-docs-tests/color/input
 
@@ -5,14 +19,7 @@
 [change mermaid check to only use mermaid key]: /just-the-docs-tests/components/mermaid
 [callouts]:                                     /just-the-docs-tests/components/callouts
 
-[pages and collections]:                                  /just-the-docs-tests/navigation/collections
-[indentation and color for folded collection navigation]: /just-the-docs-tests/navigation/collections
-[collection configuration option `nav_fold`]:             /just-the-docs-tests/navigation/expanders
-[breadcrumb behaviour]:                                   /just-the-docs-tests/navigation/grandparent/index
-[TOC/breadcrumbs for multiple collections]:               /just-the-docs-tests/navigation/grandparent/index
-[sites with no child pages]:                              /just-the-docs-tests/navigation/top-level
 [replace all uses of `absolute_url` by `relative_url`]:   /just-the-docs-tests/navigation/relative-url
-[scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
 [nav scroll feature and absolute/relative URLs]:          /just-the-docs-tests/navigation/scroll
 [prepend `site.collections_dir` if exists]:               /just-the-docs-tests/navigation/collections
 
