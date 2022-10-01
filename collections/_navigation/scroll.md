@@ -12,4 +12,4 @@ title: Navigation scroll
 
 1.  Select the last link.
 
-1.  Check whether the selected link remains visible in the navigation panel. ✅
+1.  ✅ Check whether the selected link remains visible in the navigation panel.

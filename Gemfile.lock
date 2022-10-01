@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: 7724fe16145c9a26ed55319c0530207bba679150
+  revision: f68148e01d7330408cd51a5bf63ceb8ecf921715
   branch: optimize-simple-nav-cases
   specs:
     just-the-docs (0.4.0.rc2)

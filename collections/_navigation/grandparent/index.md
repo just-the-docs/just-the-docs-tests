@@ -17,7 +17,7 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 - The grandchildren specify their grandparents, 
   which is supposed to disambiguate their parents.
 
-1.  Check that the unfolded navigation panel includes: ✅
+1.  ✅ Check that the unfolded navigation panel includes:
 
     ```
     A
@@ -28,11 +28,11 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
       - D
     ```
 
-1.  Check that the breadcrumbs in the grandchild [D](../acd/) of A include 
-    a link to the child [C](../ac/) of A. ✅
+1.  ✅ Check that the breadcrumbs in the grandchild [D](../acd/) of A include 
+    a link to the child [C](../ac/) of A.
 
-1.  Check that the breadcrumbs in the grandchild [D](../bcd/) of B include
-    a link to the child [C](../bc/) of B. ✅
+1.  ✅ Check that the breadcrumbs in the grandchild [D](../bcd/) of B include
+    a link to the child [C](../bc/) of B.
 
 ## A grandchild with the same parent title as a child or top-level page
 
@@ -44,12 +44,12 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 - The top-level page [G](../g/) has no children.
 
 - The existence of a grandparent for the grandchild [G](../efg/) of [E](../e/)
-  is supposed to disambiguates its parent [F](../ef/).
+  is supposed to disambiguate its parent [F](../ef/).
 
 - The existence of a parent for the child [G](../fg/) of top-level [F](../f/) 
-  is supposed to disambiguates its parent [F](../f/).
+  is supposed to disambiguate its parent [F](../f/).
 
-1.  Check that the unfolded navigation panel includes: ✅ 
+1.  ✅ Check that the unfolded navigation panel includes:
 
     ```
     E
@@ -60,24 +60,24 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
     G
     ```
 
-1.  Check that the breadcrumbs in the grandchild [G](../efg/)
-    start with a link to its grandparent [E](../e/). ✅
+1.  ✅ Check that the breadcrumbs in the grandchild [G](../efg/)
+    start with a link to its grandparent [E](../e/).
 
-1.  Check that the navigation link to the grandchild [G](../efg/) 
-    does not appear as a child of top-level [F](../f/). ✅
+1.  ✅ Check that the navigation link to the grandchild [G](../efg/) 
+    does not appear as a child of top-level [F](../f/).
 
 # Collections
 
-1.  Check that the breadcrumb link in the [child page in Collection 1]
-    leads to the [parent page in Collection 1]. ✅
+1.  ✅ Check that the breadcrumb link in the [child page in Collection 1]
+    leads to the [parent page in Collection 1].
 
-1.  Check that the breadcrumb link in the [child page in Collection 2]
+1.  ✅ Check that the breadcrumb link in the [child page in Collection 2]
     leads to the [parent page in Collection 2].
 
-1.  Check that the table of contents link in the [parent page in Collection 1]
-    leads to the [child page in Collection 1]. ✅
+1.  ✅ Check that the table of contents link in the [parent page in Collection 1]
+    leads to the [child page in Collection 1].
 
-1.  Check that the table of contents link in the [parent page in Collection 2]
+1.  ✅ Check that the table of contents link in the [parent page in Collection 2]
     leads to the [child page in Collection 2].
     
 [Child page in Collection 1]: {{ site.baseurl }}{% link _collection-1/child.md %}
