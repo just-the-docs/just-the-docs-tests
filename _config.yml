@@ -3,10 +3,10 @@ url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
 # remote_theme: just-the-docs/just-the-docs@v0.3.3
-# remote_theme: just-the-docs/just-the-docs
+# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
-remote_theme: pdmosses/just-the-docs@optimize-simple-nav-cases
-# remote_theme: pdmosses/just-the-docs@4396b6b1c836f354bb7aa7edc1a06a49f137d615
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+# remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
@@ -17,6 +17,7 @@ plugins:
 aux_links:
   Just the Docs Tests on GitHub:
     - https://github.com/just-the-docs/just-the-docs-tests
+
 permalink: pretty
 
 gh_edit_link: true
@@ -75,6 +76,7 @@ just_the_docs:
       name: Collection 2
       nav_fold: true
 
+# jekyll-default-layout doesn't affect pages in collections
 defaults:
   -
     scope: {path: "collections/*"}
