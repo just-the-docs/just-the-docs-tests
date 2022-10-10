@@ -1,8 +1,9 @@
 ---
+nav_exclude: true
 ---
-# Untitled
+# Excluded and Untitled
 
-This page does not have a `title`, and it would normally be excluded from the navigation.
+This page does not have a `title`, and that would normally exclude it from the navigation.
 However, it is located in a Jekyll collection, which provides default titles.
 
 To exclude a title-less page from the navigation,

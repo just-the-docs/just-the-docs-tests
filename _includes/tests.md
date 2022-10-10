@@ -1,3 +1,4 @@
+[experimental nav optimization for simple cases]:         /just-the-docs-tests/navigation/build-time
 [active grandchild link class]:                           /just-the-docs-tests/navigation/active-grandchild
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
 
