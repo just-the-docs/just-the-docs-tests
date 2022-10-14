@@ -2,16 +2,16 @@
 title: Mermaid
 ---
 
-# Mermaid
+# ✅ Mermaid
 
 1.  Build and serve this site locally with a `_config.yml`
     that does not mention `mermaid`.
 
 1.  Check that `_site/index.html` contains only two occurrences of `mermaid` or `Mermaid`
-    (in the navigation) and that the file ends with `</div> </body> </html>`. ✅
+    (in the navigation) and that the file ends with `</div> </body> </html>`.
 
 1.  Check that the Javascript console does not report any errors
-    when you browse this site. ✅
+    when you browse this site.
 
 1.  Add the following settings to `_config.yml`:
 
@@ -23,9 +23,9 @@ title: Mermaid
     then rebuild and serve this site locally.
 
 1.  Check that the Javascript console does not report any errors
-    when you browse this site. ✅
+    when you browse this site.
 
-1.  Check that the appearance of the following mermaid diagram is as expected: ✅
+1.  Check that the appearance of the following mermaid diagram is as expected:
 
     ```mermaid
     graph TD;
@@ -45,4 +45,4 @@ title: Mermaid
     
     then rebuild and serve this site locally.
     
-1.  Check that the appearance of the previous mermaid diagram has changed as expected. ✅
+1.  Check that the appearance of the previous mermaid diagram has changed as expected.

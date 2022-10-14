@@ -15,23 +15,24 @@
 [collection configuration option `nav_fold`]:             /just-the-docs-tests/navigation/expanders
 [indentation and color for folded collection navigation]: /just-the-docs-tests/navigation/collections
 [scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
-[`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/order/reverse/index
+[`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/reverse/index
 
 
-[dark highlighting]:          /just-the-docs-tests/color/code
-[set color for search input]: /just-the-docs-tests/color/input
+[dark highlighting]:                                      /just-the-docs-tests/color/code
+[set color for search input]:                             /just-the-docs-tests/color/input
 
-[mermaid.js support]:                           /just-the-docs-tests/components/mermaid
-[change mermaid check to only use mermaid key]: /just-the-docs-tests/components/mermaid
-[callouts]:                                     /just-the-docs-tests/components/callouts
+[mermaid.js support]:                                     /just-the-docs-tests/components/mermaid
+[support for external navigation links]:                  /just-the-docs-tests/navigation/external-links
+[refactor `mermaid` config to use `mermaid_config.js` include, only require `mermaid.version`]: /just-the-docs-tests/components/mermaid
+[callouts]:                                               /just-the-docs-tests/components/callouts
 
 [replace all uses of `absolute_url` by `relative_url`]:   /just-the-docs-tests/navigation/relative-url
 [nav scroll feature and absolute/relative URLs]:          /just-the-docs-tests/navigation/scroll
 [prepend `site.collections_dir` if exists]:               /just-the-docs-tests/navigation/collections
 
-[prevent rake command corrupting search data]: /just-the-docs-tests/search/rake
+[prevent rake command corrupting search data]:            /just-the-docs-tests/search/rake
 
-[allow links to wrap]:                        /just-the-docs-tests/styling/links
-[suppress Liquid processing in CSS comments]: /just-the-docs-tests/styling/maps
-[nested lists]:                               /just-the-docs-tests/styling/nested
-[nested task lists]:                          /just-the-docs-tests/styling/nested
+[allow links to wrap]:                                    /just-the-docs-tests/styling/links
+[suppress Liquid processing in CSS comments]:             /just-the-docs-tests/styling/maps
+[nested lists]:                                           /just-the-docs-tests/styling/nested
+[nested task lists]:                                      /just-the-docs-tests/styling/nested

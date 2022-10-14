@@ -6,9 +6,9 @@ has_children: true
 child_nav_order: desc
 ---
 
-# Reverse
+# ✅ Reverse
 
-1.  ✅ Check that the titles of the children of this page are shown in the order:
+1.  Check that the titles of the children of this page are shown in the order:
     
     ```
     10

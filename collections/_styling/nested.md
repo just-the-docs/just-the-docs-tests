@@ -2,11 +2,11 @@
 title: Lists of lists
 ---
 
-# Lists of lists
+# ✅ Lists of lists
 
 ## Ordered list numbering
 
-Check that the labels on the ordered lists shown below are correct. ✅
+Check that the labels on the ordered lists shown below are correct.
 
 1. Ordered List 1
     * Unordered List 1
@@ -20,8 +20,9 @@ Check that the labels on the ordered lists shown below are correct. ✅
         * Unordered List 1 - Item 2
     2. Ordered List 2 - Item 2
 
-Check that nested ordered lists of more than two levels have different label styles.
-If not, check that the theme docs warn about this issue. ❌
+{: .warning }
+Nested ordered lists of more than two levels repeat the same label style as level 2.
+The theme docs should warn about this issue, and suggest a workaround.
 
 1. Ordered List 1 - Item 1
     1. Ordered List 2 - Item 1
@@ -32,7 +33,7 @@ If not, check that the theme docs warn about this issue. ❌
 
 ## Task lists
 
-Check that the layout of the nested lists below is correct. ✅
+Check that the layout of the nested lists below is correct.
 
 ### Nesting task lists
 

@@ -2,7 +2,7 @@
 title: Search input color
 ---
 
-# Search input color
+# ✅ Search input color
 
 The following button toggles between the `light` and `dark` color schemes on this page:
 
@@ -22,8 +22,8 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-1.  Check that the search placeholder text is clearly legible in the light mode. ✅ 
+1.  Check that the search placeholder text is clearly legible in the light mode. 
 
 1.  Select the dark mode.
 
-1.  Check that the search placeholder text is clearly legible in the dark mode. ✅ 
+1.  Check that the search placeholder text is clearly legible in the dark mode.

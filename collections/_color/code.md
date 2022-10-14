@@ -2,7 +2,7 @@
 title: Code highlighting
 ---
 
-# Code highlighting
+# ✅ Code highlighting
 
 The following button toggles between the `light` and `dark` schemes on this page:
 
@@ -22,11 +22,11 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-1.  Check that the code below is clearly highlighted in the light scheme. ✅
+1.  Check that the code below is clearly highlighted in the light scheme.
 
 1.  Show the dark color scheme using the above button.
 
-1.  Check that the code below is clearly highlighted in the dark scheme. ✅
+1.  Check that the code below is clearly highlighted in the dark scheme.
 
 1.  Add a custom scheme that makes a visible difference, e.g.:
     
@@ -36,7 +36,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
     
     Update `_config.yml` to use the custom scheme.
 
-1.  Check that the code below is clearly highlighted in the custom scheme. ❌
+1.  Check that the code below is clearly highlighted in the custom scheme.
 
 1.  Change the custom scheme to be based on the `dark` scheme by:
 
@@ -45,7 +45,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
     $nav-width: 400px;
     ```
 
-1.  Check that the code below is clearly highlighted in the customized dark scheme. ✅
+1.  Check that the code below is clearly highlighted in the customized dark scheme.
 
 An example of Ruby code:
 

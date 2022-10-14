@@ -2,7 +2,7 @@
 title: Parent disambiguation
 ---
 
-# Parent disambiguation
+# ✅ Parent disambiguation
 
 The `grand_parent` title can be used to disambiguate an ambiguous `parent` title.
 
@@ -17,7 +17,7 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 - The grandchildren specify their grandparents, 
   which is supposed to disambiguate their parents.
 
-1.  ✅ Check that the unfolded navigation panel includes:
+1.  Check that the unfolded navigation panel includes:
 
     ```
     A
@@ -28,10 +28,10 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
       - D
     ```
 
-1.  ✅ Check that the breadcrumbs in the grandchild [D](../acd/) of A include 
+1.  Check that the breadcrumbs in the grandchild [D](../acd/) of A include 
     a link to the child [C](../ac/) of A.
 
-1.  ✅ Check that the breadcrumbs in the grandchild [D](../bcd/) of B include
+1.  Check that the breadcrumbs in the grandchild [D](../bcd/) of B include
     a link to the child [C](../bc/) of B.
 
 ## A grandchild with the same parent title as a child or top-level page
@@ -49,7 +49,7 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 - The existence of a parent for the child [G](../fg/) of top-level [F](../f/) 
   is supposed to disambiguate its parent [F](../f/).
 
-1.  ✅ Check that the unfolded navigation panel includes:
+1.  Check that the unfolded navigation panel includes:
 
     ```
     E
@@ -60,24 +60,24 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
     G
     ```
 
-1.  ✅ Check that the breadcrumbs in the grandchild [G](../efg/)
+1.  Check that the breadcrumbs in the grandchild [G](../efg/)
     start with a link to its grandparent [E](../e/).
 
-1.  ✅ Check that the navigation link to the grandchild [G](../efg/) 
+1.  Check that the navigation link to the grandchild [G](../efg/) 
     does not appear as a child of top-level [F](../f/).
 
-# Collections
+# ✅ Collections
 
-1.  ✅ Check that the breadcrumb link in the [child page in Collection 1]
+1.  Check that the breadcrumb link in the [child page in Collection 1]
     leads to the [parent page in Collection 1].
 
-1.  ✅ Check that the breadcrumb link in the [child page in Collection 2]
+1.  Check that the breadcrumb link in the [child page in Collection 2]
     leads to the [parent page in Collection 2].
 
-1.  ✅ Check that the table of contents link in the [parent page in Collection 1]
+1.  Check that the table of contents link in the [parent page in Collection 1]
     leads to the [child page in Collection 1].
 
-1.  ✅ Check that the table of contents link in the [parent page in Collection 2]
+1.  Check that the table of contents link in the [parent page in Collection 2]
     leads to the [child page in Collection 2].
     
 [Child page in Collection 1]: {{ site.baseurl }}{% link _collection-1/child.md %}
