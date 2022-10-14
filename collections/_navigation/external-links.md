@@ -17,9 +17,9 @@ title: External links
 
 1.  Rebuild the site.
 
-1.  Check that an external link to this repository on GitHub appears once, with an icon.
+1.  ❌ Check that an external link to this repository on GitHub appears once, with an icon.
     
-    It should appear after the links to ordinary pages, but before the collections.
+    ❌ It should appear after the links to ordinary pages, but before the collections.
 
 1.  Uncomment the `hide_icon` line in `_config.yml`.
 
