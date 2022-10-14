@@ -6,14 +6,15 @@ baseurl: /just-the-docs-tests
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-remote_theme: pdmosses/just-the-docs@redo-fix-nav-regression-in-generated-toc
-# remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
   - jekyll-seo-tag
   - rake
+
+# search_enabled: false
 
 aux_links:
   Just the Docs Tests on GitHub:

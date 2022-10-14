@@ -1,6 +1,7 @@
 
 [styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quotes
 [custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
+[spacing issue when search is disabled]:                  /just-the-docs-tests/styling/disabled-search
 
 [experimental nav optimization for simple cases]:         /just-the-docs-tests/navigation/optimization
 [active grandchild link class]:                           /just-the-docs-tests/navigation/active-grandchild
