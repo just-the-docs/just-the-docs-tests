@@ -1,6 +1,11 @@
-[experimental nav optimization for simple cases]:         /just-the-docs-tests/navigation/build-time
+
+[styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quotes
+[custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
+
+[experimental nav optimization for simple cases]:         /just-the-docs-tests/navigation/optimization
 [active grandchild link class]:                           /just-the-docs-tests/navigation/active-grandchild
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
+[improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
 
 
 [pages and collections]:                                  /just-the-docs-tests/navigation/collections
