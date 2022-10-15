@@ -5,6 +5,7 @@
 
 [experimental nav optimization for simple cases]:         /just-the-docs-tests/navigation/optimization
 [active grandchild link class]:                           /just-the-docs-tests/navigation/active-grandchild
+[HTML validation issues (W3C validator)]:                 /just-the-docs-tests/theme-docs/validation
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
 [improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
 
