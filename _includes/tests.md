@@ -1,3 +1,6 @@
+[incorrect disambiguation in generated TOCs]:             /just-the-docs-tests/navigation/grandparent/index
+[typo in changelog links]:                                /just-the-docs-tests/theme-docs/validation
+[duplicated external links in collections]:               /just-the-docs-tests/navigation/collections
 
 [styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quotes
 [custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
@@ -8,6 +11,8 @@
 [HTML validation issues (W3C validator)]:                 /just-the-docs-tests/theme-docs/validation
 [link styling now uses `text-decoration` values]:         /just-the-docs-tests/styling/links
 [cleaning up Jekyll excludes]:                            /just-the-docs-tests/theme-docs/compression
+[docs, narrow styling for code highlighting with line numbers]: /just-the-docs-tests/styling/narrow-code
+[default syntax highlighting in custom color schemes]:    /just-the-docs-tests/color/code
 
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
 [improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
