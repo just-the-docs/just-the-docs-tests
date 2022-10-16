@@ -38,7 +38,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](../tests/).
+[Link to another page](../../tests/index/).
 
 There should be whitespace between paragraphs.
 

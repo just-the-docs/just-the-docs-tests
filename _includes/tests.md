@@ -2,7 +2,7 @@
 [typo in changelog links]:                                /just-the-docs-tests/theme-docs/validation
 [duplicated external links in collections]:               /just-the-docs-tests/navigation/collections
 
-[styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quotes
+[styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quote
 [custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
 [spacing issue when search is disabled]:                  /just-the-docs-tests/styling/disabled-search
 

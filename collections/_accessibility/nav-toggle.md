@@ -4,7 +4,7 @@ title: Nav toggle
 
 # ✅ Accessible titles to page nav toggle
 
-1.  Select page [A](../grandparent/a/).
+1.  Select page [A](../../navigation/grandparent/a/).
 
 1.  Browse the HTML source of the page.
 
