@@ -15,6 +15,7 @@
 [default syntax highlighting in custom color schemes]:    /just-the-docs-tests/color/code
 
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
+[better title styling for AsciiDoc examples]:             /just-the-docs-tests/styling/asciidoc
 [improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
 
 
