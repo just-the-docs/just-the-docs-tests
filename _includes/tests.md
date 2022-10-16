@@ -16,6 +16,7 @@
 
 [accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
 [better title styling for AsciiDoc examples]:             /just-the-docs-tests/styling/asciidoc
+[provide ability to skip to main content]:                /just-the-docs-tests/navigation/skip-to-main-content
 [improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
 
 
