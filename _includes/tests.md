@@ -29,6 +29,7 @@
 [indentation and color for folded collection navigation]: /just-the-docs-tests/navigation/collections
 [scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
 [`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/reverse/index
+[`nav_footer_custom` include]:                            /just-the-docs-tests/customization/nav-footer
 
 
 [dark highlighting]:                                      /just-the-docs-tests/color/code
