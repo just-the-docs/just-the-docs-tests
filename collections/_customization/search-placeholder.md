@@ -1,5 +1,5 @@
 ---
-title: Customize search placeholder
+title: Search placeholder
 ---
 
 # ✅ Customize search placeholder

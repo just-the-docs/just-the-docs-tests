@@ -1,5 +1,5 @@
 ---
-title: Customize TOC heading
+title: TOC heading
 ---
 
 # ✅ Customize TOC heading
