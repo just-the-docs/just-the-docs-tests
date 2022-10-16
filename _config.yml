@@ -45,9 +45,7 @@ collections_dir: collections
 collections:
   tests:
     output: true
-  collection-1:
-    output: true
-  collection-2:
+  accessibility:
     output: true
   color:
     output: true
@@ -63,29 +61,39 @@ collections:
     output: true
   theme-docs:
     output: true
+  collection-1:
+    output: true
+  collection-2:
+    output: true
 
 just_the_docs:
   collections:
     tests:
       name: Tests
+    accessibility:
+      name: Accessibility
+      nav_fold: true
     color:
-      name: Color Tests
+      name: Color
+      nav_fold: true
     components:
-      name: UI Component Tests
-      nav_fold: false
+      name: Components of UI
+      nav_fold: true
     customization:
-      name: Customization Tests
+      name: Customization
+      nav_fold: true
     navigation:
-      name: Navigation Tests
+      name: Navigation
       nav_fold: true
     search:
-      name: Search Tests
-      nav_fold: false
+      name: Search
+      nav_fold: true
     styling:
-      name: Styling Tests
+      name: Styling
       nav_fold: true
     theme-docs:
-      name: Theme Docs Tests
+      name: Theme Docs
+      nav_fold: true
     collection-1:
       name: Collection 1
       nav_fold: true

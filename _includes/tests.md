@@ -14,9 +14,9 @@
 [docs, narrow styling for code highlighting with line numbers]: /just-the-docs-tests/styling/narrow-code
 [default syntax highlighting in custom color schemes]:    /just-the-docs-tests/color/code
 
-[accessible titles to nested page nav toggle]:            /just-the-docs-tests/navigation/nav-toggle
+[accessible titles to nested page nav toggle]:            /just-the-docs-tests/accessibility/nav-toggle
 [better title styling for AsciiDoc examples]:             /just-the-docs-tests/styling/asciidoc
-[provide ability to skip to main content]:                /just-the-docs-tests/navigation/skip-to-main-content
+[provide ability to skip to main content]:                /just-the-docs-tests/accessibility/skip-to-main-content
 [exclude `vendor/` in Jekyll config]:                     /just-the-docs-tests/theme-docs/compression
 [improve build time of navigation panel]:                 /just-the-docs-tests/navigation/optimization-outdated
 
@@ -30,7 +30,7 @@
 [scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
 [`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/reverse/index
 [`nav_footer_custom` include]:                            /just-the-docs-tests/customization/nav-footer
-
+[style fixes for jekyll-asciidoc]:                        /just-the-docs-tests/styling/asciidoc
 
 [dark highlighting]:                                      /just-the-docs-tests/color/code
 [set color for search input]:                             /just-the-docs-tests/color/input

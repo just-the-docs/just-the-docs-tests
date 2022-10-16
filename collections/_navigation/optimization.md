@@ -1,5 +1,6 @@
 ---
 title: Optimization
+has_children: true
 ---
 
 # ✅ Optimization tests

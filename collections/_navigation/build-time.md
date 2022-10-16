@@ -1,5 +1,6 @@
 ---
 title: Build time
+parent: Optimization
 ---
 
 # Build time
