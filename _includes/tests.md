@@ -46,6 +46,10 @@
 [prepend `site.collections_dir` if exists]:               /just-the-docs-tests/navigation/collections
 
 [prevent rake command corrupting search data]:            /just-the-docs-tests/search/rake
+[anchor heading links should be visible on focus]:        /just-the-docs-tests/accessibility/heading-links
+[add `overflow-x: auto` to `figure.highlight`]:           /just-the-docs-tests/styling/code-overflow
+[add `overflow-wrap: word-break` to `body`]:              /just-the-docs-tests/styling/body-overflow
+[vertical alignment for consecutive labels]:              /just-the-docs-tests/styling/label-alignment
 
 [allow links to wrap]:                                    /just-the-docs-tests/styling/links
 [suppress Liquid processing in CSS comments]:             /just-the-docs-tests/styling/maps
