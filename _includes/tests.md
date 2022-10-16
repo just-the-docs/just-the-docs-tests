@@ -33,6 +33,7 @@
 
 [dark highlighting]:                                      /just-the-docs-tests/color/code
 [set color for search input]:                             /just-the-docs-tests/color/input
+[search placeholder configuration]:                       /just-the-docs-tests/customization/search-placeholder
 
 [mermaid.js support]:                                     /just-the-docs-tests/components/mermaid
 [support for external navigation links]:                  /just-the-docs-tests/navigation/external-links
