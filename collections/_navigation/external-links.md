@@ -27,6 +27,6 @@ title: External links
 
 1.  Check that the icon does not appear.
 
-1.  Add `nav_exclude: true` to the front matter of `/index/md` and `/docs/markdown.md`.
+1.  Add `nav_exclude: true` to the front matter of `/index.md` and `/docs/markdown.md`.
 
 1.  ❌ Check that the external link still appears.

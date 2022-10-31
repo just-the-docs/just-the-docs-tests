@@ -1,6 +1,7 @@
 ---
 title: Markdown kitchen sink
 nav_order: Tests Markdown
+# nav_exclude: true
 ---
 
 # Markdown kitchen sink
