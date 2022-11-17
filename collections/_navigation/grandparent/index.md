@@ -66,7 +66,7 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 1.  Check that the navigation link to the grandchild [G](../efg/) 
     does not appear as a child of top-level [F](../f/).
 
-1.  ❌ Check that when the grandchild [G](../efg/) is selected,
+1.  Check that when the grandchild [G](../efg/) is selected,
     the link to the child [G](../fg/) of top-level [F](../f/) does not appear.
 
 # ✅ Collections

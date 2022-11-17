@@ -1,6 +1,11 @@
 [incorrect disambiguation in generated TOCs]:             /just-the-docs-tests/navigation/grandparent/index
-[typo in changelog links]:                                /just-the-docs-tests/theme-docs/validation
 [duplicated external links in collections]:               /just-the-docs-tests/navigation/collections
+[import order of `custom.scss`; puts at end]:             /just-the-docs-tests/styling/custom-import
+[top-level active link styling]:                          /just-the-docs-tests/navigation/grandparent/index/#a-grandchild-with-the-same-parent-title-as-a-child-or-top-level-page.md
+[external links for sites with no pages]:                 /just-the-docs-tests/navigation/external-links
+[duplicate `title` if `jekyll-seo-tag` not in users's plugins]: /just-the-docs-tests/customization/seo-tag
+[integrates custom scss & callouts]:                      /just-the-docs-tests/customization/custom-callout-color
+
 
 [styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quote
 [custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
