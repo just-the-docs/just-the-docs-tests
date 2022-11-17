@@ -144,7 +144,7 @@ callouts:
     color: blue
   #   color: pink
   #   opacity: 0.3
-tip:
+  tip:
     title: Tip
     color: grey-dk
   warning:
