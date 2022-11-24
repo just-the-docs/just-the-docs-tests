@@ -9,7 +9,7 @@ math: mathjax
 
 You can customise Just the Docs sites to support [MathJax],
 as explained in the [configuration suggestions]. 
-Pages then render $$\LaTeX$$ code in [kramdown math blocks] using MathJax.
+Pages then render $$\mathrm{\LaTeX}$$ code in [kramdown math blocks] using MathJax.
 
 For example:
 

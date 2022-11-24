@@ -5,10 +5,18 @@ has_children: true
 
 # Math
 
-The following pages demonstrate how users can customise the current version of Just the Docs to support automatic rendering of math formulae in Markdown.
-Different pages on the same site can use different rendering packages.
+You can customise Just the Docs to support automatic rendering of math formulae in Markdown pages. 
+Then just write the formulae in TeX or LaTeX, and enclose them in `$$…$$`;
+they will appear on your website as if formatted by applications such as `pdflatex`.
 
-The test pages should produce the intended results with both Jekyll 3 and Jekyll 4.
+Features:
 
-The rendering of LaTeX math markup on web pages by the different packages is generally very close to the rendering of the same markup in PDFs by latex engines.
-However, compatibility between LaTeX markup for math on web pages and PDFs is currently limited by lack of support for various commands and environments.
+- Choose between [KaTeX] and [MathJax]
+- JavaScript packages – no plugins needed
+- Works with Jekyll 3 and Jekyll 4
+- Configuration variable, for site-wide availability
+- Front-matter variable, for restriction to individual pages
+- Layouts support preambles of command/environment definitions
+
+[KaTeX]: https://katex.org
+[MathJax]: https://mathjax.org

@@ -6,17 +6,16 @@ nav_order: 1
 ---
 # KaTeX Configuration
 
-1.  Create or extend `_includes/head_custom.html` by:
+1.  Create or extend `_includes/head_custom.html` with:
 
     {% raw %}
     ```html
-    {% include math.html %}
+    {% include katex.html %}
     ```
     {% endraw %}
 
 2.  Copy the following files to your website source repo:
 
-    - [`_includes/math.html`]
     - [`_includes/katex.html`]
     - [`_layouts/katex.html`]
     - [`assets/js/mathtex-script-type.js`]
@@ -40,12 +39,12 @@ nav_order: 1
     ```
 
     You can add a preamble of KaTeX definitions of new commands and environments
-    to the `katex` layout. It extends the `default` layout. 
+    to [`_layouts/katex.html`]. It extends the `default` layout. 
 
 ## KaTeX options
 
-The following options are already set in `_includes/katex.html` _and_
-in `assets/js/mathtex-script-type.js`:
+The following options are already set in [`_includes/katex.html`] _and_
+in [`assets/js/mathtex-script-type.js`]:
 
 ```json
 globalGroup: true,
@@ -56,7 +55,6 @@ throwOnError: false,
 
 You can customise KaTeX by adding further [options].
 
-[`_includes/math.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_includes/math.html
 [`_includes/katex.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_includes/katex.html
 [`_layouts/katex.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_layouts/katex.html
 [`assets/js/mathtex-script-type.js`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/assets/js/kmathtex-script-type.js
