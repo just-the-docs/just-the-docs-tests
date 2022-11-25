@@ -19,7 +19,9 @@ Such docs tests have _not_ yet been added!
 
 To test the tests:
 
-1.  Update `_config.yml` to use the pre-release.
+1.  Clone [this repository](https://github.com/just-the-docs/just-the-docs-tests/).
+
+1.  Update `_config.yml` to use the relevant pre-release.
 
 1.  Build and serve this site locally.
 

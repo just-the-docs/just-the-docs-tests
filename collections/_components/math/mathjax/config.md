@@ -10,7 +10,12 @@ nav_order: 1
 
     {% raw %}
     ```html
-    {% include mathjax.html %}
+    {% assign math = page.math | default: layout.math | default: site.math %}
+
+    {% case math %}
+      {% when "mathjax" %}
+        {% include mathjax.html %}
+    {% endcase %}
     ```
     {% endraw %}
 

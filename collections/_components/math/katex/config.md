@@ -10,7 +10,12 @@ nav_order: 1
 
     {% raw %}
     ```html
-    {% include katex.html %}
+    {% assign math = page.math | default: layout.math | default: site.math %}
+
+    {% case math %}
+      {% when "katex" %}
+        {% include katex.html %}
+    {% endcase %}
     ```
     {% endraw %}
 
