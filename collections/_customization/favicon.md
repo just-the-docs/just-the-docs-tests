@@ -1,8 +1,8 @@
 ---
-title: ❌ Favicons
+title: Favicons
 ---
 
-# Favicons
+# ✅ Favicons
 
 1.  Build and serve this tests website locally.
 
@@ -10,7 +10,7 @@ title: ❌ Favicons
 
 1.  Add an empty file `_includes/head_custom.html`.
 
-1.  ❌ Check that the favicon has disappeared.
+1.  Check that the favicon has disappeared.
 
 1.  Add the default favicon `<link>` element given in the theme docs to `_includes/head_custom.html`.
 
