@@ -1,20 +1,19 @@
 ---
-title: Reverse
-parent: Reverse Order
-nav_order: -10
+title: Forward
+parent: Reversed Order
+nav_order: -20
 has_children: true
-child_nav_order: desc
 ---
 
-# ✅ Reverse
+# ✅ Forward
 
 1.  Check that the titles of the children of this page are shown in the order:
     
     ```
-    10
-    2
-    0
     -1
+    0
+    2
+    10
     ```
     
     both in the navigation panel and in the table of contents below.

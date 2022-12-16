@@ -33,7 +33,7 @@
 [collection configuration option `nav_fold`]:             /just-the-docs-tests/navigation/expanders
 [indentation and color for folded collection navigation]: /just-the-docs-tests/navigation/collections
 [scroll navigation to show the link to the current page]: /just-the-docs-tests/navigation/scroll
-[`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/reverse/index
+[`child_nav_order` front matter to sort navigation pages in reverse]: /just-the-docs-tests/navigation/reversed/index
 [`nav_footer_custom` include]:                            /just-the-docs-tests/customization/nav-footer
 [style fixes for jekyll-asciidoc]:                        /just-the-docs-tests/styling/asciidoc
 
