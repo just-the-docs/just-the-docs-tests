@@ -2,7 +2,7 @@
 title: Reversed Order
 nav_order: Tests Reversed Order
 has_children: true
-child_nav_order: desc
+child_nav_order: reversed
 ---
 
 # Reversed Order
