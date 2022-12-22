@@ -38,8 +38,7 @@ gh_edit_view_mode: tree
 # color_scheme: test
 
 compress_html:
-  ignore:
-    envs: all
+  blanklines: true
 
 collections_dir: collections
 
