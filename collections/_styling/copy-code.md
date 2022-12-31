@@ -10,11 +10,12 @@ Check that for each of the following code blocks:
 
 - the copy button appears on top of a selected text area;
 
-- the cursor acquires a white-on-gree +-sign when the copy button is clickable;
+- the cursor acquires a white-on-green +-sign when the copy button is clickable;
 
 - clicking the copy button replaces the blank copy button by a filled icon with a tick mark, and
 
-- the clipboard contents are replaced by the entire text of the block, including leading and trailing spaces.
+- the clipboard contents are replaced by the entire code of the block,
+  including leading and trailing spaces, but omitting line numbers.
 
 1.  A single short line:
 
