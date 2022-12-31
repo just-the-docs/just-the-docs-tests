@@ -6,16 +6,17 @@ title: Copy code button
 
 Check that for each of the following code blocks:
 
-- you see a copy button at the top right of the block when hovering over it;
+- you always see a copy button at the top right of the block when hovering over the block;
 
-- the copy button appears on top of a selected text area;
+- selecting an area of the block does not affect the copy button;
 
-- the cursor acquires a white-on-green +-sign when the copy button is clickable;
+- when the copy button is clickable, the cursor acquires a white-on-green +-sign;
 
-- clicking the copy button replaces the blank copy button by a filled icon with a tick mark, and
-
-- the clipboard contents are replaced by the entire code of the block,
-  including leading and trailing spaces, but omitting line numbers.
+- clicking the copy button replaces the blank copy button icon by a filled icon with a tick mark,
+  and replaces the clipboard contents by the entire code of the block:
+  
+  - including leading and trailing spaces,
+  - excluding any line numbers.
 
 1.  A single short line:
 
@@ -30,6 +31,19 @@ Check that for each of the following code blocks:
       2 leading spaces and 2 trailing spaces  
     3   internal spaces
     4 trailing spaces    
+    ```
+
+1.  A single long line:
+    
+    ```
+Long, single-line code blocks should not wrap. In long lines, the copy button must always be visible in the top right-hand corner and not at the bottom of the scrollbar (its position must not be relative to the end of the text)
+    ```
+
+1.  A multi-line code block with a single long line:
+
+    ```
+    Long, multi-line code blocks.
+    Same as before, in code blocks with short lines and long lines, the copy button must always be visible in the top right-hand corner and not at the bottom of the scrollbar (its position must not be relative to the end of the text)
     ```
 
 1.  JS code:
