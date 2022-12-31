@@ -36,7 +36,7 @@ Check that for each of the following code blocks:
 1.  A single long line:
     
     ```
-Long, single-line code blocks should not wrap. In long lines, the copy button must always be visible in the top right-hand corner and not at the bottom of the scrollbar (its position must not be relative to the end of the text)
+    Long, single-line code blocks should not wrap. In long lines, the copy button must always be visible in the top right-hand corner and not at the bottom of the scrollbar (its position must not be relative to the end of the text)
     ```
 
 1.  A multi-line code block with a single long line:
