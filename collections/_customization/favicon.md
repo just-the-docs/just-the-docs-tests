@@ -8,12 +8,12 @@ title: Favicons
 
 1.  Check that both your local build of this website and the theme docs website show the same favicon.
 
-1.  Add an empty file `_includes/head_custom.html`.
+1.  Move `favicon.ico` to `assets/images/`.
 
-1.  Check that the favicon has disappeared.
+1.  Check that the favicon has disappeared, and that Jekyll does *not* report "ERROR '/favicon.ico' not found".
 
-1.  Add the default favicon `<link>` element given in the theme docs to `_includes/head_custom.html`.
+1.  Set `favicon_ico: /assets/images/favicon.ico`, then rebuild this website.
 
 1.  Check that the favicon has reappeared.
 
-1.  Remove `_includes/head_custom.html`.
+1.  Move the favicon back to the root directory, and remove the setting of `favicon_ico`.

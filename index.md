@@ -8,7 +8,7 @@ JtD version
 : {{ site.remote_theme | split: "@" | slice: 1 | join: "" }}
 
 Jekyll version
-: 3.8.7
+: v{{ jekyll.version }}
 
 The main documentation pages of this theme illustrate the use of many of its features,
 which to some extent tests their implementation.
