@@ -16,4 +16,4 @@ Check that the versions of the following files match the current vendor versions
     <https://github.com/necolas/normalize.css>
 
 1.  [`assets/js/vendor/lunr.min.js`](https://github.com/just-the-docs/just-the-docs/blob/main/assets/js/vendor/lunr.min.js):
-    <http://lunrjs.com>
+    <https://github.com/olivernn/lunr.js>
