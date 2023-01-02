@@ -59,7 +59,7 @@ collections:
     output: true
   styling:
     output: true
-  theme-docs:
+  theme-repository:
     output: true
   collection-0:
     output: true
@@ -93,8 +93,8 @@ just_the_docs:
     styling:
       name: Styling
       nav_fold: true
-    theme-docs:
-      name: Theme Docs
+    theme-repository:
+      name: Theme Repository
       nav_fold: true
     collection-0:
       name: Collection 0
