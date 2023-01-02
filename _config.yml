@@ -61,6 +61,8 @@ collections:
     output: true
   theme-docs:
     output: true
+  collection-0:
+    output: true
   collection-1:
     output: true
   collection-2:
@@ -94,6 +96,8 @@ just_the_docs:
     theme-docs:
       name: Theme Docs
       nav_fold: true
+    collection-0:
+      name: Collection 0
     collection-1:
       name: Collection 1
       nav_fold: true

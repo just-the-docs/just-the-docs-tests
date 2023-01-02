@@ -1,23 +1,20 @@
 [support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: /
 [copy code button to code snippets]: /
 [restore simple configuration of `favicon.ico` via `site.static_files`]: /just-the-docs-tests/customization/favicon
-
 [incorrect disambiguation in generated TOCs]:             /just-the-docs-tests/navigation/grandparent/index
 [duplicated external links in collections]:               /just-the-docs-tests/navigation/collections
 [import order of `custom.scss`; puts at end]:             /just-the-docs-tests/styling/custom-import
 [top-level active link styling]:                          /just-the-docs-tests/navigation/grandparent/index/#a-grandchild-with-the-same-parent-title-as-a-child-or-top-level-page.md
 [external links for sites with no pages]:                 /just-the-docs-tests/navigation/external-links
 [duplicate `title` if `jekyll-seo-tag` not in users's plugins]: /just-the-docs-tests/customization/seo-tag
-
-[removes (duplicate) `favicon.html`, shifts content to `head_custom.html]: /
-[add `reversed`, deprecate `desc` for nav `child_nav_order`]: /
-[child.child_nav_order` to `node.child_nav_order`]: /
-[remove all uses of `/` as SASS division]: /
-[skip nav collection generation when site has no pages]: /
-[update `jekyll-anchor-headings`, `lunr.js`]: /
+[removes (duplicate) `favicon.html`, shifts content to `head_custom.html`]: /just-the-docs-tests/customization/head-favicons
+[add `reversed`, deprecate `desc` for nav `child_nav_order`]: /just-the-docs-tests/navigation/reversed/index
+[`child.child_nav_order` to `node.child_nav_order`]:      /just-the-docs-tests/navigation/reversed/index
+[remove all uses of `/` as SASS division]:                /just-the-docs-tests/styling/deprecations
+[skip nav collection generation when site has no pages]:  /just-the-docs-tests/navigation/empty-collections
+[update `jekyll-anchor-headings`, `lunr.js`]:             /just-the-docs-tests/theme-docs/vendor
 
 [integrates custom scss & callouts]:                      /just-the-docs-tests/customization/custom-callout-color
-
 
 [styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quote
 [custom include for TOC heading]:                         /just-the-docs-tests/customization/toc-heading
