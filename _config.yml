@@ -6,6 +6,7 @@ baseurl: /just-the-docs-tests
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+# remote_theme: simonebortolin/just-the-docs@hightlint-fix
 remote_theme: just-the-docs/just-the-docs
 # theme: just-the-docs
 
@@ -39,6 +40,17 @@ gh_edit_view_mode: tree
 
 compress_html:
   blanklines: true
+
+# compress_html:
+#   ignore:
+#     envs: all
+# 
+# enable_copy_code_button: true
+# 
+# kramdown:
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: true
 
 collections_dir: collections
 

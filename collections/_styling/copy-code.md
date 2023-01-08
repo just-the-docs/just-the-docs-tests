@@ -4,6 +4,16 @@ title: Copy code button
 
 # Copy code button
 
+Include in the configuration:
+
+```yaml
+enable_copy_code_button: true
+
+compress_html:
+  ignore:
+    envs: all
+```
+
 Check that for each of the following code blocks:
 
 - you always see a copy button at the top right of the block when hovering over the block;
@@ -17,6 +27,15 @@ Check that for each of the following code blocks:
   
   - including leading and trailing spaces,
   - excluding any line numbers.
+  
+Check also including the following configuration:
+
+```yaml
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+```
 
 1.  A single short line:
 
