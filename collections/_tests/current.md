@@ -24,6 +24,8 @@ Checking the regression tests listed below is **work in progress**.
 
 - Pending: [integrates custom scss & callouts] by [@Ethan0429] in [#1013]
 
+[integrates custom scss & callouts]: /collections/_customization/custom-callout-color.md
+
 ## Pre-release v0.4.0.rc4
 
 ### New Features
@@ -104,8 +106,10 @@ Checking the regression tests listed below is **work in progress**.
 {% comment %}
 [support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: 
 {% endcomment %}
+
 [copy code button to code snippets]:                                      /collections/_styling/copy-code.md
 [restore simple configuration of `favicon.ico` via `site.static_files`]:  /collections/_customization/favicon.md
+
 {% comment %}
 [modularize site components]: 
 {% endcomment %}
@@ -121,18 +125,19 @@ Checking the regression tests listed below is **work in progress**.
 [`child.child_nav_order` to `node.child_nav_order`]:                       /collections/_navigation/reversed/index.md
 [remove all uses of `/` as SASS division]:                                 /collections/_styling/deprecations.md
 [skip nav collection generation when site has no pages]:                   /collections/_navigation/empty-collections.md
+
 {% comment %}
 [standardize SCSS with `declaration-block-no-redundant-longhand-properties`]: 
 [incorrect `padding` property value pair in `labels.scss`]:
 {% endcomment %}
+
 [various bugs with copy code button]:                                      /collections/_styling/copy-code.md
+
 {% comment %}
 [replace inline styling for `<svg>` icons]:
 {% endcomment %}
+
 [update `jekyll-anchor-headings`, `lunr.js`]:                              /collections/_theme-repository/vendor.md
-
-
-[integrates custom scss & callouts]:                                       /collections/_customization/custom-callout-color.md
 
 ## Pre-release v0.4.0.rc3
 
