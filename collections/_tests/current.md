@@ -1,20 +1,40 @@
 ---
-title: Version 0.4.0
+title: Current tests
 ---
+# Current tests
+
+Below, a ✅ before a PR summary line indicates that:
+
+- the link to the title of the PR leads to a page of tests of its observational effect, and
+- the tests succeed in the pre-release.
+
+The absence of a ✅ below indicates that although the PR has been reviewed and merged,
+tests for it are not yet included on this site.
+
+{: .note }
+Changes to the theme docs website should be tested for _accuracy_.
+Such docs tests have _not_ yet been added!
 
 # Version 0.4.0 (DRAFT)
 
 {: .warning }
 Checking the regression tests listed below is **work in progress**.
-A ✅ shows which tests have already been checked.
 
 ## HEAD
 
 - Pending: [integrates custom scss & callouts] by [@Ethan0429] in [#1013]
 
-- Added: support multiple Google Analytics tracking IDs, document UA -> GA4 switch by [@MichelleBlanchette] in [#1029]
-- Added: copy code button to code snippets by [@simonebortolin] in [#945]
+## Pre-release v0.4.0.rc4
+
+### New Features
+
+- Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
+- Added: [copy code button to code snippets] by [@simonebortolin] in [#945]
 - ✅ Added: [restore simple configuration of `favicon.ico` via `site.static_files`] by [@pdmosses] in [#1095]
+- Added: [modularize site components] by [@mattxwang] in [#1058]
+
+### Bugfixes and Maintenance
+
 - ✅ Fixed: [incorrect disambiguation in generated TOCs] by [@pdmosses] in [#999]
 - ✅ Fixed: [duplicated external links in collections] by [@pdmosses] in [#1001]
 - ✅ Fixed: [import order of `custom.scss`; puts at end] by [@deseo] in [#1010]
@@ -26,7 +46,14 @@ A ✅ shows which tests have already been checked.
 - ✅ Fixed: [`child.child_nav_order` to `node.child_nav_order`] by [@mattxwang] in [#1065]
 - Fixed: [remove all uses of `/` as SASS division] by [@mattxwang] in [#1074][^1074]
 - ✅ Fixed: [skip nav collection generation when site has no pages] by [@pdmosses] in [#1092]
+- Fixed: [standardize SCSS with `declaration-block-no-redundant-longhand-properties`] by [@simonebortolin] in [#1102]
+- Fixed: [incorrect `padding` property value pair in `labels.scss`] by [@SConaway] in [#1104]
+- Fixed: [various bugs with copy code button] by [@simonebortolin] in [#1096]
+- Fixed: [replace inline styling for `<svg>` icons] by [@captn3m0] in [#1110]
 - ✅ Vendor: [update `jekyll-anchor-headings`, `lunr.js`] by [@mattxwang] in [#1071]
+
+### Docs
+
 - Docs: fix typo in changelog links [@koppor] in [#1000]
 - Docs: update homepage (focus: new features, conciseness, deduplication) by [@pdmosses] in [#1018]
 - Docs: update README (focus: new features, conciseness, deduplication) by [@pdmosses] in [#1019]
@@ -37,21 +64,19 @@ A ✅ shows which tests have already been checked.
     This fix was originally merged as [#1074] with a bug;
     it was reverted in [#1076], and then reimplemented in [#1077].
 
-
 [#945]: https://github.com/just-the-docs/just-the-docs/pull/945
 [#999]: https://github.com/just-the-docs/just-the-docs/pull/999
 [#1000]: https://github.com/just-the-docs/just-the-docs/pull/1000
 [#1001]: https://github.com/just-the-docs/just-the-docs/pull/1001
 [#1010]: https://github.com/just-the-docs/just-the-docs/pull/1010
-[#1013]: https://github.com/just-the-docs/just-the-docs/pull/1013
 [#1015]: https://github.com/just-the-docs/just-the-docs/pull/1015
 [#1018]: https://github.com/just-the-docs/just-the-docs/pull/1018
 [#1019]: https://github.com/just-the-docs/just-the-docs/pull/1019
 [#1021]: https://github.com/just-the-docs/just-the-docs/pull/1021
-[#1040]: https://github.com/just-the-docs/just-the-docs/pull/1040
 [#1027]: https://github.com/just-the-docs/just-the-docs/pull/1027
 [#1029]: https://github.com/just-the-docs/just-the-docs/pull/1029
 [#1040]: https://github.com/just-the-docs/just-the-docs/pull/1040
+[#1058]: https://github.com/just-the-docs/just-the-docs/pull/1058
 [#1061]: https://github.com/just-the-docs/just-the-docs/pull/1061
 [#1065]: https://github.com/just-the-docs/just-the-docs/pull/1065
 [#1071]: https://github.com/just-the-docs/just-the-docs/pull/1071
@@ -62,17 +87,29 @@ A ✅ shows which tests have already been checked.
 [#1091]: https://github.com/just-the-docs/just-the-docs/pull/1091
 [#1092]: https://github.com/just-the-docs/just-the-docs/pull/1092
 [#1095]: https://github.com/just-the-docs/just-the-docs/pull/1095
+[#1096]: https://github.com/just-the-docs/just-the-docs/pull/1096
+[#1102]: https://github.com/just-the-docs/just-the-docs/pull/1102
+[#1104]: https://github.com/just-the-docs/just-the-docs/pull/1104
+[#1110]: https://github.com/just-the-docs/just-the-docs/pull/1110
+[#1113]: https://github.com/just-the-docs/just-the-docs/pull/1113
 
-[@koppor]: https://github.com/koppor
+[@captn3m0]: https://github.com/captn3m0
 [@deseo]: https://github.com/deseo
-[@Tom-Brouwer]: https://github.com/Tom-Brouwer
-[@Ethan0429]: https://github.com/Ethan0429
+[@koppor]: https://github.com/koppor
 [@MichelleBlanchette]: https://github.com/MichelleBlanchette
 [@simonebortolin]: https://github.com/simonebortolin
+[@SConaway]: https://github.com/SConaway
+[@Tom-Brouwer]: https://github.com/Tom-Brouwer
 
-[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: /
-[copy code button to code snippets]:                                      /
+{% comment %}
+[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: 
+{% endcomment %}
+[copy code button to code snippets]:                                      /collections/_styling/copy-code.md
 [restore simple configuration of `favicon.ico` via `site.static_files`]:  /collections/_customization/favicon.md
+{% comment %}
+[modularize site components]: 
+{% endcomment %}
+
 [incorrect disambiguation in generated TOCs]:                             /collections/_navigation/grandparent/index.md
 [duplicated external links in collections]:                               /collections/_navigation/collections.md
 [import order of `custom.scss`; puts at end]:                             /collections/_styling/custom-import.md
@@ -84,7 +121,16 @@ A ✅ shows which tests have already been checked.
 [`child.child_nav_order` to `node.child_nav_order`]:                       /collections/_navigation/reversed/index.md
 [remove all uses of `/` as SASS division]:                                 /collections/_styling/deprecations.md
 [skip nav collection generation when site has no pages]:                   /collections/_navigation/empty-collections.md
+{% comment %}
+[standardize SCSS with `declaration-block-no-redundant-longhand-properties`]: 
+[incorrect `padding` property value pair in `labels.scss`]:
+{% endcomment %}
+[various bugs with copy code button]:                                      /collections/_styling/copy-code.md
+{% comment %}
+[replace inline styling for `<svg>` icons]:
+{% endcomment %}
 [update `jekyll-anchor-headings`, `lunr.js`]:                              /collections/_theme-repository/vendor.md
+
 
 [integrates custom scss & callouts]:                                       /collections/_customization/custom-callout-color.md
 

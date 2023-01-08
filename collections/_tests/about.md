@@ -1,8 +1,8 @@
 ---
-title: Tests
+title: About this site
 ---
 
-# Tests
+# About Just the Docs Tests
 
 [Just the Docs] is a [remote theme] for use with the static website generator [Jekyll].
 The theme is responsive, easily customizable, and hosted on [GitHub Pages].
