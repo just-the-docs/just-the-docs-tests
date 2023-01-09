@@ -30,7 +30,7 @@ Checking the regression tests listed below is **work in progress**.
 
 ### New Features
 
-- Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
+- ✅ Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
 - Added: [copy code button to code snippets] by [@simonebortolin] in [#945]
 - ✅ Added: [restore simple configuration of `favicon.ico` via `site.static_files`] by [@pdmosses] in [#1095]
 - Added: [modularize site components] by [@mattxwang] in [#1058]
@@ -103,10 +103,7 @@ Checking the regression tests listed below is **work in progress**.
 [@SConaway]: https://github.com/SConaway
 [@Tom-Brouwer]: https://github.com/Tom-Brouwer
 
-{% comment %}
-[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: 
-{% endcomment %}
-
+[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: /collections/_customization/ga-tags.md
 [copy code button to code snippets]:                                      /collections/_styling/copy-code.md
 [restore simple configuration of `favicon.ico` via `site.static_files`]:  /collections/_customization/favicon.md
 

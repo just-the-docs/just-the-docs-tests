@@ -16,6 +16,9 @@ plugins:
   # - jekyll-seo-tag
   - rake
 
+ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+ga_tracking_anonymize_ip: true
+
 # search_enabled: false
 
 aux_links:

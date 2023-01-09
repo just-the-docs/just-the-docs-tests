@@ -1,10 +1,9 @@
 [integrates custom scss & callouts]:                      /just-the-docs-tests/customization/custom-callout-color
 
-{% comment %}
-[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: 
-{% endcomment %}
+[support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: /just-the-docs-tests/customization/ga-tags
 [copy code button to code snippets]:                      /just-the-docs-tests/styling/copy-code
 [restore simple configuration of `favicon.ico` via `site.static_files`]: /just-the-docs-tests/customization/favicon
+
 {% comment %}
 [modularize site components]: 
 {% endcomment %}
@@ -20,14 +19,18 @@
 [`child.child_nav_order` to `node.child_nav_order`]:      /just-the-docs-tests/navigation/reversed/index
 [remove all uses of `/` as SASS division]:                /just-the-docs-tests/styling/deprecations
 [skip nav collection generation when site has no pages]:  /just-the-docs-tests/navigation/empty-collections
+
 {% comment %}
 [standardize SCSS with `declaration-block-no-redundant-longhand-properties`]: 
 [incorrect `padding` property value pair in `labels.scss`]:
 {% endcomment %}
+
 [various bugs with copy code button]:                     /just-the-docs-tests/styling/copy-code.md
+
 {% comment %}
 [replace inline styling for `<svg>` icons]:
 {% endcomment %}
+
 [update `jekyll-anchor-headings`, `lunr.js`]:             /just-the-docs-tests/theme-docs/vendor
 
 [styling for `<blockquote>`]:                             /just-the-docs-tests/styling/block-quote
