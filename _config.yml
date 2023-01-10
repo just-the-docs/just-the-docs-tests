@@ -48,7 +48,7 @@ compress_html:
 #   ignore:
 #     envs: all
 # 
-# enable_copy_code_button: true
+enable_copy_code_button: true
 # 
 # kramdown:
 #   syntax_highlighter_opts:

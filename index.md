@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 JtD version
-: {{ site.remote_theme }}
+: {{ site.remote_theme | replace: "@", " @" }}
 
 Jekyll version
 : v{{ jekyll.version }}
