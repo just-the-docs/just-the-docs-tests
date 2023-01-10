@@ -33,7 +33,7 @@ Checking the regression tests listed below is **work in progress**.
 - ✅ Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
 - Added: [copy code button to code snippets] by [@simonebortolin] in [#945]
 - ✅ Added: [restore simple configuration of `favicon.ico` via `site.static_files`] by [@pdmosses] in [#1095]
-- Added: [modularize site components] by [@mattxwang] in [#1058]
+- Added: modularize site components by [@mattxwang] in [#1058]
 
 ### Bugfixes and Maintenance
 
@@ -46,7 +46,7 @@ Checking the regression tests listed below is **work in progress**.
 - ✅ Fixed: [removes (duplicate) `favicon.html`, shifts content to `head_custom.html`] by [@mattxwang] in [#1027]
 - ✅ Fixed: [add `reversed`, deprecate `desc` for nav `child_nav_order`] by [@jmertic] in [#1061]
 - ✅ Fixed: [`child.child_nav_order` to `node.child_nav_order`] by [@mattxwang] in [#1065]
-- Fixed: [remove all uses of `/` as SASS division] by [@mattxwang] in [#1074][^1074]
+- ✅ Fixed: [remove all uses of `/` as SASS division] by [@mattxwang] in [#1074][^1074]
 - ✅ Fixed: [skip nav collection generation when site has no pages] by [@pdmosses] in [#1092]
 - Fixed: [standardize SCSS with `declaration-block-no-redundant-longhand-properties`] by [@simonebortolin] in [#1102]
 - Fixed: [incorrect `padding` property value pair in `labels.scss`] by [@SConaway] in [#1104]
@@ -106,10 +106,6 @@ Checking the regression tests listed below is **work in progress**.
 [support multiple Google Analytics tracking IDs, document UA -> GA4 switch]: /collections/_customization/ga-tags.md
 [copy code button to code snippets]:                                      /collections/_styling/copy-code.md
 [restore simple configuration of `favicon.ico` via `site.static_files`]:  /collections/_customization/favicon.md
-
-{% comment %}
-[modularize site components]: 
-{% endcomment %}
 
 [incorrect disambiguation in generated TOCs]:                             /collections/_navigation/grandparent/index.md
 [duplicated external links in collections]:                               /collections/_navigation/collections.md

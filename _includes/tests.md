@@ -4,10 +4,6 @@
 [copy code button to code snippets]:                      /just-the-docs-tests/styling/copy-code
 [restore simple configuration of `favicon.ico` via `site.static_files`]: /just-the-docs-tests/customization/favicon
 
-{% comment %}
-[modularize site components]: 
-{% endcomment %}
-
 [incorrect disambiguation in generated TOCs]:             /just-the-docs-tests/navigation/grandparent/index
 [duplicated external links in collections]:               /just-the-docs-tests/navigation/collections
 [import order of `custom.scss`; puts at end]:             /just-the-docs-tests/styling/custom-import
