@@ -4,7 +4,7 @@ title: ❌ Custom callout color
 
 # Custom callout color
 
-1.  Create `_sass/custom/custom.scss` file containing:
+1.  In a clone of this tests site, create `_sass/custom/setup.scss` containing:
 
     ```scss
     $pink-000: #f77ef1;
