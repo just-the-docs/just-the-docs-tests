@@ -1,8 +1,8 @@
 ---
-title: ❌ Custom callout color
+title: Custom callout color
 ---
 
-# Custom callout color
+# ✅ Custom callout color
 
 1.  In a clone of this tests site, create `_sass/custom/setup.scss` containing:
 
@@ -28,7 +28,7 @@ title: ❌ Custom callout color
         opacity: 0.3
     ```
   
-1.  ❌ Build the site.
+1.  Build the site.
 
 1.  Check that the [Note callout] is colored pink.
 
