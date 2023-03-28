@@ -6,7 +6,7 @@ baseurl: /just-the-docs-tests
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-# remote_theme: just-the-docs/just-the-docs@fix-copy-code-button
+# remote_theme: just-the-docs/just-the-docs@revert-setup-import-order
 remote_theme: just-the-docs/just-the-docs
 # theme: just-the-docs
 
