@@ -6,7 +6,7 @@ baseurl: /just-the-docs-tests
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 # remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-# remote_theme: just-the-docs/just-the-docs@revert-setup-import-order
+# remote_theme: just-the-docs/just-the-docs@fix-mermaid-v10
 remote_theme: just-the-docs/just-the-docs
 # theme: just-the-docs
 
@@ -170,4 +170,7 @@ callouts:
     color: red
 
 mermaid:
-  version: "9.1.3"
+  # version: "9.4.3"
+  # path: "/assets/js/mermaid-9.4.3/mermaid.min.js"
+  version: "10.1.0"
+  # path: "/assets/js/mermaid-10.1.0/mermaid.min.js"
