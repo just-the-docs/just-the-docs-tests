@@ -13,7 +13,7 @@ title: Mermaid
 1.  Check that the Javascript console does not report any errors
     when you browse this site.
 
-## Version 9
+## Version 9.4.3
 
 1.  Add the following settings to `_config.yml`:
 
@@ -51,7 +51,7 @@ title: Mermaid
 
 1.  Remove or rename `_includes/mermaid_config.js`.
 
-## Version 10
+## Version 10.1.0
 
 1.  Update the mermaid settings in `_config.yml` to:
 
@@ -67,7 +67,7 @@ title: Mermaid
 
 ## Local mermaid library
 
-### Version 9
+### Version 9.4.3
 
 1.  Download version 9.4.3 of [version 9.4.3 of `mermaid.min.js`] and [version 9.4.3 of `mermaid.min.js.map`] to `/assets/js/mermaid-9.4.3/`.
 
@@ -84,16 +84,16 @@ title: Mermaid
 1.  Check that the Javascript console does not report any errors when you browse this site,
     and that the appearance of the mermaid diagram above is as expected.
     
-### ❌ Version 10
+### Version 10.1.0
 
-1.  Download[^v10] [version 10.1.0 of `mermaid.min.js`] and [version 10.1.0 of `mermaid.min.js.map`] to `/assets/js/mermaid-10.1.0/`.
+1.  Download the _entire contents_ of [`mermaid@10.1.0/dist/`] (e.g., using `wget -r`).
 
 1.  Update the mermaid settings in `_config.yml` to:
 
     ```yaml
     mermaid:
       version: "10.1.0"
-      path: "/assets/js/mermaid-10.1.0/mermaid.min.js"
+      path: "/assets/js/mermaid-10.1.0/mermaid.esm.min.mjs"
     ```
 
     then rebuild and serve this site locally.
@@ -103,9 +103,7 @@ title: Mermaid
 
 ----
 
-[^v10]: These files are currently missing, so a local mermaid library cannot be used for v10.
 
 [version 9.4.3 of `mermaid.min.js`]: https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js
 [version 9.4.3 of `mermaid.min.js.map`]: https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js.map
-[version 10.1.0 of `mermaid.min.js`]: https://cdn.jsdelivr.net/npm/mermaid@10.1.0/dist/mermaid.min.js
-[version 10.1.0 of `mermaid.min.js.map`]: https://cdn.jsdelivr.net/npm/mermaid@10.1.0/dist/mermaid.min.js.map
+[`mermaid@10.1.0/dist/`]: https://cdn.jsdelivr.net/npm/mermaid@10.1.0/dist/

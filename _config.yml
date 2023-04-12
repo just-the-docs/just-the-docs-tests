@@ -173,4 +173,4 @@ mermaid:
   # version: "9.4.3"
   # path: "/assets/js/mermaid-9.4.3/mermaid.min.js"
   version: "10.1.0"
-  # path: "/assets/js/mermaid-10.1.0/mermaid.min.js"
+  # path: "/assets/js/mermaid-10.1.0/mermaid.esm.min.mjs"
