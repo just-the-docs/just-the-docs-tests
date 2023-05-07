@@ -2,22 +2,17 @@ title: Just the Docs Tests
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
-# remote_theme: just-the-docs/just-the-docs@v0.3.3
-# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
-# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
-# remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-# remote_theme: just-the-docs/just-the-docs@fix-mermaid-v10
-remote_theme: just-the-docs/just-the-docs
-# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.5.1
 
 plugins:
   - jekyll-remote-theme
   - jekyll-default-layout
+  - jekyll-include-cache
   # - jekyll-seo-tag
   - rake
 
-ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
-ga_tracking_anonymize_ip: true
+# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+# ga_tracking_anonymize_ip: true
 
 # search_enabled: false
 
@@ -170,7 +165,7 @@ callouts:
     color: red
 
 mermaid:
-  version: "9.4.3"
+  # version: "9.4.3"
   # path: "/assets/js/mermaid-9.4.3/mermaid.min.js"
-  # version: "10.1.0"
+  version: "10.1.0"
   # path: "/assets/js/mermaid-10.1.0/mermaid.esm.min.mjs"

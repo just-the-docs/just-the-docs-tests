@@ -1,0 +1,8 @@
+tr:nth-child(even), th {
+  background-color: $grey-lt-000
+}
+
+td {
+  background-color: inherit;
+  // padding: $sp-2;
+}

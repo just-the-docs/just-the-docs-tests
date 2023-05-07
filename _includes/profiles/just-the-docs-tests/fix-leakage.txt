@@ -1,0 +1,77 @@
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config.yml
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config_fix-leakage.yml
+            Source: /Users/pdm/Projects/GitHub/just-the-docs-tests
+       Destination: /Users/pdm/Projects/GitHub/just-the-docs-tests/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme pdmosses/just-the-docs
+
+Build Process Summary: 
+
+| PHASE    |   TIME |
++----------+--------+
+| RESET    | 0.6247 |
+| READ     | 0.1154 |
+| GENERATE | 0.0018 |
+| RENDER   | 4.8281 |
+| CLEANUP  | 0.0064 |
+| WRITE    | 0.0870 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                           | Count |    Bytes |  Time |
++------------------------------------------------------------------------------------+-------+----------+-------+
+| jekyll-remote-theme-20230507-69244-7tix94/_layouts/default.html                    |   150 | 6068.64K | 2.774 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/sidebar.html        |   150 | 4570.46K | 1.932 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/nav.html                       |  1950 | 3769.68K | 1.795 |
+| jekyll-remote-theme-20230507-69244-7tix94/_layouts/vendor/compress.html            |   150 | 5845.29K | 1.215 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/head.html                      |   150 |  274.90K | 0.669 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/sorted_pages.html              |  1978 |    0.00K | 0.564 |
+| collections/_navigation/grandparent/index.md                                       |     1 |    2.67K | 0.154 |
+| assets/js/zzzz-search-data.json                                                    |     1 |  136.72K | 0.059 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/vendor/anchor_headings.html    |   150 |  310.12K | 0.056 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/breadcrumbs.html    |   150 |   27.96K | 0.038 |
+| jekyll-remote-theme-20230507-69244-7tix94/_layouts/table_wrappers.html             |   150 | 6070.46K | 0.017 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/footer.html         |   150 |   53.86K | 0.015 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/header.html         |   150 |  123.05K | 0.013 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/children_nav.html   |    28 |    8.72K | 0.012 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/icons.html               |   150 |  595.61K | 0.010 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/mermaid.html        |   150 |   37.21K | 0.006 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/search_header.html  |   150 |   66.36K | 0.004 |
+| _includes/head_custom.html                                                         |   150 |    3.81K | 0.004 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/aux_nav.html        |   150 |   45.70K | 0.003 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/css/just-the-docs.scss.liquid  |     3 |   47.64K | 0.003 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/css/callouts.scss.liquid       |     3 |   47.20K | 0.003 |
+| collections/_tests/profiles/just-the-docs-tests/index.md                           |     1 |   10.82K | 0.003 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/title.html                     |   150 |    3.52K | 0.002 |
+| _includes/profiles/profile.md                                                      |     5 |   10.16K | 0.002 |
+| collections/_styling/copy-code.md                                                  |     1 |    3.33K | 0.002 |
+| assets/css/just-the-docs-dark.scss                                                 |     1 |   15.90K | 0.002 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/footer_custom.html             |   150 |    0.00K | 0.001 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/search_placeholder_custom.html |   150 |    3.96K | 0.001 |
+| assets/css/just-the-docs-default.scss                                              |     1 |   15.87K | 0.001 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/components/search_footer.html  |   150 |    5.42K | 0.001 |
+| assets/js/just-the-docs.js                                                         |     1 |   16.49K | 0.001 |
+| assets/css/just-the-docs-light.scss                                                |     1 |   15.87K | 0.001 |
+| collections/_styling/narrow-code.md                                                |     1 |    1.59K | 0.001 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/lunr/custom-data.json          |   254 |    0.00K | 0.001 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/nav_footer_custom.html         |   150 |    0.00K | 0.000 |
+| collections/_styling/linenos.md                                                    |     1 |    1.70K | 0.000 |
+| collections/_tests/about.md                                                        |     1 |    1.86K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/code_copy.html           |   150 |  197.17K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/mermaid_config.js              |   150 |    0.44K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/document.html            |   150 |   62.40K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/link.html                |   150 |   66.94K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/menu.html                |   150 |   63.28K | 0.000 |
+| collections/_tests/current.md                                                      |     1 |   37.99K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/header_custom.html             |   150 |    0.00K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/fix_linenos.html               |     3 |    1.78K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/external_link.html       |   150 |   79.10K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/search.html              |   150 |   58.30K | 0.000 |
+| jekyll-remote-theme-20230507-69244-7tix94/_includes/icons/expand.html              |   150 |   53.47K | 0.000 |
+| index.md                                                                           |     1 |    0.90K | 0.000 |
+| collections/_navigation/collections.md                                             |     1 |    0.74K | 0.000 |
+ 
+                    done in 5.671 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
