@@ -27,8 +27,8 @@ Repository
 
 ## PR 1243 Fix liquid variable leakage in navigation components
 
-{% include profiles/profile.md project="just-the-docs-tests" version="fix-leakage" %}
+{% include profiles/profile.md project="just-the-docs-tests" name="pdmosses" version="fix-leakage" %}
 
 ## PR 1244 Fix the navigation panel
 
-{% include profiles/profile.md project="just-the-docs-tests" version="nav-fix" %}
+{% include profiles/profile.md project="just-the-docs-tests" name="pdmosses" version="nav-fix" %}

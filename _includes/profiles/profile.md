@@ -1,5 +1,5 @@
 {%- comment -%}
-  Include as: {%- include profiles/profile.md project=PROJECT version=VERSION -%}
+  Include as: {%- include profiles/profile.md project=PROJECT name=OPT-NAME version=VERSION -%}
 {%- endcomment -%}
 
 {%- capture text -%}
@@ -13,7 +13,7 @@
 {{ tables[1] | split: "done in " | slice: 1 | first | split: "Auto" | slice: 0 }}
 
 ```yaml
-remote_theme: just-the-docs/just-the-docs@{{ include.version }}
+remote_theme: {{ include.name | default: "just-the-docs" }}/just-the-docs@{{ include.version }}
 ```
 
 {% assign summary = tables[0] | replace: "-+-", ":|:" -%}
