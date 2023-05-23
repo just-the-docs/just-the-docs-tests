@@ -1,0 +1,72 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config_v0.3.3.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.4636 |
+| READ     |   0.4692 |
+| GENERATE |   0.0014 |
+| RENDER   | 298.4950 |
+| CLEANUP  |   0.0442 |
+| WRITE    |   0.6175 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                          | Count |    Bytes |    Time |
++-----------------------------------------------------------------------------------+-------+----------+---------+
+| jekyll-remote-theme-20230523-42393-6jofj6/_layouts/default.html                   |   226 | 9372.20K | 289.519 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/nav.html                      |   226 | 5446.03K | 289.130 |
+| _layouts/product.html                                                             |   223 | 2194.26K |   4.179 |
+| sitemap.xml                                                                       |     1 |   69.17K |   0.939 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/head.html                     |   226 |  546.32K |   0.273 |
+| assets/js/zzzz-search-data.json                                                   |     1 |  276.54K |   0.076 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/vendor/anchor_headings.html   |   226 | 2294.45K |   0.063 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_layouts/table_wrappers.html            |   226 | 9381.57K |   0.038 |
+| _redirects                                                                        |     1 |   44.74K |   0.022 |
+| _headers                                                                          |     1 |   98.68K |   0.013 |
+| _includes/table.html                                                              |    14 |   12.16K |   0.006 |
+| _includes/head_custom.html                                                        |   226 |  136.17K |   0.004 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/title.html                    |   226 |    4.19K |   0.003 |
+| _layouts/schema.html                                                              |     1 |    1.79K |   0.003 |
+| index.md                                                                          |     1 |    4.19K |   0.002 |
+| feed.xml                                                                          |     1 |    0.43K |   0.002 |
+| _includes/variables.html                                                          |     1 |    0.00K |   0.002 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/footer_custom.html            |   226 |    0.00K |   0.002 |
+| products/apache-camel.md                                                          |     1 |    1.22K |   0.002 |
+| assets/css/just-the-docs-dark.scss                                                |     1 |    0.11K |   0.002 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/header_custom.html            |   226 |    0.00K |   0.001 |
+| products/vmware-horizon.md                                                        |     1 |    3.09K |   0.001 |
+| products/vmware-srm.md                                                            |     1 |    2.86K |   0.001 |
+| products/vmware-vcenter.md                                                        |     1 |    2.58K |   0.001 |
+| assets/js/just-the-docs.js                                                        |     1 |   14.41K |   0.001 |
+| products/vmware-esxi.md                                                           |     1 |    2.10K |   0.001 |
+| products/wordpress.md                                                             |     1 |    1.80K |   0.001 |
+| products/azul-zulu.md                                                             |     1 |    2.60K |   0.001 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/css/just-the-docs.scss.liquid |     3 |    0.33K |   0.000 |
+| products/istio.md                                                                 |     1 |    1.51K |   0.000 |
+| products/tomcat.md                                                                |     1 |    2.07K |   0.000 |
+| products/magento.md                                                               |     1 |    2.20K |   0.000 |
+| products/spring-boot.md                                                           |     1 |    1.27K |   0.000 |
+| products/spring-framework.md                                                      |     1 |    1.06K |   0.000 |
+| products/laravel.md                                                               |     1 |    1.19K |   0.000 |
+| products/jekyll.md                                                                |     1 |    0.96K |   0.000 |
+| assets/css/just-the-docs-default.scss                                             |     1 |    0.11K |   0.000 |
+| manifest.json                                                                     |     1 |    0.54K |   0.000 |
+| CONTRIBUTING.md                                                                   |     1 |   19.82K |   0.000 |
+| browserconfig.xml                                                                 |     1 |    0.27K |   0.000 |
+| assets/css/just-the-docs-light.scss                                               |     1 |    0.11K |   0.000 |
+| _layouts/page.html                                                                |     3 |   49.94K |   0.000 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/css/custom.scss.liquid        |     3 |    0.08K |   0.000 |
+| jekyll-remote-theme-20230523-42393-6jofj6/_includes/js/custom.js                  |     1 |    0.00K |   0.000 |
+ 
+                    done in 300.097 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
