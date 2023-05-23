@@ -2,7 +2,8 @@ title: Just the Docs Tests
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
-remote_theme: just-the-docs/just-the-docs@v0.5.1
+# remote_theme: just-the-docs/just-the-docs@v0.5.1
+remote_theme: pdmosses/just-the-docs@nav-fix # PR 1244
 
 plugins:
   - jekyll-remote-theme
