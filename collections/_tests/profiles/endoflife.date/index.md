@@ -6,8 +6,8 @@ parent: Profiles
 # `endoflife.date`
 
 `endoflife.date` documents EOL dates and support lifecycles for various products.
-`endoflife.date` currently tracks 224 products.
-The website has about 226 pages.
+On 2023-06-04, `endoflife.date` tracked 225 products, and the website had 228 pages.
+The navigation has only top-level pages.
 
 Website
 : <https://endoflife.date>
@@ -37,6 +37,10 @@ Changes (2) and (3) seem unlikely to have affected the profile results.
 
 {% include profiles/profile.md project="endoflife.date" version="v0.3.3" %}
 
+## v0.4.0
+
+{% include profiles/profile.md project="endoflife.date" version="v0.4.0" %}
+
 ## v0.4.2
 
 {% include profiles/profile.md project="endoflife.date" version="v0.4.2" %}
@@ -47,6 +51,6 @@ Changes (2) and (3) seem unlikely to have affected the profile results.
 
 ## PR 1244 Fix the navigation panel
 
-[Draft 2023-05-28](https://github.com/just-the-docs/just-the-docs/pull/1244/commits/a7cdd1781e3050e9d12f55b34f3e2a9438b09b4f)
+[Draft 2023-06-04](https://github.com/just-the-docs/just-the-docs/pull/1244/commits/d14cd245bf721de267e6d2769458ed790bec9b17)
 
 {% include profiles/profile.md project="endoflife.date" name="pdmosses" version="nav-fix" %}
