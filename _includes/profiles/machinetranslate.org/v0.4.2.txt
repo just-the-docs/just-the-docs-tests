@@ -1,0 +1,78 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config_v0.4.2.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.6027 |
+| READ     |   0.6349 |
+| GENERATE |   0.0563 |
+| RENDER   | 343.3340 |
+| CLEANUP  |   0.0062 |
+| WRITE    |   0.0837 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                                         | Count |     Bytes |    Time |
++--------------------------------------------------------------------------------------------------+-------+-----------+---------+
+| jekyll-remote-theme-20230605-50301-jrloyg/_layouts/default.html                                  |   568 | 32024.44K | 304.917 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/sidebar.html                      |   568 | 22715.84K | 303.257 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/nav.html                                     |   568 | 22387.47K | 296.659 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/head.html                                    |   568 |  1190.89K |   1.027 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_layouts/vendor/compress.html                          |   568 | 29759.60K |   0.951 |
+| assets/js/zzzz-search-data.json                                                                  |     1 |   978.87K |   0.442 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/vendor/anchor_headings.html                  |   568 |  2820.92K |   0.391 |
+| _layouts/language.html                                                                           |   226 |   445.97K |   0.312 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_layouts/table_wrappers.html                           |   568 | 32035.13K |   0.087 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/footer.html                       |   568 |  2230.21K |   0.061 |
+| _layouts/api.html                                                                                |    74 |   670.91K |   0.058 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/icons.html                             |   568 |  2255.36K |   0.041 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/header.html                       |   568 |   286.22K |   0.041 |
+| _includes/footer_custom.html                                                                     |   568 |  2132.59K |   0.033 |
+| sitemap.xml                                                                                      |     1 |    35.83K |   0.031 |
+| feed.xml                                                                                         |     1 |     0.53K |   0.028 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/search_header.html                |   568 |   249.05K |   0.022 |
+| customisation/customisation.md                                                                   |     1 |     1.17K |   0.015 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/breadcrumbs.html                  |   568 |   169.91K |   0.014 |
+| _includes/title.html                                                                             |   568 |    28.84K |   0.008 |
+| contributing/coming-soon.md                                                                      |     1 |     4.39K |   0.007 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/children_nav.html                 |    19 |    29.12K |   0.007 |
+| _layouts/page.html                                                                               |   226 |  1438.17K |   0.006 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/components/search_footer.html                |   568 |    99.84K |   0.006 |
+| customisation/adaptive.md                                                                        |     1 |     2.25K |   0.006 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/search_placeholder_custom.html               |   568 |    13.87K |   0.005 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/lunr/custom-data.json                        |  1437 |     0.00K |   0.005 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/nav_footer_custom.html                       |   568 |     0.00K |   0.004 |
+| _layouts/language_family.html                                                                    |    41 |    35.87K |   0.004 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/head_custom.html                             |   568 |     0.00K |   0.002 |
+| assets/js/just-the-docs.js                                                                       |     1 |    16.21K |   0.002 |
+| _includes/github.html                                                                            |   569 |   423.42K |   0.002 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/link.html                              |   568 |   253.49K |   0.002 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/document.html                          |   568 |   236.30K |   0.002 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/code_copy.html                         |   568 |   746.61K |   0.002 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/header_custom.html                           |   568 |     0.00K |   0.001 |
+| _includes/twitter.html                                                                           |   569 |   310.62K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/expand.html                            |   568 |   202.46K |   0.001 |
+| _includes/facebook.html                                                                          |   569 |   173.37K |   0.001 |
+| _includes/linkedin.html                                                                          |   569 |   288.95K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/menu.html                              |   568 |   239.62K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/search.html                            |   568 |   220.77K |   0.001 |
+| assets/css/just-the-docs-dark.scss                                                               |     1 |     0.25K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/css/just-the-docs.scss.liquid                |     3 |     0.72K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/icons/external_link.html                     |   568 |   299.53K |   0.001 |
+| contributing/contributors.md                                                                     |     1 |     0.43K |   0.001 |
+| about.md                                                                                         |     1 |     2.93K |   0.001 |
+| vendor/bundle/ruby/2.7.0/gems/jekyll-redirect-from-0.16.0/lib/jekyll-redirect-from/redirect.html |    23 |    10.98K |   0.001 |
+| jekyll-remote-theme-20230605-50301-jrloyg/_includes/css/callouts.scss.liquid                     |     3 |     0.17K |   0.001 |
+| assets/css/just-the-docs-default.scss                                                            |     1 |     0.25K |   0.001 |
+ 
+                    done in 344.73 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

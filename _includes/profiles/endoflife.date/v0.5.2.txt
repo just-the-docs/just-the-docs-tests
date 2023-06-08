@@ -1,0 +1,78 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config_v0.5.2.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |    TIME |
++----------+---------+
+| RESET    |  0.5487 |
+| READ     |  0.5001 |
+| GENERATE |  0.0008 |
+| RENDER   | 27.0073 |
+| CLEANUP  |  0.0454 |
+| WRITE    |  0.5995 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                           | Count |    Bytes |   Time |
++------------------------------------------------------------------------------------+-------+----------+--------+
+| jekyll-remote-theme-20230608-92559-d743im/_layouts/default.html                    |   228 | 8753.61K | 20.116 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/sidebar.html        |   228 | 4589.79K | 15.008 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/nav.html                       |   228 | 4446.40K | 13.547 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/sorted_pages.html              |   228 |    0.00K |  8.364 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/head.html                      |   228 |  540.80K |  4.969 |
+| _layouts/product.html                                                              |   225 | 2239.98K |  4.091 |
+| sitemap.xml                                                                        |     1 |   69.81K |  0.945 |
+| assets/js/zzzz-search-data.json                                                    |     1 |  273.38K |  0.078 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/vendor/anchor_headings.html    |   228 | 2324.49K |  0.073 |
+| jekyll-remote-theme-20230608-92559-d743im/_layouts/table_wrappers.html             |   228 | 8763.08K |  0.035 |
+| _redirects                                                                         |     1 |   45.29K |  0.024 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/header.html         |   228 |  288.34K |  0.024 |
+| _layouts/schema.html                                                               |     1 |    1.79K |  0.021 |
+| _includes/variables.html                                                           |     1 |    0.00K |  0.020 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/icons/icons.html               |   228 |  905.32K |  0.013 |
+| _headers                                                                           |     1 |   99.57K |  0.012 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/aux_nav.html        |   228 |  169.89K |  0.010 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/search_header.html  |   228 |  101.75K |  0.006 |
+| _includes/table.html                                                               |    14 |   12.17K |  0.006 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/footer.html         |   228 |    0.45K |  0.005 |
+| _includes/head_custom.html                                                         |   228 |  137.38K |  0.005 |
+| feed.xml                                                                           |     1 |    0.43K |  0.003 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/title.html                     |   228 |    4.23K |  0.002 |
+| index.md                                                                           |     1 |    4.19K |  0.002 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/breadcrumbs.html    |   228 |    0.00K |  0.002 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/search_placeholder_custom.html |   228 |    4.90K |  0.002 |
+| products/apache-camel.md                                                           |     1 |    1.22K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/footer_custom.html             |   228 |    0.00K |  0.001 |
+| products/laravel.md                                                                |     1 |    1.19K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/components/search_footer.html  |   228 |    8.24K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/nav_footer_custom.html         |   228 |    0.00K |  0.001 |
+| products/vmware-horizon.md                                                         |     1 |    3.12K |  0.001 |
+| products/vmware-srm.md                                                             |     1 |    2.82K |  0.001 |
+| assets/css/just-the-docs-dark.scss                                                 |     1 |    0.23K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/icons/link.html                |   228 |  101.75K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/css/just-the-docs.scss.liquid  |     3 |    0.61K |  0.001 |
+| products/vmware-vcenter.md                                                         |     1 |    2.55K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/lunr/custom-data.json          |   367 |    0.00K |  0.001 |
+| assets/js/just-the-docs.js                                                         |     1 |   16.54K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/icons/document.html            |   228 |   94.85K |  0.001 |
+| products/wordpress.md                                                              |     1 |    1.80K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/icons/code_copy.html           |   228 |  299.70K |  0.001 |
+| products/vmware-esxi.md                                                            |     1 |    2.08K |  0.001 |
+| products/azul-zulu.md                                                              |     1 |    2.60K |  0.001 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/header_custom.html             |   228 |    0.00K |  0.000 |
+| products/spring-boot.md                                                            |     1 |    1.33K |  0.000 |
+| products/istio.md                                                                  |     1 |    1.51K |  0.000 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/icons/search.html              |   228 |   88.62K |  0.000 |
+| jekyll-remote-theme-20230608-92559-d743im/_includes/css/callouts.scss.liquid       |     3 |    0.17K |  0.000 |
+| products/magento.md                                                                |     1 |    2.20K |  0.000 |
+ 
+                    done in 28.71 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
