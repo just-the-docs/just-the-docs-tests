@@ -22,7 +22,6 @@ Build
   bundle install > /tmp/install.log
   bundle exec jekyll clean >> /tmp/install.log
   bundle exec jekyll build --config _config.yml,$DIR/_config_$2.yml --profile > $DIR/_includes/profiles/$1/$2.txt 2> /tmp/build.log
-
   ```
 
 Each of the following pages shows the profiles for building a particular website using different versions of Just the Docs.

@@ -41,6 +41,6 @@ Repository
 
 ## PR 1244 Fix the navigation panel
 
-[Draft 2023-06-06](https://github.com/just-the-docs/just-the-docs/pull/1244/commits/620e53178f708f5b6da764b4302722e8103dcb6a)
+[2023-06-09](https://github.com/pdmosses/just-the-docs/commit/1f0ceb105f1af22132cf36b44ea70c4af408847a)
 
 {% include profiles/profile.md project="just-the-docs-tests" name="pdmosses" version="nav-fix" %}
