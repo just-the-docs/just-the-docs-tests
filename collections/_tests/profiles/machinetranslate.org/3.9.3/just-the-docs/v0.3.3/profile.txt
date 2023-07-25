@@ -1,0 +1,63 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Filename                                                           | Count |     Bytes |    Time
+-------------------------------------------------------------------+-------+-----------+--------
+_layouts/default.html                                              |   573 | 37513.06K | 401.114
+just-the-docs-5a78a7d39bc6/_includes/nav.html                      |   573 | 28308.90K | 373.243
+just-the-docs-5a78a7d39bc6/_includes/head.html                     |   573 |  1376.78K |   1.719
+_layouts/vendor/compress.html                                      |   573 | 35153.16K |   1.172
+assets/js/zzzz-search-data.json                                    |     1 |  1022.62K |   1.023
+just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |   573 |  2950.64K |   0.602
+_includes/head_custom.html                                         |   573 |   162.26K |   0.463
+_includes/footer_custom.html                                       |   573 |  2171.54K |   0.414
+contributing/contributors.md                                       |     1 |    13.93K |   0.333
+_includes/contributions.html                                       |     2 |     0.07K |   0.331
+_layouts/language.html                                             |   226 |   446.69K |   0.293
+sitemap.xml                                                        |     1 |    36.15K |   0.286
+_layouts/table_wrappers.html                                       |   573 | 37524.02K |   0.110
+_layouts/api.html                                                  |    75 |   673.98K |   0.094
+contributing/coming-soon.md                                        |     1 |     4.41K |   0.073
+_includes/title.html                                               |   573 |    29.10K |   0.024
+_layouts/page.html                                                 |   230 |  1461.44K |   0.012
+just-the-docs-5a78a7d39bc6/_includes/header_custom.html            |   573 |     0.00K |   0.009
+_layouts/language_family.html                                      |    41 |    35.84K |   0.008
+_includes/github.html                                              |   574 |   427.14K |   0.005
+_includes/twitter.html                                             |   574 |   313.35K |   0.005
+_includes/linkedin.html                                            |   574 |   291.48K |   0.004
+_includes/facebook.html                                            |   574 |   174.89K |   0.004
+customisation/customisation.md                                     |     1 |     1.17K |   0.002
+feed.xml                                                           |     1 |     0.53K |   0.002
+index.md                                                           |     1 |     4.55K |   0.002
+just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |     0.48K |   0.001
+_layouts/redirect.html                                             |    23 |    10.98K |   0.001
+resources/publications.md                                          |     1 |     8.97K |   0.001
+quality/metrics/metrics.md                                         |     1 |     2.87K |   0.001
+assets/css/just-the-docs-dark.scss                                 |     1 |     0.16K |   0.001
+associations/iamt.md                                               |     1 |    14.01K |   0.001
+events/eamt2023.md                                                 |     1 |    14.05K |   0.001
+community/communities.md                                           |     1 |     6.79K |   0.001
+associations/wmt.md                                                |     1 |     4.87K |   0.001
+about.md                                                           |     1 |     2.92K |   0.001
+customisation/adaptive.md                                          |     1 |     2.18K |   0.001
+assets/js/just-the-docs.js                                         |     1 |    14.43K |   0.001
+assets/css/just-the-docs-default.scss                              |     1 |     0.17K |   0.001
+_layouts/coming_soon.html                                          |    21 |     2.95K |   0.001
+assets/css/just-the-docs-light.scss                                |     1 |     0.16K |   0.001
+events/wmt14.md                                                    |     1 |    14.63K |   0.001
+_includes/collapsible_toc.html                                     |    28 |     3.36K |   0.000
+events/wmt16.md                                                    |     1 |    23.85K |   0.000
+events/wmt19.md                                                    |     1 |    28.30K |   0.000
+events/wmt22.md                                                    |     1 |    41.46K |   0.000
+events/wmt11.md                                                    |     1 |    15.45K |   0.000
+events/wmt09.md                                                    |     1 |    10.99K |   0.000
+events/wmt20.md                                                    |     1 |    35.88K |   0.000
+events/wmt21.md                                                    |     1 |    35.19K |   0.000
+
+ 
+                    done in 430.551 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

@@ -1,0 +1,77 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.0001 |
+| READ     |   0.4461 |
+| GENERATE |   0.1553 |
+| RENDER   | 249.4472 |
+| CLEANUP  |   0.0043 |
+| WRITE    |   0.1068 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                           | Count |     Bytes |    Time |
++--------------------------------------------------------------------+-------+-----------+---------+
+| just-the-docs-5a78a7d39bc6/_layouts/default.html                   |   573 | 37885.41K | 218.578 |
+| just-the-docs-5a78a7d39bc6/_includes/nav.html                      |   573 | 28296.03K | 192.688 |
+| just-the-docs-5a78a7d39bc6/_layouts/vendor/compress.html           |   573 | 33915.57K |   5.766 |
+| just-the-docs-5a78a7d39bc6/_includes/head.html                     |   573 |  1391.26K |   0.552 |
+| contributing/contributors.md                                       |     1 |    13.93K |   0.342 |
+| _includes/contributions.html                                       |     2 |     0.07K |   0.340 |
+| assets/js/zzzz-search-data.json                                    |     1 |  1022.58K |   0.312 |
+| just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |   573 |  2950.62K |   0.239 |
+| _layouts/language.html                                             |   226 |   446.69K |   0.220 |
+| just-the-docs-5a78a7d39bc6/_layouts/table_wrappers.html            |   573 | 37896.37K |   0.088 |
+| _layouts/api.html                                                  |    75 |   673.98K |   0.041 |
+| _includes/footer_custom.html                                       |   573 |  2171.54K |   0.040 |
+| _includes/head_custom.html                                         |   573 |   162.26K |   0.037 |
+| sitemap.xml                                                        |     1 |    36.13K |   0.023 |
+| _includes/title.html                                               |   573 |    29.10K |   0.007 |
+| contributing/coming-soon.md                                        |     1 |     4.41K |   0.006 |
+| customisation/customisation.md                                     |     1 |     1.17K |   0.005 |
+| _layouts/page.html                                                 |   230 |  1461.41K |   0.004 |
+| _layouts/language_family.html                                      |    41 |    35.84K |   0.003 |
+| just-the-docs-5a78a7d39bc6/_includes/header_custom.html            |   573 |     0.00K |   0.003 |
+| customisation/adaptive.md                                          |     1 |     2.18K |   0.002 |
+| assets/css/just-the-docs-dark.scss                                 |     1 |     0.16K |   0.002 |
+| feed.xml                                                           |     1 |     0.53K |   0.002 |
+| _includes/github.html                                              |   574 |   427.14K |   0.001 |
+| _includes/twitter.html                                             |   574 |   313.35K |   0.001 |
+| about.md                                                           |     1 |     2.92K |   0.001 |
+| _includes/linkedin.html                                            |   574 |   291.48K |   0.001 |
+| _includes/facebook.html                                            |   574 |   174.89K |   0.001 |
+| assets/js/just-the-docs.js                                         |     1 |    14.43K |   0.001 |
+| index.md                                                           |     1 |     4.55K |   0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |     0.48K |   0.000 |
+| jekyll-redirect-from-0.16.0/lib/jekyll-redirect-from/redirect.html |    23 |    10.98K |   0.000 |
+| _layouts/coming_soon.html                                          |    21 |     2.95K |   0.000 |
+| assets/css/just-the-docs-default.scss                              |     1 |     0.17K |   0.000 |
+| events/wmt22.md                                                    |     1 |    41.46K |   0.000 |
+| events/wmt21.md                                                    |     1 |    35.19K |   0.000 |
+| events/wmt20.md                                                    |     1 |    35.88K |   0.000 |
+| _includes/collapsible_toc.html                                     |    28 |     3.36K |   0.000 |
+| assets/css/just-the-docs-light.scss                                |     1 |     0.16K |   0.000 |
+| events/wmt19.md                                                    |     1 |    28.30K |   0.000 |
+| events/wmt18.md                                                    |     1 |    26.08K |   0.000 |
+| events/wmt16.md                                                    |     1 |    23.85K |   0.000 |
+| events/wmt10.md                                                    |     1 |    14.75K |   0.000 |
+| events/wmt17.md                                                    |     1 |    19.24K |   0.000 |
+| events/wmt14.md                                                    |     1 |    14.63K |   0.000 |
+| robots.txt                                                         |     1 |     0.05K |   0.000 |
+| events/wmt15.md                                                    |     1 |    14.45K |   0.000 |
+| events/wmt11.md                                                    |     1 |    15.45K |   0.000 |
+| events/wmt08.md                                                    |     1 |    10.03K |   0.000 |
+| events/wmt06.md                                                    |     1 |     7.01K |   0.000 |
+ 
+                    done in 250.171 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

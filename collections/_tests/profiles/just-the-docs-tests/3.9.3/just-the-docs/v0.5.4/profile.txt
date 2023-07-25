@@ -1,0 +1,62 @@
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config.yml
+            Source: /Users/pdm/Projects/GitHub/just-the-docs-tests
+       Destination: /Users/pdm/Projects/GitHub/just-the-docs-tests/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+
+Filename                                                            | Count |    Bytes |  Time
+--------------------------------------------------------------------+-------+----------+------
+_layouts/default.html                                               |   152 | 6752.98K | 7.715
+just-the-docs-9959191af189/_includes/components/sidebar.html        |   152 | 5082.64K | 4.911
+just-the-docs-9959191af189/_includes/nav.html                       |   152 | 4059.82K | 4.065
+just-the-docs-9959191af189/_includes/head.html                      |   152 |  292.44K | 1.893
+_layouts/vendor/compress.html                                       |   152 | 6526.50K | 1.480
+just-the-docs-9959191af189/_includes/sorted_pages.html              |   152 |    0.00K | 1.265
+assets/js/zzzz-search-data.json                                     |     1 |  173.35K | 0.220
+just-the-docs-9959191af189/_includes/vendor/anchor_headings.html    |   152 |  446.26K | 0.214
+just-the-docs-9959191af189/_includes/components/children_nav.html   |    28 |    9.02K | 0.169
+just-the-docs-9959191af189/_includes/components/breadcrumbs.html    |   152 |   28.53K | 0.092
+just-the-docs-9959191af189/_includes/icons/icons.html               |   152 |  603.55K | 0.081
+just-the-docs-9959191af189/_includes/components/header.html         |   152 |  126.77K | 0.077
+just-the-docs-9959191af189/_includes/components/footer.html         |   152 |   54.61K | 0.072
+just-the-docs-9959191af189/_includes/components/mermaid.html        |   152 |   37.70K | 0.045
+_layouts/table_wrappers.html                                        |   152 | 6755.68K | 0.027
+collections/_navigation/grandparent/index.md                        |     1 |    2.59K | 0.025
+just-the-docs-9959191af189/_includes/components/search_header.html  |   152 |   69.32K | 0.023
+_includes/head_custom.html                                          |   152 |    3.82K | 0.020
+_includes/profiles/profile.md                                       |     3 |   63.19K | 0.015
+just-the-docs-9959191af189/_includes/components/aux_nav.html        |   152 |   46.31K | 0.014
+just-the-docs-9959191af189/_includes/title.html                     |   152 |    3.56K | 0.010
+just-the-docs-9959191af189/_includes/css/just-the-docs.scss.liquid  |     3 |   47.64K | 0.009
+just-the-docs-9959191af189/_includes/footer_custom.html             |   152 |    0.00K | 0.007
+collections/_tests/profiles/endoflife.date/index.md                 |     1 |   20.33K | 0.006
+collections/_tests/profiles/machinetranslate.org/index.md           |     1 |   27.60K | 0.006
+assets/css/just-the-docs-default.scss                               |     1 |   15.87K | 0.006
+just-the-docs-9959191af189/_includes/components/search_footer.html  |   152 |    5.49K | 0.005
+collections/_tests/profiles/just-the-docs-tests/index.md            |     1 |   18.40K | 0.005
+just-the-docs-9959191af189/_includes/search_placeholder_custom.html |   152 |    4.01K | 0.004
+just-the-docs-9959191af189/_includes/css/callouts.scss.liquid       |     3 |   47.20K | 0.004
+assets/css/just-the-docs-dark.scss                                  |     1 |   15.90K | 0.004
+collections/_styling/copy-code.md                                   |     1 |    3.33K | 0.003
+assets/css/just-the-docs-light.scss                                 |     1 |   15.87K | 0.003
+just-the-docs-9959191af189/_includes/icons/code_copy.html           |   152 |  199.80K | 0.002
+just-the-docs-9959191af189/_includes/icons/link.html                |   152 |   67.84K | 0.002
+assets/js/just-the-docs.js                                          |     1 |   16.58K | 0.002
+just-the-docs-9959191af189/_includes/icons/document.html            |   152 |   63.23K | 0.002
+just-the-docs-9959191af189/_includes/icons/menu.html                |   152 |   64.12K | 0.002
+just-the-docs-9959191af189/_includes/mermaid_config.js              |   152 |    0.45K | 0.001
+just-the-docs-9959191af189/_includes/icons/external_link.html       |   152 |   80.16K | 0.001
+just-the-docs-9959191af189/_includes/icons/expand.html              |   152 |   54.18K | 0.001
+just-the-docs-9959191af189/_includes/nav_footer_custom.html         |   152 |    0.00K | 0.001
+just-the-docs-9959191af189/_includes/icons/search.html              |   152 |   59.08K | 0.001
+collections/_navigation/grandparent/index.md/#excerpt               |     1 |    0.31K | 0.001
+index.md                                                            |     1 |    1.22K | 0.001
+just-the-docs-9959191af189/_includes/header_custom.html             |   152 |    0.00K | 0.001
+just-the-docs-9959191af189/_includes/lunr/custom-data.json          |     1 |    0.00K | 0.001
+collections/_styling/narrow-code.md                                 |     1 |    1.59K | 0.001
+(variable)                                                          |    18 |    0.67K | 0.001
+collections/_styling/linenos.md                                     |     1 |    1.70K | 0.001
+
+ 
+                    done in 12.276 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

@@ -1,0 +1,63 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Filename                                                            | Count |     Bytes |   Time
+--------------------------------------------------------------------+-------+-----------+-------
+_layouts/default.html                                               |   248 | 10146.53K | 28.598
+just-the-docs-1f0ceb105f1a/_includes/head.html                      |   248 |   795.16K | 23.787
+just-the-docs-1f0ceb105f1a/_includes/css/activation.scss.liquid     |   248 |   299.58K | 20.675
+just-the-docs-1f0ceb105f1a/_includes/sorted_pages.html              |   246 |     0.00K | 16.220
+just-the-docs-1f0ceb105f1a/_includes/components/sidebar.html        |   248 |  5420.40K |  4.075
+_layouts/product.html                                               |   245 |  2430.71K |  4.004
+sitemap.xml                                                         |     1 |    76.00K |  0.938
+just-the-docs-1f0ceb105f1a/_includes/vendor/anchor_headings.html    |   248 |  2518.53K |  0.251
+assets/js/zzzz-search-data.json                                     |     1 |   294.44K |  0.150
+just-the-docs-1f0ceb105f1a/_includes/icons/icons.html               |   248 |   984.73K |  0.105
+just-the-docs-1f0ceb105f1a/_includes/nav.html                       |     1 |    21.23K |  0.104
+just-the-docs-1f0ceb105f1a/_includes/components/header.html         |   248 |   313.63K |  0.101
+just-the-docs-1f0ceb105f1a/_includes/components/footer.html         |   248 |     0.48K |  0.076
+_redirects                                                          |     1 |    76.25K |  0.065
+_includes/head_custom.html                                          |   248 |   149.43K |  0.059
+just-the-docs-1f0ceb105f1a/_includes/components/breadcrumbs.html    |   248 |     0.00K |  0.053
+_headers                                                            |     1 |   108.48K |  0.048
+_layouts/table_wrappers.html                                        |   248 | 10156.76K |  0.047
+just-the-docs-1f0ceb105f1a/_includes/components/search_header.html  |   248 |   110.68K |  0.029
+just-the-docs-1f0ceb105f1a/_includes/components/aux_nav.html        |   248 |   184.79K |  0.023
+just-the-docs-1f0ceb105f1a/_includes/favicon.html                   |     1 |     0.06K |  0.022
+just-the-docs-1f0ceb105f1a/_includes/title.html                     |   248 |     4.60K |  0.012
+_includes/table.html                                                |    15 |    12.99K |  0.010
+just-the-docs-1f0ceb105f1a/_includes/footer_custom.html             |   248 |     0.00K |  0.009
+just-the-docs-1f0ceb105f1a/_includes/components/search_footer.html  |   248 |     8.96K |  0.007
+just-the-docs-1f0ceb105f1a/_includes/search_placeholder_custom.html |   248 |     5.33K |  0.005
+index.md                                                            |     1 |     4.19K |  0.005
+just-the-docs-1f0ceb105f1a/_includes/icons/code_copy.html           |   248 |   325.98K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/icons/link.html                |   248 |   110.68K |  0.002
+_layouts/schema.html                                                |     1 |     1.79K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/css/just-the-docs.scss.liquid  |     3 |     0.61K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/icons/menu.html                |   248 |   104.62K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/nav_footer_custom.html         |   248 |     0.00K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/icons/expand.html              |   248 |    88.40K |  0.002
+assets/css/just-the-docs-dark.scss                                  |     1 |     0.23K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/icons/document.html            |   248 |   103.17K |  0.002
+feed.xml                                                            |     1 |     0.43K |  0.002
+just-the-docs-1f0ceb105f1a/_includes/icons/external_link.html       |   248 |   130.78K |  0.002
+products/vmware-horizon.md                                          |     1 |     3.25K |  0.001
+just-the-docs-1f0ceb105f1a/_includes/icons/search.html              |   248 |    96.39K |  0.001
+products/vmware-srm.md                                              |     1 |     2.85K |  0.001
+products/laravel.md                                                 |     1 |     1.19K |  0.001
+just-the-docs-1f0ceb105f1a/_includes/header_custom.html             |   248 |     0.00K |  0.001
+products/vmware-vcenter.md                                          |     1 |     2.58K |  0.001
+_includes/variables.html                                            |     1 |     0.00K |  0.001
+just-the-docs-1f0ceb105f1a/_includes/css/callouts.scss.liquid       |     3 |     0.17K |  0.001
+products/vmware-esxi.md                                             |     1 |     2.11K |  0.001
+products/wordpress.md                                               |     1 |     1.80K |  0.001
+assets/css/just-the-docs-default.scss                               |     1 |     0.20K |  0.001
+just-the-docs-1f0ceb105f1a/_includes/lunr/custom-data.json          |     1 |     0.00K |  0.001
+
+ 
+                    done in 37.18 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

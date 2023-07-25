@@ -1,0 +1,77 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/bundler/gems/just-the-docs-9959191af189/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.0001 |
+| READ     |   0.4287 |
+| GENERATE |   0.1539 |
+| RENDER   | 137.9669 |
+| CLEANUP  |   0.0054 |
+| WRITE    |   0.1059 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |    Time |
++---------------------------------------------------------------------+-------+-----------+---------+
+| just-the-docs-9959191af189/_layouts/default.html                    |   573 | 33653.44K | 109.860 |
+| just-the-docs-9959191af189/_includes/components/sidebar.html        |   573 | 23603.59K | 104.418 |
+| just-the-docs-9959191af189/_includes/nav.html                       |   573 | 23021.08K | 100.143 |
+| just-the-docs-9959191af189/_includes/sorted_pages.html              |   592 |     0.00K |  57.074 |
+| just-the-docs-9959191af189/_layouts/vendor/compress.html            |   573 | 29699.66K |   5.459 |
+| just-the-docs-9959191af189/_includes/components/breadcrumbs.html    |   573 |   142.52K |   4.043 |
+| just-the-docs-9959191af189/_includes/head.html                      |   573 |  1361.60K |   0.823 |
+| contributing/contributors.md                                        |     1 |    32.42K |   0.342 |
+| _includes/contributions.html                                        |     2 |     0.07K |   0.340 |
+| assets/js/zzzz-search-data.json                                     |     1 |   990.57K |   0.309 |
+| just-the-docs-9959191af189/_includes/vendor/anchor_headings.html    |   573 |  2865.56K |   0.280 |
+| _layouts/language.html                                              |   226 |   446.69K |   0.219 |
+| just-the-docs-9959191af189/_layouts/table_wrappers.html             |   573 | 33664.40K |   0.081 |
+| just-the-docs-9959191af189/_includes/components/children_nav.html   |    19 |    25.61K |   0.076 |
+| just-the-docs-9959191af189/_includes/components/footer.html         |   573 |  2392.93K |   0.073 |
+| just-the-docs-9959191af189/_includes/components/header.html         |   573 |   465.56K |   0.041 |
+| _layouts/api.html                                                   |    75 |   673.98K |   0.041 |
+| _includes/head_custom.html                                          |   573 |   162.26K |   0.037 |
+| _includes/footer_custom.html                                        |   573 |  2165.95K |   0.030 |
+| just-the-docs-9959191af189/_includes/icons/icons.html               |   573 |  2275.21K |   0.029 |
+| sitemap.xml                                                         |     1 |    36.13K |   0.022 |
+| just-the-docs-9959191af189/_includes/components/mermaid.html        |   573 |   140.45K |   0.018 |
+| just-the-docs-9959191af189/_includes/components/search_header.html  |   573 |   259.08K |   0.013 |
+| just-the-docs-9959191af189/_includes/components/aux_nav.html        |   573 |   164.51K |   0.011 |
+| _includes/title.html                                                |   573 |    29.10K |   0.006 |
+| contributing/coming-soon.md                                         |     1 |     4.41K |   0.005 |
+| customisation/customisation.md                                      |     1 |     1.17K |   0.005 |
+| _layouts/page.html                                                  |   230 |  1477.18K |   0.004 |
+| just-the-docs-9959191af189/_includes/components/search_footer.html  |   573 |   133.74K |   0.004 |
+| just-the-docs-9959191af189/_includes/search_placeholder_custom.html |   573 |    13.99K |   0.003 |
+| just-the-docs-9959191af189/_includes/lunr/custom-data.json          |  1452 |     0.00K |   0.003 |
+| just-the-docs-9959191af189/_includes/nav_footer_custom.html         |   573 |     0.00K |   0.003 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     7.33K |   0.003 |
+| _layouts/language_family.html                                       |    41 |    35.84K |   0.003 |
+| just-the-docs-9959191af189/_includes/css/just-the-docs.scss.liquid  |     3 |    21.97K |   0.002 |
+| customisation/adaptive.md                                           |     1 |     2.18K |   0.002 |
+| just-the-docs-9959191af189/_includes/css/callouts.scss.liquid       |     3 |    21.42K |   0.002 |
+| feed.xml                                                            |     1 |     0.53K |   0.002 |
+| _includes/github.html                                               |   574 |   427.14K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/link.html                |   573 |   255.72K |   0.001 |
+| just-the-docs-9959191af189/_includes/mermaid_config.js              |   573 |     1.68K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/external_link.html       |   573 |   302.17K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/code_copy.html           |   573 |   753.18K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/search.html              |   573 |   222.71K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/document.html            |   573 |   238.38K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/menu.html                |   573 |   241.73K |   0.001 |
+| _includes/linkedin.html                                             |   574 |   291.48K |   0.001 |
+| _includes/twitter.html                                              |   574 |   313.35K |   0.001 |
+| just-the-docs-9959191af189/_includes/icons/expand.html              |   573 |   204.24K |   0.001 |
+| _includes/facebook.html                                             |   574 |   174.89K |   0.001 |
+ 
+                    done in 138.67 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
