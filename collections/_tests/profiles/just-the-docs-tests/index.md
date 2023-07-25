@@ -1,10 +1,10 @@
 ---
-title: Just the Docs Tests
+title: just-the-docs-tests
 parent: Profiles
 nav_order: 1
 ---
 
-# Just the Docs Tests
+# `just-the-docs-tests`
 
 > The _Just-the-Docs Tests_ website provides regression tests and examples of use for the _Just the Docs_ theme.
 
