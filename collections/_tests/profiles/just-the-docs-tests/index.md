@@ -6,12 +6,7 @@ nav_order: 1
 
 # Just the Docs Tests
 
-The _Just-the-Docs Tests_ webiste provides regression tests and examples of use for the _Just the Docs_ theme.
-
-The profiles were produced using a clone of the source repo, last updated on 2023-06-08.
-
-The build created about 150 pages, organised mostly in 11 collections of various sizes, 
-including several three-level hierarchies with a variety of navigation orders.
+> The _Just-the-Docs Tests_ website provides regression tests and examples of use for the _Just the Docs_ theme.
 
 Website
 : <https://just-the-docs.github.io/just-the-docs-tests/>
@@ -19,28 +14,12 @@ Website
 Repository
 : <https://github.com/just-the-docs/just-the-docs-tests>
 
-## v0.3.3
+The website has about 150 pages, organised mostly in 11 collections of various sizes, 
+including several three-level hierarchies with a variety of navigation orders.
 
-{% include profiles/profile.md project="just-the-docs-tests" version="v0.3.3" %}
+The profiles were produced using a clone of the source repo, last pulled:
 
-## v0.4.0
-
-{% include profiles/profile.md project="just-the-docs-tests" version="v0.4.0" %}
-
-## v0.4.2
-
-{% include profiles/profile.md project="just-the-docs-tests" version="v0.4.2" %}
-
-## v0.5.1
-
-{% include profiles/profile.md project="just-the-docs-tests" version="v0.5.1" %}
-
-## v0.5.2
-
-{% include profiles/profile.md project="just-the-docs-tests" version="v0.5.2" %}
-
-## PR 1244 Fix the navigation panel
-
-[2023-06-09](https://github.com/pdmosses/just-the-docs/commit/1f0ceb105f1af22132cf36b44ea70c4af408847a)
-
-{% include profiles/profile.md project="just-the-docs-tests" name="pdmosses" version="nav-fix" %}
+```sh
+just-the-docs-tests: stat -f %Sm .git/FETCH_HEAD
+Jul 24 19:49:39 2023
+```

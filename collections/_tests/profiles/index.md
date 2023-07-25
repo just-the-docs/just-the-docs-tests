@@ -5,23 +5,38 @@ has_children: true
 
 # Profiles
 
+The following tables summarise the build times for several websites
+when using the specified versions of _Jekyll_ and the _Just the Docs_ theme.
+
+* The website names link to pages with notes about any changes required for profiling.
+* The theme refs link to the relevant release or PR in the theme repo on GitHub.
+* The build times are in seconds, and link to the raw profiling results produced by Jekyll.
+
+A [makefile] automates the profiling.
+
 Platform
 : Apple MacBook Air M2, 2022
 
 System
 : macOS Ventura 13.4
 
-Jekyll
-: 4.3.2
+{: .note }
+> When a website depends on the `github-pages` gem,
+> it is automatically built with Jekyll v3.9.3.
 
-Build
-: ```sh
-  DIR=../just-the-docs-tests
+{% include profiles/jekyll.md jekyll="3.9.3" %}
 
-  rm Gemfile.lock
-  bundle install > /tmp/install.log
-  bundle exec jekyll clean >> /tmp/install.log
-  bundle exec jekyll build --config _config.yml,$DIR/_config_$2.yml --profile > $DIR/_includes/profiles/$1/$2.txt 2> /tmp/build.log
-  ```
+{% include profiles/jekyll.md jekyll="4.3.2" %}
 
-Each of the following pages shows the profiles for building a particular website using different versions of Just the Docs.
+[v0.3.3]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.3.3 "Theme release v0.3.3"
+[v0.4.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.4.2 "Theme release v0.4.2"
+[v0.5.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.5.0 "Theme release v0.5.0"
+[v0.5.1]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.5.1 "Theme release v0.5.1"
+[v0.5.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.5.2 "Theme release v0.5.2"
+[v0.5.4]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.5.4 "Theme release v0.5.4"
+[#1244]: https://github.com/just-the-docs/just-the-docs/pull/1244 "Theme pull request 1244"
+
+[just-the-docs-tests]: ../just-the-docs-tests/index/ "About profiling Just the Docs Tests"
+[endoflife.date]: ../endoflife.date/index/ "About profiling endoflife.date"
+[machinetranslate.org]: ../machinetranslate.org/index/ "About profiling machinetranslate.org"
+[makefile]: https://raw.githubusercontent.com/just-the-docs/just-the-docs-tests/main/makefile
