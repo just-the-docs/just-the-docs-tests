@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll-include-cache"
 gem "jekyll-default-layout"
 gem "kramdown-parser-gfm"
+gem "webrick"
 
 if (ENV["JEKYLL_VERSION"])
         gem 'jekyll', ENV["JEKYLL_VERSION"]
