@@ -4,11 +4,7 @@ nav_order: 0
 # nav_exclude: true
 ---
 
-JtD version
-: {{ site.remote_theme | replace: "@", " @" }}
-
-Jekyll version
-: v{{ jekyll.version }}
+# Just the Docs Tests
 
 The main documentation pages of the Just the Docs theme illustrate the use of many of its features,
 which to some extent tests their implementation.
@@ -24,5 +20,26 @@ The [Markdown kitchen sink] provides a basic visual sanity test
 for the theme.
 (Some of the marked places had or still have unsatisfactory formatting
 only in the dark color scheme.)
+
+## Metadata
+
+This website was built with Jekyll using the following version of the Just the Docs theme:
+
+{% capture newline %}
+{% endcapture %}
+
+{% capture gemfile_lock %}
+{% include_relative Gemfile.lock %}
+{% endcapture %}
+
+Theme version
+: {{ gemfile_lock | split: newline | slice: 6 | first | lstrip }}
+
+{% highlight text %}
+{{ gemfile_lock | split: newline | slice: 2, 3 | join: newline }}
+{% endhighlight %}
+
+Jekyll version
+: v{{ jekyll.version }}
 
 [Markdown kitchen sink]: {{ site.baseurl }}{% link docs/markdown.md %}

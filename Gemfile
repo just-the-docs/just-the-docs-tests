@@ -1,13 +1,17 @@
 source "https://rubygems.org"
-gem "jekyll", ">= 3.8.5" # used for building on GitHub Pages
-# gem "jekyll", "~> 4.2" # installed by `gem jekyll`
-gem "jekyll-remote-theme"
+
 gem "jekyll-include-cache"
-gem "jekyll-default-layout" # avoids the need for `layout: default`
-gem "jekyll-seo-tag", ">= 2.0"
-gem "rake", ">= 12.3.1"
+gem "jekyll-default-layout"
 gem "kramdown-parser-gfm"
-# gem "just-the-docs", "0.3.3"
-# gem "just-the-docs", "0.4.0.rc3"
-# gem "just-the-docs", github: "pdmosses/just-the-docs", branch: "optimize-simple-nav-cases"
-# gem "just-the-docs", github: "pdmosses/just-the-docs", ref: "4396b6b1c836f354bb7aa7edc1a06a49f137d615"
+
+if (ENV["JEKYLL_VERSION"])
+        gem 'jekyll', ENV["JEKYLL_VERSION"]
+else
+        gem 'jekyll', '>= 3.9.3'
+end
+
+if (ENV["JTD_ORG"] && ENV["JTD_REF"])
+        gem 'just-the-docs', github: ENV["JTD_ORG"]+'/just-the-docs', ref: ENV["JTD_REF"]
+else
+        gem 'just-the-docs', github: 'just-the-docs/just-the-docs', ref: 'HEAD'
+end

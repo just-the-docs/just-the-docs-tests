@@ -2,15 +2,11 @@ title: Just the Docs Tests
 url: https://just-the-docs.github.io
 baseurl: /just-the-docs-tests
 
-# remote_theme: just-the-docs/just-the-docs@v0.5.1
-remote_theme: pdmosses/just-the-docs@nav-fix # PR 1244
+theme: just-the-docs
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-default-layout
   - jekyll-include-cache
-  # - jekyll-seo-tag
-  - rake
 
 # ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
 # ga_tracking_anonymize_ip: true
@@ -126,7 +122,7 @@ defaults:
   #   values: {nav_exclude: true}
 
 # callouts_opacity: 0.15
-callouts_level: loud
+callouts_level: quiet
 
 callouts:
   admonition:
@@ -155,8 +151,8 @@ callouts:
     color: green
   note:
     title: Note
-    # color: blue
-    color: pink
+    color: blue
+    # color: pink
     opacity: 0.3
   tip:
     title: Tip
