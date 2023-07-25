@@ -76,6 +76,7 @@ DEPENDENCIES
   jekyll-include-cache
   just-the-docs
   kramdown-parser-gfm
+  rake
   webrick
 
 BUNDLED WITH

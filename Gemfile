@@ -4,6 +4,7 @@ gem "jekyll-include-cache"
 gem "jekyll-default-layout"
 gem "kramdown-parser-gfm"
 gem "webrick"
+gem "rake"
 
 if (ENV["JEKYLL_VERSION"])
         gem 'jekyll', ENV["JEKYLL_VERSION"]
