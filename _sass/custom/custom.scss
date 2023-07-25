@@ -6,3 +6,9 @@ td {
   background-color: inherit;
   // padding: $sp-2;
 }
+
+th,
+td {
+  min-width: 60px;
+  padding: $sp-2 $sp-3;
+}

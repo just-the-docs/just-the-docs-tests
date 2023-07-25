@@ -1,4 +1,6 @@
 {%- comment -%}
+  UNUSED.
+  Transforms profile output from Jeyll 4 builds to sources for kramdown tables.
   Include as: {%- include profiles/profile.md project=PROJECT name=OPT-NAME version=VERSION -%}
 {%- endcomment -%}
 
