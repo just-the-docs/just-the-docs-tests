@@ -9,7 +9,7 @@ gem "rake"
 if (ENV["JEKYLL_VERSION"])
         gem 'jekyll', ENV["JEKYLL_VERSION"]
 else
-        gem 'jekyll', '>= 3.9.3'
+        gem 'jekyll', '~> 4.3.2'
 end
 
 if (ENV["JTD_ORG"] && ENV["JTD_REF"])
