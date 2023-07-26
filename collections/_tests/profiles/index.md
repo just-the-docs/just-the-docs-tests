@@ -23,6 +23,7 @@ System
 {: .note }
 > When a website depends on the `github-pages` gem,
 > it is automatically built with Jekyll v3.9.3.
+> For profiling, the gem was replaced by other gems.
 
 {% include profiles/jekyll.md jekyll="3.9.3" %}
 
@@ -38,5 +39,6 @@ System
 
 [just-the-docs-tests]: ../just-the-docs-tests/index/ "About profiling Just the Docs Tests"
 [endoflife.date]: ../endoflife.date/index/ "About profiling endoflife.date"
+[jekyll-doc-tsl2]: ../jekyll-doc-tsl2/index/ "About profiling jekyll-doc-tsl2"
 [machinetranslate.org]: ../machinetranslate.org/index/ "About profiling machinetranslate.org"
 [makefile]: https://raw.githubusercontent.com/just-the-docs/just-the-docs-tests/main/makefile

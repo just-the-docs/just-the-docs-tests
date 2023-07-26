@@ -7,6 +7,7 @@ DIR := collections/_tests/profiles
 SITE := \
 	just-the-docs-tests \
 	endoflife.date \
+	jekyll-doc-tsl2 \
 	machinetranslate.org
 
 # The versions of Jekyll to use:
