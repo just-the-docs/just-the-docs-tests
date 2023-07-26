@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/pdmosses/just-the-docs.git
+  revision: 1f0ceb105f1af22132cf36b44ea70c4af408847a
+  ref: nav-fix
+  specs:
+    just-the-docs (0.5.2)
+      jekyll (>= 3.8.5)
+      jekyll-include-cache
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,10 +53,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    just-the-docs (0.5.4)
-      jekyll (>= 3.8.5)
-      jekyll-seo-tag (>= 2.0)
-      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -82,7 +89,7 @@ DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-default-layout
   jekyll-include-cache
-  just-the-docs
+  just-the-docs!
   kramdown-parser-gfm
   rake
   webrick
