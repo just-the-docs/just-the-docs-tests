@@ -4,6 +4,8 @@ baseurl: /just-the-docs-tests
 
 theme: just-the-docs
 
+ignore_theme_config: true
+
 plugins:
   - jekyll-default-layout
   - jekyll-include-cache
