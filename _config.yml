@@ -49,6 +49,8 @@ enable_copy_code_button: true
 #     block:
 #       line_numbers: true
 
+# nav_sort: case_insensitive
+
 collections_dir: collections
 
 collections:
