@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: dbf06bff78cd792f7a4ef1352fe24d9b19b0572e
+  revision: 4b1d5e158f60b7f3588cb2af2963e2efebedbf63
   ref: nav-fix
   specs:
-    just-the-docs (0.5.2)
+    just-the-docs (0.5.4)
       jekyll (>= 3.8.5)
       jekyll-include-cache
       jekyll-seo-tag (>= 2.0)
