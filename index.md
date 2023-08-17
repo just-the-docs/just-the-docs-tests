@@ -36,8 +36,9 @@ Theme version
 : {{ gemfile_lock | split: newline | slice: 6 | first | lstrip }}
   
   ```text
-{{ gemfile_lock | split: newline | slice: 2, 3 | join: newline }}
-```
+  {{ gemfile_lock | split: newline | slice: 2 | first }}
+  {{ gemfile_lock | split: newline | slice: 4 | first }}
+  ```
 
 Jekyll version
 : v{{ jekyll.version }}
