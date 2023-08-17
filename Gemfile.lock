@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: 4b1d5e158f60b7f3588cb2af2963e2efebedbf63
+  revision: 61e39c19bbdbfd80f448859db6f433bed5817412
   ref: nav-fix
   specs:
     just-the-docs (0.5.4)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.4)
+    addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
@@ -22,8 +22,8 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (3.23.4-arm64-darwin)
-    google-protobuf (3.23.4-x86_64-linux)
+    google-protobuf (3.24.0-arm64-darwin)
+    google-protobuf (3.24.0-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -72,9 +72,9 @@ GEM
     rexml (3.2.6)
     rouge (4.1.3)
     safe_yaml (1.0.5)
-    sass-embedded (1.64.1-arm64-darwin)
+    sass-embedded (1.64.2-arm64-darwin)
       google-protobuf (~> 3.23)
-    sass-embedded (1.64.1-x86_64-linux-gnu)
+    sass-embedded (1.64.2-x86_64-linux-gnu)
       google-protobuf (~> 3.23)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
@@ -88,7 +88,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.2)
   jekyll-default-layout
-  jekyll-include-cache
   just-the-docs!
   kramdown-parser-gfm
   rake
