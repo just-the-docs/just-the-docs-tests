@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll-include-cache"
 gem "jekyll-default-layout"
 gem "kramdown-parser-gfm"
 gem "webrick"

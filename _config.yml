@@ -8,7 +8,6 @@ ignore_theme_config: true
 
 plugins:
   - jekyll-default-layout
-  - jekyll-include-cache
 
 # ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
 # ga_tracking_anonymize_ip: true
