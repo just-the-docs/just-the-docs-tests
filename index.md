@@ -33,12 +33,7 @@ This website was built with Jekyll using the following version of the Just the D
 {% endcapture %}
 
 Theme version
-: {{ gemfile_lock | split: newline | slice: 6 | first | lstrip }}
-  
-  ```text
-  {{ gemfile_lock | split: newline | slice: 2 | first }}
-  {{ gemfile_lock | split: newline | slice: 4 | first }}
-  ```
+: v{{ theme.version }}
 
 Jekyll version
 : v{{ jekyll.version }}
