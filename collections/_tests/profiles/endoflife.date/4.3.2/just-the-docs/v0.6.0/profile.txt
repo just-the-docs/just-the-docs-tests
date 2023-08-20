@@ -1,0 +1,76 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |    TIME |
++----------+---------+
+| RESET    |  0.0001 |
+| READ     |  0.4891 |
+| GENERATE |  0.0008 |
+| RENDER   | 24.8367 |
+| CLEANUP  |  0.0485 |
+| WRITE    |  0.6670 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |   Time |
++---------------------------------------------------------------------+-------+-----------+--------+
+| just-the-docs-03a99c6557c6/_layouts/default.html                    |   248 | 10141.85K | 18.543 |
+| just-the-docs-03a99c6557c6/_includes/head.html                      |   248 |   793.59K | 16.564 |
+| just-the-docs-03a99c6557c6/_includes/head_nav.html                  |   248 |   205.21K | 16.142 |
+| just-the-docs-03a99c6557c6/_includes/css/activation.scss.liquid     |   248 |   299.58K | 14.314 |
+| just-the-docs-03a99c6557c6/_includes/sorted_pages.html              |   246 |     0.00K | 12.582 |
+| _layouts/product.html                                               |   245 |  2431.97K |  3.688 |
+| just-the-docs-03a99c6557c6/_includes/components/sidebar.html        |   248 |  5421.61K |  1.831 |
+| sitemap.xml                                                         |     1 |    76.00K |  0.922 |
+| just-the-docs-03a99c6557c6/_includes/nav.html                       |     1 |    21.23K |  0.099 |
+| assets/js/zzzz-search-data.json                                     |     1 |   294.45K |  0.082 |
+| just-the-docs-03a99c6557c6/_includes/vendor/anchor_headings.html    |   248 |  2519.78K |  0.079 |
+| just-the-docs-03a99c6557c6/_layouts/table_wrappers.html             |   248 | 10152.08K |  0.040 |
+| _redirects                                                          |     1 |    76.25K |  0.029 |
+| just-the-docs-03a99c6557c6/_includes/components/header.html         |   248 |   313.63K |  0.025 |
+| just-the-docs-03a99c6557c6/_includes/favicon.html                   |     1 |     0.06K |  0.022 |
+| _headers                                                            |     1 |   108.48K |  0.014 |
+| just-the-docs-03a99c6557c6/_includes/icons/icons.html               |   248 |   984.73K |  0.013 |
+| just-the-docs-03a99c6557c6/_includes/components/aux_nav.html        |   248 |   184.79K |  0.011 |
+| _includes/table.html                                                |    15 |    13.01K |  0.007 |
+| just-the-docs-03a99c6557c6/_includes/components/search_header.html  |   248 |   110.68K |  0.006 |
+| just-the-docs-03a99c6557c6/_includes/components/footer.html         |   248 |     0.48K |  0.006 |
+| _includes/head_custom.html                                          |   248 |   149.43K |  0.006 |
+| just-the-docs-03a99c6557c6/_includes/title.html                     |   248 |     4.60K |  0.003 |
+| feed.xml                                                            |     1 |     0.43K |  0.003 |
+| index.md                                                            |     1 |     4.19K |  0.002 |
+| just-the-docs-03a99c6557c6/_includes/components/breadcrumbs.html    |   248 |     0.00K |  0.002 |
+| _layouts/schema.html                                                |     1 |     1.79K |  0.002 |
+| just-the-docs-03a99c6557c6/_includes/footer_custom.html             |   248 |     0.00K |  0.002 |
+| _includes/variables.html                                            |     1 |     0.00K |  0.002 |
+| just-the-docs-03a99c6557c6/_includes/search_placeholder_custom.html |   248 |     5.33K |  0.001 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     0.23K |  0.001 |
+| products/vmware-horizon.md                                          |     1 |     3.26K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/components/search_footer.html  |   248 |     8.96K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/css/just-the-docs.scss.liquid  |     3 |     0.61K |  0.001 |
+| products/vmware-srm.md                                              |     1 |     2.85K |  0.001 |
+| products/wordpress.md                                               |     1 |     1.80K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/nav_footer_custom.html         |   248 |     0.00K |  0.001 |
+| products/vmware-vcenter.md                                          |     1 |     2.58K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/lunr/custom-data.json          |   394 |     0.00K |  0.001 |
+| products/vmware-esxi.md                                             |     1 |     2.11K |  0.001 |
+| products/amazon-neptune.md                                          |     1 |     2.50K |  0.001 |
+| assets/js/just-the-docs.js                                          |     1 |    18.21K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/icons/code_copy.html           |   248 |   325.98K |  0.001 |
+| products/istio.md                                                   |     1 |     1.58K |  0.001 |
+| products/azul-zulu.md                                               |     1 |     2.60K |  0.001 |
+| just-the-docs-03a99c6557c6/_includes/css/callouts.scss.liquid       |     3 |     0.17K |  0.000 |
+| just-the-docs-03a99c6557c6/_includes/icons/document.html            |   248 |   103.17K |  0.000 |
+| just-the-docs-03a99c6557c6/_includes/icons/link.html                |   248 |   110.68K |  0.000 |
+| products/spring-framework.md                                        |     1 |     1.06K |  0.000 |
+| products/magento.md                                                 |     1 |     2.20K |  0.000 |
+ 
+                    done in 26.057 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

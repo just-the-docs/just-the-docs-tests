@@ -19,11 +19,8 @@ JEKYLL := \
 JTD := \
 	just-the-docs/just-the-docs@v0.3.3 \
 	just-the-docs/just-the-docs@v0.4.2 \
-	just-the-docs/just-the-docs@v0.5.0 \
-	just-the-docs/just-the-docs@v0.5.1 \
-	just-the-docs/just-the-docs@v0.5.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
-	pdmosses/just-the-docs@nav-fix
+	just-the-docs/just-the-docs@v0.6.0
 
 .PHONY: help
 help:
