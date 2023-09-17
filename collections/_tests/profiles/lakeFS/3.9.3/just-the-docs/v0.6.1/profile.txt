@@ -1,0 +1,62 @@
+Configuration file: /Users/pdm/Projects/GitHub/lakeFS/docs/_config.yml
+            Source: /Users/pdm/Projects/GitHub/lakeFS/docs
+       Destination: /Users/pdm/Projects/GitHub/lakeFS/docs/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+
+Filename                                                           | Count |    Bytes |  Time
+-------------------------------------------------------------------+-------+----------+------
+_layouts/default.html                                              |    94 | 4238.23K | 2.973
+just-the-docs-3a205e545cea/_includes/head.html                     |    94 |  415.89K | 2.569
+just-the-docs-3a205e545cea/_includes/head_nav.html                 |    94 |  102.37K | 2.441
+just-the-docs-3a205e545cea/_includes/css/activation.scss.liquid    |    94 |  118.14K | 0.671
+just-the-docs-3a205e545cea/_includes/vendor/anchor_headings.html   |    94 | 1085.10K | 0.211
+just-the-docs-3a205e545cea/_includes/sorted_pages.html             |    91 |    0.00K | 0.160
+assets/js/zzzz-search-data.json                                    |     1 |  511.20K | 0.120
+_includes/footer.html                                              |    94 |  486.80K | 0.035
+assets/js/search-data.json                                         |     1 |  484.29K | 0.029
+_includes/header_menu.html                                         |    94 |  185.98K | 0.027
+_includes/nav.html                                                 |     1 |   14.01K | 0.027
+_layouts/table_wrappers.html                                       |    94 | 4239.06K | 0.015
+_includes/head_custom.html                                         |    94 |  180.84K | 0.009
+just-the-docs-3a205e545cea/_includes/title.html                    |    94 |    5.42K | 0.005
+_layouts/redirect.html                                             |    93 |   39.74K | 0.005
+just-the-docs-3a205e545cea/_includes/css/just-the-docs.scss.liquid |     3 |    0.69K | 0.002
+just-the-docs-3a205e545cea/_includes/favicon.html                  |     1 |    0.06K | 0.001
+assets/css/just-the-docs-dark.scss                                 |     1 |    0.25K | 0.001
+just-the-docs-3a205e545cea/_includes/lunr/custom-data.json         |     1 |    0.00K | 0.001
+deploy/aws.md                                                      |     1 |   10.48K | 0.001
+just-the-docs-3a205e545cea/_includes/css/callouts.scss.liquid      |     3 |    0.17K | 0.001
+assets/css/just-the-docs-default.scss                              |     1 |    0.22K | 0.001
+_includes/mermaid_setup.html                                       |    94 |   30.02K | 0.001
+assets/css/just-the-docs-light.scss                                |     1 |    0.22K | 0.001
+assets/js/just-the-docs.js                                         |     1 |   16.74K | 0.001
+_includes/gtag_frame.html                                          |    94 |   23.87K | 0.001
+understand/architecture.md                                         |     1 |    5.68K | 0.000
+reference/api.md                                                   |     1 |    0.62K | 0.000
+_includes/toc.html                                                 |    31 |    3.66K | 0.000
+reference/rbac.md                                                  |     1 |   29.06K | 0.000
+reference/cli.md                                                   |     1 |   54.43K | 0.000
+use_cases/etl_testing.md                                           |     1 |    9.83K | 0.000
+deploy/azure.md                                                    |     1 |   13.21K | 0.000
+howto/sizing-guide.md                                              |     1 |   18.84K | 0.000
+deploy/onprem.md                                                   |     1 |    9.56K | 0.000
+404.md                                                             |     1 |    0.25K | 0.000
+deploy/gcp.md                                                      |     1 |    6.76K | 0.000
+hooks/webhooks.md                                                  |     1 |    4.55K | 0.000
+reference/monitor.md                                               |     1 |    4.83K | 0.000
+reference/access-control-lists.md                                  |     1 |    6.07K | 0.000
+_layouts/page.html                                                 |     6 |   26.44K | 0.000
+howto/garbage-collection-committed.md                              |     1 |   14.91K | 0.000
+reference/configuration.md                                         |     1 |   23.41K | 0.000
+integrations/glue_hive_metastore.md                                |     1 |    5.88K | 0.000
+understand/how/versioning-internals.md                             |     1 |    6.79K | 0.000
+hooks/lua.md                                                       |     1 |   12.83K | 0.000
+hooks/airflow.md                                                   |     1 |    3.07K | 0.000
+deploy/includes/setup.md                                           |     4 |    5.21K | 0.000
+integrations/python.md                                             |     1 |    7.17K | 0.000
+hooks/index.md                                                     |     1 |    9.25K | 0.000
+
+ 
+                    done in 4.347 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

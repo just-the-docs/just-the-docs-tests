@@ -1,0 +1,62 @@
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config.yml
+            Source: /Users/pdm/Projects/GitHub/just-the-docs-tests
+       Destination: /Users/pdm/Projects/GitHub/just-the-docs-tests/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+
+Filename                                                            | Count |    Bytes |  Time
+--------------------------------------------------------------------+-------+----------+------
+_layouts/default.html                                               |   154 | 6728.33K | 2.697
+just-the-docs-05a52e21d738/_includes/head.html                      |   154 |  471.20K | 1.859
+_layouts/vendor/compress.html                                       |   154 | 6533.85K | 1.105
+just-the-docs-05a52e21d738/_includes/css/activation.scss.liquid     |   154 |  150.57K | 0.876
+assets/css/just-the-docs-head-nav.css                               |     1 |    0.21K | 0.220
+just-the-docs-05a52e21d738/_includes/vendor/anchor_headings.html    |   154 |  298.85K | 0.173
+assets/js/zzzz-search-data.json                                     |     1 |  134.27K | 0.161
+just-the-docs-05a52e21d738/_includes/components/children_nav.html   |    28 |    9.21K | 0.157
+just-the-docs-05a52e21d738/_includes/sorted_pages.html              |   149 |    0.00K | 0.155
+just-the-docs-05a52e21d738/_includes/components/sidebar.html        |   154 | 5017.48K | 0.099
+just-the-docs-05a52e21d738/_includes/components/breadcrumbs.html    |   154 |   29.20K | 0.074
+just-the-docs-05a52e21d738/_includes/icons/icons.html               |   154 |  611.49K | 0.070
+just-the-docs-05a52e21d738/_includes/components/header.html         |   154 |  128.43K | 0.063
+collections/_navigation/grandparent/index.md                        |     1 |    2.59K | 0.061
+just-the-docs-05a52e21d738/_includes/components/footer.html         |   154 |   55.34K | 0.058
+just-the-docs-05a52e21d738/_includes/site_nav.html                  |     1 |   32.00K | 0.056
+just-the-docs-05a52e21d738/_includes/nav.html                       |     1 |   26.25K | 0.053
+just-the-docs-05a52e21d738/_includes/components/mermaid.html        |   154 |   38.20K | 0.038
+_layouts/table_wrappers.html                                        |   154 | 6729.95K | 0.023
+just-the-docs-05a52e21d738/_includes/components/search_header.html  |   154 |   70.23K | 0.018
+_includes/head_custom.html                                          |   154 |    3.82K | 0.016
+just-the-docs-05a52e21d738/_includes/components/aux_nav.html        |   154 |   46.92K | 0.012
+collections/_tests/profiles/index.md                                |     1 |    5.17K | 0.008
+just-the-docs-05a52e21d738/_includes/title.html                     |   154 |    3.61K | 0.008
+_includes/profiles/jekyll.md                                        |     1 |    3.19K | 0.008
+_includes/profiles/site.md                                          |     1 |    2.82K | 0.007
+just-the-docs-05a52e21d738/_includes/css/just-the-docs.scss.liquid  |     4 |   63.51K | 0.007
+just-the-docs-05a52e21d738/_includes/footer_custom.html             |   154 |    0.00K | 0.007
+_includes/profiles/theme.md                                         |     1 |    2.54K | 0.006
+assets/css/just-the-docs-default.scss                               |     1 |   15.87K | 0.004
+just-the-docs-05a52e21d738/_includes/components/search_footer.html  |   154 |    5.56K | 0.004
+just-the-docs-05a52e21d738/_includes/css/callouts.scss.liquid       |     4 |   62.93K | 0.003
+assets/css/just-the-docs-dark.scss                                  |     1 |   15.90K | 0.003
+just-the-docs-05a52e21d738/_includes/search_placeholder_custom.html |   154 |    4.06K | 0.003
+just-the-docs-05a52e21d738/_includes/favicon.html                   |     1 |    0.08K | 0.003
+collections/_styling/copy-code.md                                   |     1 |    3.33K | 0.002
+assets/css/just-the-docs-light.scss                                 |     1 |   15.87K | 0.002
+(variable)                                                          |    40 |    2.19K | 0.002
+just-the-docs-05a52e21d738/_includes/icons/link.html                |   154 |   68.73K | 0.002
+just-the-docs-05a52e21d738/_includes/nav_footer_custom.html         |   154 |    0.00K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/code_copy.html           |   154 |  202.43K | 0.001
+assets/js/just-the-docs.js                                          |     1 |   18.02K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/menu.html                |   154 |   64.97K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/document.html            |   154 |   64.07K | 0.001
+just-the-docs-05a52e21d738/_includes/mermaid_config.js              |   154 |    0.45K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/external_link.html       |   154 |   81.21K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/expand.html              |   154 |   54.89K | 0.001
+just-the-docs-05a52e21d738/_includes/icons/search.html              |   154 |   59.86K | 0.001
+collections/_navigation/grandparent/index.md/#excerpt               |     1 |    0.31K | 0.001
+just-the-docs-05a52e21d738/_includes/header_custom.html             |   154 |    0.00K | 0.001
+
+ 
+                    done in 6.259 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

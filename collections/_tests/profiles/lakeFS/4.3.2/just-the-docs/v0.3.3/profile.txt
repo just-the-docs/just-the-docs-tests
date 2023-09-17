@@ -1,0 +1,76 @@
+Configuration file: /Users/pdm/Projects/GitHub/lakeFS/docs/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_config.yml
+            Source: /Users/pdm/Projects/GitHub/lakeFS/docs
+       Destination: /Users/pdm/Projects/GitHub/lakeFS/docs/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+
+Build Process Summary: 
+
+| PHASE    |   TIME |
++----------+--------+
+| RESET    | 0.0002 |
+| READ     | 0.0325 |
+| GENERATE | 0.0230 |
+| RENDER   | 3.2451 |
+| CLEANUP  | 0.0035 |
+| WRITE    | 0.0573 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                           | Count |    Bytes |  Time |
++--------------------------------------------------------------------+-------+----------+-------+
+| _layouts/default.html                                              |    94 | 4124.23K | 2.513 |
+| _includes/nav.html                                                 |    94 | 1552.57K | 2.275 |
+| assets/js/zzzz-search-data.json                                    |     1 |  521.04K | 0.133 |
+| just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |    94 | 1133.30K | 0.107 |
+| just-the-docs-5a78a7d39bc6/_includes/head.html                     |    94 |  376.33K | 0.080 |
+| assets/js/search-data.json                                         |     1 |  489.33K | 0.025 |
+| _includes/header_menu.html                                         |   188 |  222.88K | 0.014 |
+| just-the-docs-5a78a7d39bc6/_layouts/table_wrappers.html            |    94 | 4125.06K | 0.010 |
+| _includes/head_custom.html                                         |    94 |  180.84K | 0.003 |
+| jekyll-redirect-from-0.16.0/lib/jekyll-redirect-from/redirect.html |    93 |   49.80K | 0.001 |
+| just-the-docs-5a78a7d39bc6/_includes/title.html                    |    94 |    3.12K | 0.001 |
+| assets/js/just-the-docs.js                                         |     1 |   14.42K | 0.001 |
+| assets/css/just-the-docs-dark.scss                                 |     1 |    0.16K | 0.001 |
+| assets/css/just-the-docs-default.scss                              |     1 |    0.17K | 0.000 |
+| _includes/mermaid_setup.html                                       |    94 |   30.02K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |    0.49K | 0.000 |
+| reference/api.md                                                   |     1 |    0.62K | 0.000 |
+| reference/cli.md                                                   |     1 |   54.43K | 0.000 |
+| deploy/aws.md                                                      |     1 |   10.48K | 0.000 |
+| deploy/onprem.md                                                   |     1 |    9.56K | 0.000 |
+| 404.md                                                             |     1 |    0.25K | 0.000 |
+| deploy/azure.md                                                    |     1 |   13.21K | 0.000 |
+| howto/export.md                                                    |     1 |    8.16K | 0.000 |
+| _includes/gtag_frame.html                                          |    94 |   23.87K | 0.000 |
+| understand/architecture.md                                         |     1 |    5.68K | 0.000 |
+| deploy/gcp.md                                                      |     1 |    6.76K | 0.000 |
+| reference/rbac.md                                                  |     1 |   29.06K | 0.000 |
+| howto/sizing-guide.md                                              |     1 |   18.84K | 0.000 |
+| reference/configuration.md                                         |     1 |   23.41K | 0.000 |
+| assets/css/just-the-docs-light.scss                                |     1 |    0.17K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_layouts/page.html                      |     6 |   26.44K | 0.000 |
+| use_cases/etl_testing.md                                           |     1 |    9.83K | 0.000 |
+| understand/how/versioning-internals.md                             |     1 |    6.79K | 0.000 |
+| integrations/glue_hive_metastore.md                                |     1 |    5.88K | 0.000 |
+| howto/garbage-collection-committed.md                              |     1 |   14.91K | 0.000 |
+| _includes/toc.html                                                 |    31 |    3.66K | 0.000 |
+| hooks/webhooks.md                                                  |     1 |    4.55K | 0.000 |
+| hooks/lua.md                                                       |     1 |   12.83K | 0.000 |
+| reference/access-control-lists.md                                  |     1 |    6.07K | 0.000 |
+| reference/monitor.md                                               |     1 |    4.83K | 0.000 |
+| use_cases/rollback.md                                              |     1 |    3.22K | 0.000 |
+| understand/data_lifecycle_management/production.md                 |     1 |    4.06K | 0.000 |
+| hooks/airflow.md                                                   |     1 |    3.07K | 0.000 |
+| integrations/airbyte.md                                            |     1 |    3.44K | 0.000 |
+| understand/data_lifecycle_management/data-devenv.md                |     1 |    3.56K | 0.000 |
+| use_cases/reproducibility.md                                       |     1 |    2.47K | 0.000 |
+| integrations/python.md                                             |     1 |    7.17K | 0.000 |
+| hooks/index.md                                                     |     1 |    9.25K | 0.000 |
+| howto/import.md                                                    |     1 |    7.79K | 0.000 |
+| understand/data_lifecycle_management/ci.md                         |     1 |    2.78K | 0.000 |
+ 
+                    done in 3.372 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

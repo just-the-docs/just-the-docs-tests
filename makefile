@@ -20,7 +20,8 @@ JTD := \
 	just-the-docs/just-the-docs@v0.3.3 \
 	just-the-docs/just-the-docs@v0.4.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
-	just-the-docs/just-the-docs@v0.6.0
+	just-the-docs/just-the-docs@v0.6.1 \
+	pdmosses/just-the-docs@fix-caching
 
 .PHONY: help
 help:
@@ -32,6 +33,8 @@ help:
 	@for jtd in  $(JTD); do echo \\t$$jtd; done
 	@echo Then run \"make profiles\" to create/update the profiling results using Jekyll.
 	@echo WARNING: Creating some of the profiles for the larger websites takes almost an hour!
+	@echo To (re)generate the profile for website SITE, Jekyll version JEKYLL, theme JTD_ORG/just-the-docs@JTD_REF
+	@echo run: make -B collections/_tests/profiles/SITE/JEKYLL/JTD_ORG/JTD_REF/profile.txt
 	@echo See https://just-the-docs.github.io/just-the-docs-tests/tests/profiles/index/ for further details.
 
 .PHONY: all
@@ -72,10 +75,18 @@ tmpfile = /tmp/$(subst /,_,$(subst _includes/profiles/,,$(@D)))
 $(PROFILES):
 	@echo $(subst _includes/profiles/,Profiling ,$(@D))
 	@cd ../$(notdir $(call updir,$(call updir,$(call updir,$(@D))))); \
-	test -e Gemfile.lock && rm -f Gemfile.lock; \
+	if test -e Gemfile.lock ; \
+	then \
+	  rm -f Gemfile.lock; \
+		export JTD_TESTS=../just-the-docs-tests; \
+	else \
+	  cd docs; \
+		test -e Gemfile.lock && rm -f Gemfile.lock; \
+		export JTD_TESTS=../../just-the-docs-tests; \
+	fi; \
 	export JTD_REF=$(notdir $(@D)); \
 	export JTD_ORG=$(notdir $(call updir,$(@D))); \
 	export JEKYLL_VERSION=$(notdir $(call updir,$(call updir,$(@D)))); \
 	bundle install > $(tmpfile)_install.log; \
 	bundle exec jekyll clean > $(tmpfile)_clean.log; \
-	bundle exec jekyll build --profile > ../just-the-docs-tests/$@ 2> $(tmpfile).log
+	bundle exec jekyll build --profile > $$JTD_TESTS/$@ 2> $(tmpfile).log

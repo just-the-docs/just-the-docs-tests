@@ -14,8 +14,12 @@
 {%- include profiles/theme.md org="just-the-docs" theme="v0.5.4" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-{%- capture time_0_6_0 -%}
-{%- include profiles/theme.md org="just-the-docs" theme="v0.6.0" site=include.site jekyll=include.jekyll -%}
+{%- capture time_0_6_1 -%}
+{%- include profiles/theme.md org="just-the-docs" theme="v0.6.1" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_0 -}}
+{%- capture time_fix_caching -%}
+{%- include profiles/theme.md org="pdmosses" theme="fix-caching" site=include.site jekyll=include.jekyll -%}
+{%- endcapture -%}
+
+| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_1 }} | {{ time_fix_caching -}}
