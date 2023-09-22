@@ -37,7 +37,8 @@ System
 [v0.5.4]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.5.4 "Theme release v0.5.4"
 [#1244]: https://github.com/just-the-docs/just-the-docs/pull/1244 "Theme pull request 1244"
 [v0.6.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.0 "Theme release v0.6.0"
-[v0.6.1]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.0 "Theme release v0.6.1"
+[v0.6.1]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.1 "Theme release v0.6.1"
+[v0.6.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.2 "Theme release v0.6.2"
 
 [just-the-docs-tests]: ../just-the-docs-tests/index/ "About profiling Just the Docs Tests"
 [endoflife.date]: ../endoflife.date/index/ "About profiling endoflife.date"

@@ -1,0 +1,76 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |    TIME |
++----------+---------+
+| RESET    |  0.0001 |
+| READ     |  0.4473 |
+| GENERATE |  0.1632 |
+| RENDER   | 51.2119 |
+| CLEANUP  |  0.0045 |
+| WRITE    |  0.1026 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |   Time |
++---------------------------------------------------------------------+-------+-----------+--------+
+| just-the-docs-22fc061ef4fd/_layouts/default.html                    |   573 | 33057.72K | 27.056 |
+| just-the-docs-22fc061ef4fd/_includes/head.html                      |   573 |  1923.80K | 17.436 |
+| just-the-docs-22fc061ef4fd/_includes/head_nav.html                  |   573 |   561.64K | 16.769 |
+| just-the-docs-22fc061ef4fd/_includes/css/activation.scss.liquid     |   573 |   615.43K | 14.057 |
+| just-the-docs-22fc061ef4fd/_includes/components/sidebar.html        |   573 | 22910.49K |  4.788 |
+| just-the-docs-22fc061ef4fd/_includes/components/breadcrumbs.html    |   573 |   142.52K |  4.288 |
+| just-the-docs-22fc061ef4fd/_includes/sorted_pages.html              |  1078 |     0.00K |  4.140 |
+| just-the-docs-22fc061ef4fd/_layouts/vendor/compress.html            |   573 | 31056.95K |  0.680 |
+| contributing/contributors.md                                        |     1 |    14.69K |  0.485 |
+| _includes/contributions.html                                        |     2 |     0.07K |  0.483 |
+| just-the-docs-22fc061ef4fd/_includes/vendor/anchor_headings.html    |   573 |  2850.45K |  0.313 |
+| assets/js/zzzz-search-data.json                                     |     1 |   989.99K |  0.304 |
+| _layouts/language.html                                              |   226 |   446.69K |  0.238 |
+| just-the-docs-22fc061ef4fd/_includes/nav.html                       |     1 |    39.32K |  0.118 |
+| just-the-docs-22fc061ef4fd/_layouts/table_wrappers.html             |   573 | 33068.68K |  0.084 |
+| just-the-docs-22fc061ef4fd/_includes/components/footer.html         |   573 |  2270.03K |  0.063 |
+| just-the-docs-22fc061ef4fd/_includes/components/children_nav.html   |    19 |    25.61K |  0.053 |
+| _layouts/api.html                                                   |    75 |   673.98K |  0.049 |
+| _includes/head_custom.html                                          |   573 |   162.26K |  0.042 |
+| _includes/footer_custom.html                                        |   573 |  2171.54K |  0.041 |
+| just-the-docs-22fc061ef4fd/_includes/icons/icons.html               |   573 |  2275.21K |  0.028 |
+| just-the-docs-22fc061ef4fd/_includes/components/header.html         |   573 |   296.57K |  0.025 |
+| sitemap.xml                                                         |     1 |    36.13K |  0.021 |
+| just-the-docs-22fc061ef4fd/_includes/components/search_header.html  |   573 |   259.08K |  0.013 |
+| _includes/title.html                                                |   573 |    29.10K |  0.006 |
+| _layouts/page.html                                                  |   230 |  1462.06K |  0.006 |
+| contributing/coming-soon.md                                         |     1 |     4.41K |  0.005 |
+| customisation/customisation.md                                      |     1 |     1.17K |  0.005 |
+| just-the-docs-22fc061ef4fd/_includes/components/search_footer.html  |   573 |   133.74K |  0.004 |
+| _layouts/language_family.html                                       |    41 |    35.84K |  0.004 |
+| just-the-docs-22fc061ef4fd/_includes/search_placeholder_custom.html |   573 |    13.99K |  0.003 |
+| just-the-docs-22fc061ef4fd/_includes/lunr/custom-data.json          |  1452 |     0.00K |  0.003 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     0.25K |  0.003 |
+| just-the-docs-22fc061ef4fd/_includes/nav_footer_custom.html         |   573 |     0.00K |  0.002 |
+| customisation/adaptive.md                                           |     1 |     2.18K |  0.002 |
+| _includes/github.html                                               |   574 |   427.14K |  0.002 |
+| feed.xml                                                            |     1 |     0.53K |  0.002 |
+| just-the-docs-22fc061ef4fd/_includes/icons/external_link.html       |   573 |   302.17K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/link.html                |   573 |   255.72K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/document.html            |   573 |   238.38K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/code_copy.html           |   573 |   753.18K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/css/just-the-docs.scss.liquid  |     3 |     0.72K |  0.001 |
+| _includes/linkedin.html                                             |   574 |   291.48K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/menu.html                |   573 |   241.73K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/search.html              |   573 |   222.71K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/expand.html              |   573 |   204.24K |  0.001 |
+| _includes/twitter.html                                              |   574 |   313.35K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/header_custom.html             |   573 |     0.00K |  0.001 |
+| _includes/facebook.html                                             |   574 |   174.89K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/favicon.html                   |     1 |     0.06K |  0.001 |
+ 
+                    done in 51.936 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

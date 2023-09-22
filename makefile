@@ -6,8 +6,8 @@ DIR := collections/_tests/profiles
 # The websites to be built:
 SITE := \
 	just-the-docs-tests \
-	endoflife.date \
 	jekyll-doc-tsl2 \
+	endoflife.date \
 	machinetranslate.org
 
 # The versions of Jekyll to use:
@@ -20,7 +20,7 @@ JTD := \
 	just-the-docs/just-the-docs@v0.3.3 \
 	just-the-docs/just-the-docs@v0.4.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
-	just-the-docs/just-the-docs@v0.6.1 \
+	just-the-docs/just-the-docs@v0.6.2 \
 	pdmosses/just-the-docs@fix-caching
 
 .PHONY: help

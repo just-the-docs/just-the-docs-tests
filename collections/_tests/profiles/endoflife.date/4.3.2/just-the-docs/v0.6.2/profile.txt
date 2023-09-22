@@ -1,0 +1,79 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/bundler/gems/just-the-docs-22fc061ef4fd/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+         Tag pages: Generating...
+         Tag pages: Done in 0.001 seconds.
+
+Build Process Summary: 
+
+| PHASE    |    TIME |
++----------+---------+
+| RESET    |  0.0002 |
+| READ     |  0.5756 |
+| GENERATE |  0.0016 |
+| RENDER   | 28.4721 |
+| CLEANUP  |  0.0726 |
+| WRITE    |  0.7537 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |   Time |
++---------------------------------------------------------------------+-------+-----------+--------+
+| just-the-docs-22fc061ef4fd/_layouts/default.html                    |   316 | 13572.64K | 22.008 |
+| just-the-docs-22fc061ef4fd/_includes/head.html                      |   316 |   924.71K | 18.740 |
+| just-the-docs-22fc061ef4fd/_includes/head_nav.html                  |   316 |   196.58K | 18.254 |
+| just-the-docs-22fc061ef4fd/_includes/css/activation.scss.liquid     |   316 |   277.26K | 16.594 |
+| just-the-docs-22fc061ef4fd/_includes/sorted_pages.html              |   252 |     0.00K | 14.377 |
+| _layouts/product.html                                               |   251 |  2539.43K |  3.321 |
+| just-the-docs-22fc061ef4fd/_includes/components/sidebar.html        |   316 |  7163.70K |  2.975 |
+| sitemap.xml                                                         |     1 |    84.24K |  0.724 |
+| _layouts/product-list.html                                          |    61 |   524.59K |  0.189 |
+| just-the-docs-22fc061ef4fd/_includes/vendor/anchor_headings.html    |   316 |  3166.34K |  0.157 |
+| assets/js/zzzz-search-data.json                                     |     1 |   310.26K |  0.104 |
+| just-the-docs-22fc061ef4fd/_includes/nav.html                       |     1 |    21.73K |  0.095 |
+| just-the-docs-22fc061ef4fd/_layouts/table_wrappers.html             |   316 | 13583.26K |  0.052 |
+| just-the-docs-22fc061ef4fd/_includes/components/header.html         |   316 |   569.97K |  0.039 |
+| _redirects                                                          |     1 |    80.69K |  0.036 |
+| just-the-docs-22fc061ef4fd/_includes/components/footer.html         |   316 |   213.29K |  0.028 |
+| just-the-docs-22fc061ef4fd/_includes/favicon.html                   |     1 |     0.00K |  0.025 |
+| just-the-docs-22fc061ef4fd/_includes/components/aux_nav.html        |   316 |   405.80K |  0.021 |
+| just-the-docs-22fc061ef4fd/_includes/icons/icons.html               |   316 |  1254.74K |  0.019 |
+| _includes/product-icon.html                                         |   755 |    91.50K |  0.017 |
+| _headers                                                            |     1 |   129.84K |  0.016 |
+| just-the-docs-22fc061ef4fd/_includes/components/mermaid.html        |   316 |    77.46K |  0.012 |
+| _includes/table.html                                                |    18 |    15.78K |  0.008 |
+| _includes/head_custom.html                                          |   316 |   190.71K |  0.008 |
+| just-the-docs-22fc061ef4fd/_includes/components/search_header.html  |   316 |   141.03K |  0.008 |
+| just-the-docs-22fc061ef4fd/_includes/footer_custom.html             |   316 |    86.10K |  0.004 |
+| index.md                                                            |     1 |     4.18K |  0.004 |
+| just-the-docs-22fc061ef4fd/_includes/title.html                     |   316 |     5.86K |  0.004 |
+| just-the-docs-22fc061ef4fd/_includes/components/breadcrumbs.html    |   316 |     0.00K |  0.003 |
+| just-the-docs-22fc061ef4fd/_includes/components/search_footer.html  |   316 |    73.75K |  0.002 |
+| just-the-docs-22fc061ef4fd/_includes/search_placeholder_custom.html |   316 |     6.79K |  0.002 |
+| feed.xml                                                            |     1 |     0.49K |  0.002 |
+| just-the-docs-22fc061ef4fd/_includes/css/just-the-docs.scss.liquid  |     3 |    21.93K |  0.002 |
+| _includes/nav_footer_custom.html                                    |   316 |    36.72K |  0.002 |
+| products/vmware-horizon.md                                          |     1 |     3.23K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/lunr/custom-data.json          |   460 |     0.00K |  0.001 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     7.33K |  0.001 |
+| _layouts/schema.html                                                |     1 |     1.79K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/css/callouts.scss.liquid       |     3 |    21.48K |  0.001 |
+| products/vmware-srm.md                                              |     1 |     2.82K |  0.001 |
+| products/vmware-vcenter.md                                          |     1 |     2.54K |  0.001 |
+| _includes/variables.html                                            |     1 |     0.00K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/mermaid_config.js              |   316 |     0.93K |  0.001 |
+| products/wordpress.md                                               |     1 |     1.89K |  0.001 |
+| assets/js/just-the-docs.js                                          |     1 |    17.93K |  0.001 |
+| products/ansible.md                                                 |     1 |     2.08K |  0.001 |
+| products/vmware-esxi.md                                             |     1 |     2.09K |  0.001 |
+| _layouts/product-tags.html                                          |     1 |     4.77K |  0.001 |
+| just-the-docs-22fc061ef4fd/_includes/icons/code_copy.html           |   316 |   415.37K |  0.001 |
+| products/amazon-neptune.md                                          |     1 |     2.50K |  0.001 |
+ 
+                    done in 29.886 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
