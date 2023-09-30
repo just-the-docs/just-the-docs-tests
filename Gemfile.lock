@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: 475c2a5564b6fc6238e39962079ac927bfcabc5a
+  revision: 3f590abb0431f150e4d38f42dc7ca39fbcbf1c45
   branch: fix-caching
   specs:
     just-the-docs (0.6.2)
@@ -20,7 +20,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.5)
+    ffi (1.16.2)
     forwardable-extended (2.6.0)
     google-protobuf (3.24.3-arm64-darwin)
     google-protobuf (3.24.3-x86_64-linux)
