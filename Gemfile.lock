@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: dcf20399f3194b878dce039bd82927650889ee44
+  revision: e62fe6c84b428840b560ff9fa3c0587c89dde7b9
   branch: avoid-nested-nots
   specs:
     just-the-docs (0.6.2)

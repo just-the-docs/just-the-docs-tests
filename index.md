@@ -35,6 +35,11 @@ This website was built with Jekyll using the following version of the Just the D
 Theme version
 : v{{ theme.version }}
 
+Theme source
+: ```
+  {{ gemfile_lock | split: newline | slice: 2, 3 | join: newline | strip }}
+  ```
+
 Jekyll version
 : v{{ jekyll.version }}
 
