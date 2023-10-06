@@ -14,5 +14,5 @@ end
 if (ENV["JTD_ORG"] && ENV["JTD_REF"])
   gem 'just-the-docs', github: ENV["JTD_ORG"]+'/just-the-docs', ref: ENV["JTD_REF"]
 else
-  gem 'just-the-docs', github: 'pdmosses/just-the-docs', branch: 'avoid-nested-nots'
+  gem 'just-the-docs'
 end
