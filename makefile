@@ -21,7 +21,7 @@ JTD := \
 	just-the-docs/just-the-docs@v0.4.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
 	just-the-docs/just-the-docs@v0.6.2 \
-	pdmosses/just-the-docs@avoid-nested-nots
+	pdmosses/just-the-docs@fix-nav-activation
 
 .PHONY: help
 help:

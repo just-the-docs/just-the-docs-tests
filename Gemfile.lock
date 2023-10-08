@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: 771012317808ffaf7714205de47289e8b2ff9cd2
+  revision: 268214512f92675c2a175afb7ca80ff5685e72d0
   branch: fix-nav-activation
   specs:
     just-the-docs (0.6.2)

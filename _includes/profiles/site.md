@@ -18,8 +18,8 @@
 {%- include profiles/theme.md org="just-the-docs" theme="v0.6.2" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-{%- capture time_avoid_nested_nots -%}
-{%- include profiles/theme.md org="pdmosses" theme="avoid-nested-nots" site=include.site jekyll=include.jekyll -%}
+{%- capture time_fix_nav_activation -%}
+{%- include profiles/theme.md org="pdmosses" theme="fix-nav-activation" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_2 }} | {{ time_avoid_nested_nots -}}
+| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_2 }} | {{ time_fix_nav_activation -}}
