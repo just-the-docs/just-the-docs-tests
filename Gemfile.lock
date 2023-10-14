@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: 268214512f92675c2a175afb7ca80ff5685e72d0
+  revision: d44c3e6f2c3a2ed75b33c59220cc45585300b867
   branch: fix-nav-activation
   specs:
     just-the-docs (0.6.2)
@@ -72,9 +72,9 @@ GEM
     rexml (3.2.6)
     rouge (4.1.3)
     safe_yaml (1.0.5)
-    sass-embedded (1.68.0-arm64-darwin)
+    sass-embedded (1.69.3-arm64-darwin)
       google-protobuf (~> 3.23)
-    sass-embedded (1.68.0-x86_64-linux-gnu)
+    sass-embedded (1.69.3-x86_64-linux-gnu)
       google-protobuf (~> 3.23)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
