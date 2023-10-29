@@ -37,7 +37,11 @@ Theme version
 
 Theme source
 : ```
+  {% if gemfile_lock contains "GIT" -%}
   {{ gemfile_lock | split: newline | slice: 2, 3 | join: newline | strip }}
+  {%- else -%}
+  {{ gemfile_lock | split: newline | slice: 2, 1 | join: newline | strip }}
+  {%- endif %}
   ```
 
 Jekyll version
