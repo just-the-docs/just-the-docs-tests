@@ -1,0 +1,79 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/bundler/gems/just-the-docs-a6f365170d08/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+         Tag pages: Generating...
+         Tag pages: Done in 0.001 seconds.
+
+Build Process Summary: 
+
+| PHASE    |   TIME |
++----------+--------+
+| RESET    | 0.0001 |
+| READ     | 0.5239 |
+| GENERATE | 0.0022 |
+| RENDER   | 7.0235 |
+| CLEANUP  | 0.0521 |
+| WRITE    | 0.5250 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |  Time |
++---------------------------------------------------------------------+-------+-----------+-------+
+| _layouts/product.html                                               |   251 |  2539.10K | 2.938 |
+| just-the-docs-a6f365170d08/_layouts/default.html                    |   316 | 13580.66K | 1.114 |
+| just-the-docs-a6f365170d08/_includes/head.html                      |   316 |   931.22K | 0.712 |
+| sitemap.xml                                                         |     1 |    84.24K | 0.694 |
+| just-the-docs-a6f365170d08/_includes/css/activation.scss.liquid     |   316 |   158.34K | 0.369 |
+| _layouts/product-list.html                                          |    61 |   524.59K | 0.167 |
+| just-the-docs-a6f365170d08/_includes/vendor/anchor_headings.html    |   316 |  3166.01K | 0.151 |
+| just-the-docs-a6f365170d08/_includes/components/sidebar.html        |   316 |  7165.55K | 0.131 |
+| just-the-docs-a6f365170d08/_includes/components/site_nav.html       |     1 |    22.18K | 0.116 |
+| just-the-docs-a6f365170d08/_includes/components/nav.html            |     1 |    21.73K | 0.105 |
+| assets/js/zzzz-search-data.json                                     |     1 |   310.30K | 0.094 |
+| just-the-docs-a6f365170d08/_includes/sorted_pages.html              |     1 |     0.00K | 0.073 |
+| just-the-docs-a6f365170d08/_layouts/table_wrappers.html             |   316 | 13591.29K | 0.048 |
+| just-the-docs-a6f365170d08/_includes/components/header.html         |   316 |   569.97K | 0.036 |
+| _redirects                                                          |     1 |    80.74K | 0.034 |
+| assets/css/just-the-docs-head-nav.css                               |     1 |     0.13K | 0.028 |
+| just-the-docs-a6f365170d08/_includes/components/footer.html         |   316 |   213.29K | 0.023 |
+| just-the-docs-a6f365170d08/_includes/favicon.html                   |     1 |     0.00K | 0.021 |
+| just-the-docs-a6f365170d08/_includes/components/aux_nav.html        |   316 |   405.80K | 0.020 |
+| just-the-docs-a6f365170d08/_includes/icons/icons.html               |   316 |  1254.74K | 0.016 |
+| _headers                                                            |     1 |   129.84K | 0.016 |
+| _includes/product-icon.html                                         |   755 |    91.50K | 0.015 |
+| just-the-docs-a6f365170d08/_includes/components/mermaid.html        |   316 |    77.46K | 0.010 |
+| _includes/table.html                                                |    18 |    15.80K | 0.007 |
+| just-the-docs-a6f365170d08/_includes/components/search_header.html  |   316 |   141.03K | 0.007 |
+| _includes/head_custom.html                                          |   316 |   190.71K | 0.007 |
+| just-the-docs-a6f365170d08/_includes/title.html                     |   316 |     5.86K | 0.003 |
+| just-the-docs-a6f365170d08/_includes/footer_custom.html             |   316 |    86.10K | 0.003 |
+| feed.xml                                                            |     1 |     0.49K | 0.003 |
+| index.md                                                            |     1 |     4.18K | 0.003 |
+| just-the-docs-a6f365170d08/_includes/components/breadcrumbs.html    |   316 |     0.00K | 0.003 |
+| just-the-docs-a6f365170d08/_includes/components/search_footer.html  |   316 |    73.75K | 0.002 |
+| just-the-docs-a6f365170d08/_includes/search_placeholder_custom.html |   316 |     6.79K | 0.002 |
+| just-the-docs-a6f365170d08/_includes/css/just-the-docs.scss.liquid  |     4 |    29.22K | 0.002 |
+| _layouts/schema.html                                                |     1 |     1.79K | 0.001 |
+| just-the-docs-a6f365170d08/_includes/css/callouts.scss.liquid       |     4 |    28.64K | 0.001 |
+| just-the-docs-a6f365170d08/_includes/icons/expand.html              |   316 |   112.64K | 0.001 |
+| products/vmware-horizon.md                                          |     1 |     3.23K | 0.001 |
+| products/vmware-srm.md                                              |     1 |     2.82K | 0.001 |
+| _includes/variables.html                                            |     1 |     0.00K | 0.001 |
+| just-the-docs-a6f365170d08/_includes/lunr/custom-data.json          |   460 |     0.00K | 0.001 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     7.33K | 0.001 |
+| assets/js/just-the-docs.js                                          |     1 |    18.32K | 0.001 |
+| _layouts/product-tags.html                                          |     1 |     4.77K | 0.001 |
+| just-the-docs-a6f365170d08/_includes/header_custom.html             |   316 |     0.00K | 0.001 |
+| products/vmware-vcenter.md                                          |     1 |     2.55K | 0.001 |
+| just-the-docs-a6f365170d08/_includes/mermaid_config.js              |   316 |     0.93K | 0.001 |
+| products/ansible.md                                                 |     1 |     2.08K | 0.001 |
+| products/amazon-neptune.md                                          |     1 |     2.50K | 0.001 |
+| _includes/nav_footer_custom.html                                    |   316 |    36.72K | 0.001 |
+ 
+                    done in 8.137 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

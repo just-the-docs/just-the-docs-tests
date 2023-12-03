@@ -21,7 +21,8 @@ JTD := \
 	just-the-docs/just-the-docs@v0.4.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
 	just-the-docs/just-the-docs@v0.6.2 \
-	just-the-docs/just-the-docs@v0.7.0
+	just-the-docs/just-the-docs@v0.7.0 \
+	pdmosses/just-the-docs@quicker-build
 
 .PHONY: help
 help:
