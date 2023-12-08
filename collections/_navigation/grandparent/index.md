@@ -83,10 +83,10 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 1.  Check that the table of contents link in the [parent page in Collection 2]
     leads to the [child page in Collection 2].
     
-[Child page in Collection 1]: {{ site.baseurl }}{% link _collection-1/child.md %}
+[Child page in Collection 1]: {% link _collection-1/child.md %}
 
-[Parent page in Collection 1]: {{ site.baseurl }}{% link _collection-1/parent.md %}
+[Parent page in Collection 1]: {% link _collection-1/parent.md %}
 
-[Child page in Collection 2]: {{ site.baseurl }}{% link _collection-2/child.md %}
+[Child page in Collection 2]: {% link _collection-2/child.md %}
 
-[Parent page in Collection 2]: {{ site.baseurl }}{% link _collection-2/parent.md %}
+[Parent page in Collection 2]: {% link _collection-2/parent.md %}

@@ -47,4 +47,4 @@ Theme source
 Jekyll version
 : v{{ jekyll.version }}
 
-[Markdown kitchen sink]: {{ site.baseurl }}{% link docs/markdown.md %}
+[Markdown kitchen sink]: {% link docs/markdown.md %}

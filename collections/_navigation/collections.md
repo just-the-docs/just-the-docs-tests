@@ -22,4 +22,4 @@ title: Collections
 
 1.  Check that the link in the footer to this page on GitHub is correct.
 
-[Home page]: {{ site.baseurl }}{% link index.md %}
+[Home page]: {% link index.md %}

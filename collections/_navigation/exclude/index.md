@@ -4,7 +4,7 @@ title: Navigation exclusion
 
 # Navigation exclusion
 
-1.  ✅ Check that this [excluded and titled 404 page]({{ site.baseurl }}/404)
+1.  ✅ Check that this [excluded and titled 404 page](/404)
     does not appear in the navigation panel.
 
 1.  ✅ Check that this [untitled page](../untitled/) does appear in the navigation panel,
@@ -25,7 +25,7 @@ title: Navigation exclusion
 
 1.  ✅ Check that ordinary pages do not become excluded when a collection is added.
     For example, the navigation panel of this site should start with a link to
-    [Home]({{ site.baseurl }}/).
+    [Home](/).
 
 ----
 
