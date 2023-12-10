@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: a6f365170d088e6f7e97eebe0e70b876cb91608d
+  revision: e13360bbc4741e1f9315a476560e51c92fcd9624
   ref: quicker-build
   specs:
     just-the-docs (0.7.0)
@@ -12,7 +12,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
