@@ -1,0 +1,24 @@
+# empty foldable collection nav test
+
+collections_dir: collections
+
+collections:
+  collection-0:
+    output: true
+
+just_the_docs:
+  collections:
+    collection-0:
+      name: Collection 0
+      nav_fold: true
+
+defaults:
+  -
+    scope: {path: "collections/*"}
+    values: {layout: default}
+  -
+    scope: {path: "index.md"}
+    values: {nav_exclude: true}
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}

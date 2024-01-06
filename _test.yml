@@ -1,0 +1,18 @@
+# Test base
+
+# To serve testNN:
+# bundle exec jekyll serve --config _test.yml,_testNN.yml
+
+title: Just the Docs Tests
+url: https://just-the-docs.github.io
+baseurl: /just-the-docs-tests
+
+theme: just-the-docs
+
+ignore_theme_config: true
+
+plugins:
+  - jekyll-default-layout
+
+compress_html:
+  blanklines: true

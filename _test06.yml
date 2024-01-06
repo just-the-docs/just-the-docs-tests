@@ -1,0 +1,24 @@
+# single foldable collection nav test
+
+collections_dir: collections
+
+collections:
+  accessibility:
+    output: true
+
+just_the_docs:
+  collections:
+    accessibility:
+      name: Accessibility
+      nav_fold: true
+
+defaults:
+  -
+    scope: {path: "collections/*"}
+    values: {layout: default}
+  -
+    scope: {path: "index.md"}
+    values: {nav_exclude: true}
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}

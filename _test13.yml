@@ -1,0 +1,40 @@
+# non-foldable empty collection start nav test
+
+collections_dir: collections
+
+collections:
+  tests:
+    output: true
+  accessibility:
+    output: true
+  collection-0:
+    output: true
+  collection-01:
+    output: true
+  collection-02:
+    output: true
+
+just_the_docs:
+  collections:
+    collection-0:
+      name: Collection 0
+    collection-01:
+      name: Collection 01
+    collection-02:
+      name: Collection 02
+    tests:
+      name: Tests
+    accessibility:
+      name: Accessibility
+      nav_fold: true
+
+defaults:
+  -
+    scope: {path: "collections/*"}
+    values: {layout: default}
+  -
+    scope: {path: "index.md"}
+    values: {nav_exclude: true}
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}

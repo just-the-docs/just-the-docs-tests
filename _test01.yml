@@ -1,0 +1,6 @@
+# single-page nav test
+
+defaults:
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}

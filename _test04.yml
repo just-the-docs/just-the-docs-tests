@@ -1,0 +1,5 @@
+# pages and external links nav test
+
+nav_external_links:
+  - title: This site on GitHub
+    url: https://github.com/just-the-docs/just-the-docs-tests

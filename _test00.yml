@@ -1,0 +1,9 @@
+# no-page nav test
+
+defaults:
+  -
+    scope: {path: "index.md"}
+    values: {nav_exclude: true}
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}

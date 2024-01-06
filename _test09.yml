@@ -1,0 +1,47 @@
+# mixed collection nav test
+
+collections_dir: collections
+
+collections:
+  tests:
+    output: true
+  accessibility:
+    output: true
+  collection-0:
+    output: true
+  collection-00:
+    output: true
+  collection-1:
+    output: true
+  collection-2:
+    output: true
+
+just_the_docs:
+  collections:
+    tests:
+      name: Tests
+    accessibility:
+      name: Accessibility
+      nav_fold: true
+    collection-0:
+      name: Collection 0
+    collection-00:
+      name: Collection 00
+      nav_fold: true
+    collection-1:
+      name: Collection 1
+      nav_fold: true
+    collection-2:
+      name: Collection 2
+      nav_fold: true
+
+defaults:
+  -
+    scope: {path: "collections/*"}
+    values: {layout: default}
+  -
+    scope: {path: "index.md"}
+    values: {nav_exclude: true}
+  -
+    scope: {path: "docs"}
+    values: {nav_exclude: true}
