@@ -18,7 +18,7 @@ Platform
 : Apple MacBook Air M2, 2022
 
 System
-: macOS Ventura 13.4, 13.5, 13.6
+: macOS Ventura 13.4, 13.5, 13.6; Sonoma 14.2
 
 {: .note }
 > When a website depends on the `github-pages` gem,
