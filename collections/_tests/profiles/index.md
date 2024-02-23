@@ -40,6 +40,7 @@ System
 [v0.6.1]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.1 "Theme release v0.6.1"
 [v0.6.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.2 "Theme release v0.6.2"
 [v0.7.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.7.0 "Theme release v0.7.0"
+[v0.8.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.8.0 "Theme release v0.8.0"
 
 [just-the-docs-tests]: ../just-the-docs-tests/index/ "About profiling Just the Docs Tests"
 [endoflife.date]: ../endoflife.date/index/ "About profiling endoflife.date"

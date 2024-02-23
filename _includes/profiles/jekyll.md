@@ -4,7 +4,7 @@
 
 ## Jekyll {{ include.jekyll }}
 
-|            Theme ref: | [v0.3.3] | [v0.4.2] | [v0.5.4] | [v0.6.2] | [v0.7.0] | quicker-build |
+|            Theme ref: | [v0.3.3] | [v0.4.2] | [v0.5.4] | [v0.6.2] | [v0.7.0] | [v0.8.0] |
 | :--------- | -------: | -------: | -------: | -------: | -------: | -------: | -------: |
 {% include profiles/site.md site="just-the-docs-tests"  jekyll=include.jekyll %}
 {% include profiles/site.md site="jekyll-doc-tsl2"      jekyll=include.jekyll %}
