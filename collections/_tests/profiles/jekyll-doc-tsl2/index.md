@@ -19,11 +19,12 @@ A [further follow-up](https://talk.jekyllrb.com/t/13-seconds-build-time-per-page
 reported a build time of 420 seconds for the 559 pages of the cut-down site using `just-the-docs` v0.3.3,
 but just 42 seconds with v0.4.0.[^1]
 
-Note that navigation hierarchy of the cut-down repo is broken:
+Note that navigation hierarchy of the cut-down repo was broken:
 `parent` fields of many source files specify directory names,
 `grand_parent` fields are blank,
-and the hierarchy appears to be more than three levels deep.
-These issues might have affected the build times reported in the profiles.
+and the hierarchy was 4 levels deep.
+These issues affected the build times reported in the profiles.
+They have now been rectified, and all the profiles updated.
 
 [^1]: v0.4.0 was released only a couple of days before the original post.
 
@@ -36,7 +37,7 @@ by [Joost van der Schee](https://talk.jekyllrb.com/u/jhvanderschee):
 > that gets its active state from javascript. In that case it can be generated once
 > instead of 2000 times (the amount of pages you have).
 
-Pull request [#1244] provides an [unobtrusive] implementation of that suggestion.
+Pull request [#1244] provided an [unobtrusive] implementation of that suggestion.
 
 ----
 

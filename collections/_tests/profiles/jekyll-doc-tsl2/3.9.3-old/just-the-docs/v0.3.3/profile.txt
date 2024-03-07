@@ -1,0 +1,34 @@
+Configuration file: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_config.yml
+            Source: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2
+       Destination: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Filename                                                           | Count |     Bytes |    Time
+-------------------------------------------------------------------+-------+-----------+--------
+_layouts/default.html                                              |   560 | 12660.44K | 379.124
+just-the-docs-5a78a7d39bc6/_includes/nav.html                      |   560 |  7708.94K | 373.308
+_layouts/vendor/compress.html                                      |   560 | 10294.13K |   3.113
+just-the-docs-5a78a7d39bc6/_includes/head.html                     |   560 |   950.24K |   0.782
+just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |   560 |  1528.29K |   0.676
+assets/js/zzzz-search-data.json                                    |     1 |  1070.17K |   0.606
+_layouts/table_wrappers.html                                       |   560 | 12674.98K |   0.080
+just-the-docs-5a78a7d39bc6/_includes/title.html                    |   560 |    10.94K |   0.033
+just-the-docs-5a78a7d39bc6/_includes/footer_custom.html            |   560 |     0.00K |   0.028
+404.html                                                           |     1 |     0.19K |   0.011
+just-the-docs-5a78a7d39bc6/_includes/header_custom.html            |   560 |     0.00K |   0.009
+just-the-docs-5a78a7d39bc6/_includes/head_custom.html              |   560 |     0.00K |   0.005
+feed.xml                                                           |     1 |     0.43K |   0.004
+assets/js/just-the-docs.js                                         |     1 |    14.36K |   0.001
+just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |     0.33K |   0.001
+assets/css/just-the-docs-dark.scss                                 |     1 |     0.11K |   0.001
+assets/css/just-the-docs-light.scss                                |     1 |     0.11K |   0.001
+assets/css/just-the-docs-default.scss                              |     1 |     0.11K |   0.000
+just-the-docs-5a78a7d39bc6/_includes/css/custom.scss.liquid        |     3 |     0.08K |   0.000
+_layouts/page.html                                                 |     1 |     0.12K |   0.000
+just-the-docs-5a78a7d39bc6/_includes/js/custom.js                  |     1 |     0.00K |   0.000
+
+ 
+                    done in 385.059 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
