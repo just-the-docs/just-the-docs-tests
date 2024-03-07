@@ -1,0 +1,60 @@
+Configuration file: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_config.yml
+            Source: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2
+       Destination: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Filename                                                            | Count |     Bytes |   Time
+--------------------------------------------------------------------+-------+-----------+-------
+_layouts/default.html                                               |   560 | 78579.12K | 10.135
+_layouts/vendor/compress.html                                       |   560 | 67262.68K | 10.112
+just-the-docs-7de5f7abe53e/_includes/head.html                      |   560 |  1394.85K |  5.382
+just-the-docs-7de5f7abe53e/_includes/css/activation.scss.liquid     |   560 |   459.38K |  4.798
+just-the-docs-7de5f7abe53e/_includes/components/breadcrumbs.html    |   560 |   228.34K |  2.879
+just-the-docs-7de5f7abe53e/_includes/vendor/anchor_headings.html    |   560 |  1476.20K |  0.615
+assets/js/zzzz-search-data.json                                     |     1 |  1079.46K |  0.396
+just-the-docs-7de5f7abe53e/_includes/components/children_nav.html   |    68 |    82.67K |  0.377
+just-the-docs-7de5f7abe53e/_includes/components/site_nav.html       |     1 |   128.98K |  0.305
+just-the-docs-7de5f7abe53e/_includes/components/nav.html            |     1 |   128.91K |  0.293
+_layouts/table_wrappers.html                                        |   560 | 78593.65K |  0.218
+assets/css/just-the-docs-head-nav.css                               |     1 |     0.13K |  0.185
+just-the-docs-7de5f7abe53e/_includes/icons/icons.html               |   560 |  2223.59K |  0.178
+just-the-docs-7de5f7abe53e/_includes/components/footer.html         |   560 |   100.62K |  0.177
+just-the-docs-7de5f7abe53e/_includes/components/sidebar.html        |   560 | 72539.69K |  0.126
+just-the-docs-7de5f7abe53e/_includes/components/header.html         |   560 |   287.66K |  0.124
+just-the-docs-7de5f7abe53e/_includes/sorted_pages.html              |    69 |     0.00K |  0.074
+just-the-docs-7de5f7abe53e/_includes/components/search_header.html  |   560 |   251.02K |  0.054
+just-the-docs-7de5f7abe53e/_includes/title.html                     |   560 |    10.94K |  0.027
+just-the-docs-7de5f7abe53e/_includes/footer_custom.html             |   560 |     0.00K |  0.018
+just-the-docs-7de5f7abe53e/_includes/components/search_footer.html  |   560 |    20.23K |  0.016
+just-the-docs-7de5f7abe53e/_includes/search_placeholder_custom.html |   560 |    12.58K |  0.012
+404.html                                                            |     1 |     0.19K |  0.008
+just-the-docs-7de5f7abe53e/_includes/icons/menu.html                |   560 |   236.25K |  0.004
+just-the-docs-7de5f7abe53e/_includes/icons/link.html                |   560 |   249.92K |  0.004
+just-the-docs-7de5f7abe53e/_includes/icons/code_copy.html           |   560 |   736.09K |  0.004
+just-the-docs-7de5f7abe53e/_includes/lunr/custom-data.json          |     1 |     0.00K |  0.004
+just-the-docs-7de5f7abe53e/_includes/icons/search.html              |   560 |   217.66K |  0.003
+just-the-docs-7de5f7abe53e/_includes/head_custom.html               |   560 |     0.00K |  0.003
+feed.xml                                                            |     1 |     0.43K |  0.003
+just-the-docs-7de5f7abe53e/_includes/icons/expand.html              |   560 |   199.61K |  0.003
+just-the-docs-7de5f7abe53e/_includes/css/just-the-docs.scss.liquid  |     4 |     6.69K |  0.003
+just-the-docs-7de5f7abe53e/_includes/icons/external_link.html       |   560 |   295.31K |  0.003
+just-the-docs-7de5f7abe53e/_includes/icons/document.html            |   560 |   232.97K |  0.003
+just-the-docs-7de5f7abe53e/_includes/nav_footer_custom.html         |   560 |     0.00K |  0.003
+just-the-docs-7de5f7abe53e/_includes/header_custom.html             |   560 |     0.00K |  0.003
+assets/css/just-the-docs-dark.scss                                  |     1 |     1.68K |  0.002
+just-the-docs-7de5f7abe53e/_includes/css/callouts.scss.liquid       |     4 |     6.04K |  0.002
+assets/css/just-the-docs-default.scss                               |     1 |     1.68K |  0.001
+assets/css/just-the-docs-light.scss                                 |     1 |     1.65K |  0.001
+assets/js/just-the-docs.js                                          |     1 |    18.47K |  0.001
+just-the-docs-7de5f7abe53e/_includes/toc_heading_custom.html        |    68 |     3.05K |  0.000
+just-the-docs-7de5f7abe53e/_includes/favicon.html                   |     1 |     0.00K |  0.000
+just-the-docs-7de5f7abe53e/_includes/css/custom.scss.liquid         |     4 |     0.11K |  0.000
+_layouts/page.html                                                  |     1 |     0.12K |  0.000
+just-the-docs-7de5f7abe53e/_includes/lunr/custom-index.js           |     1 |     0.00K |  0.000
+just-the-docs-7de5f7abe53e/_includes/js/custom.js                   |     1 |     0.00K |  0.000
+
+ 
+                    done in 22.506 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

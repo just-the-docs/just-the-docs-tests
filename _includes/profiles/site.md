@@ -22,8 +22,12 @@
 {%- include profiles/theme.md org="just-the-docs" theme="v0.7.0" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-{%- capture time_0_8_0 -%}
-{%- include profiles/theme.md org="pdmosses" theme="quicker-build" site=include.site jekyll=include.jekyll -%}
+{%- capture time_0_8_1 -%}
+{%- include profiles/theme.md org="just-the-docs" theme="v0.8.1" site=include.site jekyll=include.jekyll -%}
 {%- endcapture -%}
 
-| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_2 }} | {{ time_0_7_0 }} | {{ time_0_8_0 -}}
+{%- capture time_multi_level -%}
+{%- include profiles/theme.md org="pdmosses" theme="multi-level" site=include.site jekyll=include.jekyll -%}
+{%- endcapture -%}
+
+| [{{ include.site }}] | {{ time_0_3_3 }} | {{ time_0_4_2 }} | {{ time_0_5_4 }} | {{ time_0_6_2 }} | {{ time_0_7_0 }} | {{ time_0_8_1 }} | {{ time_multi_level -}}

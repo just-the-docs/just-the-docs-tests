@@ -22,7 +22,8 @@ JTD := \
 	just-the-docs/just-the-docs@v0.5.4 \
 	just-the-docs/just-the-docs@v0.6.2 \
 	just-the-docs/just-the-docs@v0.7.0 \
-	just-the-docs/just-the-docs@v0.8.0
+	just-the-docs/just-the-docs@v0.8.1 \
+	pdmosses/just-the-docs@multi-level
 
 .PHONY: help
 help:
@@ -36,6 +37,7 @@ help:
 	@echo WARNING: Creating some of the profiles for the larger websites takes almost an hour!
 	@echo To regenerate the profile for website SITE, Jekyll version JEKYLL, theme JTD_ORG/just-the-docs@JTD_REF
 	@echo run: make -B collections/_tests/profiles/SITE/JEKYLL/JTD_ORG/JTD_REF/profile.txt
+	@echo E.g. make -B collections/_tests/profiles/*/*/pdmosses/multi-level/profile.txt
 	@echo See https://just-the-docs.github.io/just-the-docs-tests/tests/profiles/index/ for further details.
 
 .PHONY: all
