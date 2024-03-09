@@ -1,6 +1,6 @@
 ---
 title: Non-excluded Grandchild of Excluded
-parent: Non-excluded Child
+parent: Non-excluded Child of Excluded
 grand_parent: Excluded
 nav_exclude: false
 ---
