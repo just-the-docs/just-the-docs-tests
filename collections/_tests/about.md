@@ -8,9 +8,14 @@ title: About this site
 The theme is responsive, easily customizable, and hosted on [GitHub Pages].
 It supports documentation pages, but (currently) not blogs.
 
-We are developing this website to test various features of Just the Docs.
+The maintainers are developing this website to test various features of Just the Docs.
 The source code of the web pages illustrates how to use the tested features,
 and the published pages show their resulting effects.
+
+{: ,note }
+The tests site can be used as a collection of regression tests for theme features.
+Pull requests for new features should generally be backwards compatible,
+and not affect the HTML of the website.
 
 See the [Just the Docs website] for the main documentation of the theme.
 Its home page explains

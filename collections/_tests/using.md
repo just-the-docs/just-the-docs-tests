@@ -4,21 +4,21 @@ title: Using the tests
 
 # Using the tests
 
-To test the tests:
+To check a PR by `pr-author` with `pr-branch-name` for regression,
+build this tests site locally using the PR branch as folows:
 
 1.  Clone [this repository](https://github.com/just-the-docs/just-the-docs-tests/).
 
-1.  Run `bundle install`.
+1.  Run `JTD_ORG=pr-author JTD_REF=pr-branch-name bundle install`.
 
-1.  Update `_config.yml` to use the relevant version of `just-the-docs` as `remote_theme`.
+1.  Run `JTD_ORG=pr-author JTD_REF=pr-branch-name bundle exec jekyll serve`.
 
-1.  Run `bundle exec jekyll serve` to build and serve this site locally.
+1.  Check visually that the various tests give the expected results.
 
-1.  For each PR with a ✅, follow the link to its page of tests, and check that they  _succeed_.
+1.  Check that the HTML in `_site` is the same as built with the latest release of the theme.
 
-If any of the PR checks fail,
-please [submit an issue in this repository](https://github.com/just-the-docs/just-the-docs-tests/issues),
-with the PR number as title, stating:
+The following shell command may be useful for checking HTML, ignoring differences in whitespace and metadata:
 
-- [ ] Remote theme version
-- [ ] Which check(s) were supposed to succeed, but failed
+```sh
+diff -rw -x "*.js*" -x "*.map" -I "published_time" -I "dateModified" -I "<meta property=" -I "<link rel=" -I "@context" _site _site-v0.m.n | more
+```

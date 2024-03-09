@@ -3,22 +3,12 @@ title: Current tests
 ---
 # Current tests
 
-Below, a ✅ before a PR summary line indicates that:
-
-- the link to the title of the PR leads to a page of tests of its observational effect, and
-- the tests succeed in the pre-release.
-
-The absence of a ✅ below indicates that although the PR has been reviewed and merged,
-tests for it are not yet included on this site.
-
-{: .note }
-Changes to the theme docs website should be tested for _accuracy_.
-Such docs tests have _not_ yet been added!
-
-# Version 0.4.0 (DRAFT)
+Below, the link to the title of a PR leads to a page of tests of its observational effect.
 
 {: .warning }
-Checking the regression tests listed below is **work in progress**.
+This page is outdated.
+
+# Version 0.4.0 (DRAFT)
 
 ## HEAD
 
@@ -50,29 +40,29 @@ Changes to `main` that are *not* in the latest pre-release:
 
 ### New Features
 
-- ✅ Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
+- Added: [support multiple Google Analytics tracking IDs, document UA -> GA4 switch] by [@MichelleBlanchette] in [#1029]
 - Added: [copy code button to code snippets] by [@simonebortolin] in [#945]
-- ✅ Added: [restore simple configuration of `favicon.ico` via `site.static_files`] by [@pdmosses] in [#1095]
+- Added: [restore simple configuration of `favicon.ico` via `site.static_files`] by [@pdmosses] in [#1095]
 - Added: modularize site components by [@mattxwang] in [#1058]
 
 ### Bugfixes and Maintenance
 
-- ✅ Fixed: [incorrect disambiguation in generated TOCs] by [@pdmosses] in [#999]
-- ✅ Fixed: [duplicated external links in collections] by [@pdmosses] in [#1001]
-- ✅ Fixed: [import order of `custom.scss`; puts at end] by [@deseo] in [#1010]
-- ✅ Fixed: [top-level active link styling] by [@pdmosses] in [#1015]
-- ✅ Fixed: [external links for sites with no pages] by [@pdmosses] in [#1021]
-- ✅ Fixed: [duplicate `title` if `jekyll-seo-tag` not in users's plugins] by [@Tom-Brouwer] in [#1040]
-- ✅ Fixed: [removes (duplicate) `favicon.html`, shifts content to `head_custom.html`] by [@mattxwang] in [#1027]
-- ✅ Fixed: [add `reversed`, deprecate `desc` for nav `child_nav_order`] by [@jmertic] in [#1061]
-- ✅ Fixed: [`child.child_nav_order` to `node.child_nav_order`] by [@mattxwang] in [#1065]
-- ✅ Fixed: [remove all uses of `/` as SASS division] by [@mattxwang] in [#1074][^1074]
-- ✅ Fixed: [skip nav collection generation when site has no pages] by [@pdmosses] in [#1092]
+- Fixed: [incorrect disambiguation in generated TOCs] by [@pdmosses] in [#999]
+- Fixed: [duplicated external links in collections] by [@pdmosses] in [#1001]
+- Fixed: [import order of `custom.scss`; puts at end] by [@deseo] in [#1010]
+- Fixed: [top-level active link styling] by [@pdmosses] in [#1015]
+- Fixed: [external links for sites with no pages] by [@pdmosses] in [#1021]
+- Fixed: [duplicate `title` if `jekyll-seo-tag` not in users's plugins] by [@Tom-Brouwer] in [#1040]
+- Fixed: [removes (duplicate) `favicon.html`, shifts content to `head_custom.html`] by [@mattxwang] in [#1027]
+- Fixed: [add `reversed`, deprecate `desc` for nav `child_nav_order`] by [@jmertic] in [#1061]
+- Fixed: [`child.child_nav_order` to `node.child_nav_order`] by [@mattxwang] in [#1065]
+- Fixed: [remove all uses of `/` as SASS division] by [@mattxwang] in [#1074][^1074]
+- Fixed: [skip nav collection generation when site has no pages] by [@pdmosses] in [#1092]
 - Fixed: [standardize SCSS with `declaration-block-no-redundant-longhand-properties`] by [@simonebortolin] in [#1102]
 - Fixed: [incorrect `padding` property value pair in `labels.scss`] by [@SConaway] in [#1104]
 - Fixed: [various bugs with copy code button] by [@simonebortolin] in [#1096]
 - Fixed: [replace inline styling for `<svg>` icons] by [@captn3m0] in [#1110]
-- ✅ Vendor: [update `jekyll-anchor-headings`, `lunr.js`] by [@mattxwang] in [#1071]
+- Vendor: [update `jekyll-anchor-headings`, `lunr.js`] by [@mattxwang] in [#1071]
 
 ### Docs
 
@@ -156,19 +146,19 @@ Changes to `main` that are *not* in the latest pre-release:
 
 ## Features
 
-- ✅ Added: [styling for `<blockquote>`] by [@mattxwang] in [#965]
-- ✅ Added: [custom include for TOC heading] by [@pdmosses] in [#980]
+- Added: [styling for `<blockquote>`] by [@mattxwang] in [#965]
+- Added: [custom include for TOC heading] by [@pdmosses] in [#980]
 
 ## Bugfixes and Experimental Features
 
-- ✅ Added: [experimental nav optimization for simple cases] by [@pdmosses] in [#992]
-- ✅ Fixed: [spacing issue when search is disabled] by [@henryiii] in [#960]
-- ✅ Fixed: [active grandchild link class] by [@pdmosses] in [#962]
-- ✅ Fixed: [HTML validation issues (W3C validator)] by [@mattxwang] in [#964]
-- ✅ Fixed: [link styling now uses `text-decoration` values] by [@mattxwang] in [#967]
-- ✅ Fixed: [cleaning up Jekyll excludes] by [@pdmosses] in [#985]
-- ✅ Fixed: [docs, narrow styling for code highlighting with line numbers] by [@pdmosses] in [#974]
-- ✅ Fixed: [default syntax highlighting in custom color schemes] by [@pdmosses] in [#986]
+- Added: [experimental nav optimization for simple cases] by [@pdmosses] in [#992]
+- Fixed: [spacing issue when search is disabled] by [@henryiii] in [#960]
+- Fixed: [active grandchild link class] by [@pdmosses] in [#962]
+- Fixed: [HTML validation issues (W3C validator)] by [@mattxwang] in [#964]
+- Fixed: [link styling now uses `text-decoration` values] by [@mattxwang] in [#967]
+- Fixed: [cleaning up Jekyll excludes] by [@pdmosses] in [#985]
+- Fixed: [docs, narrow styling for code highlighting with line numbers] by [@pdmosses] in [#974]
+- Fixed: [default syntax highlighting in custom color schemes] by [@pdmosses] in [#986]
 
 [#965]: https://github.com/just-the-docs/just-the-docs/pull/965
 [#960]: https://github.com/just-the-docs/just-the-docs/pull/960
@@ -198,11 +188,11 @@ Changes to `main` that are *not* in the latest pre-release:
 
 ### Features
 
-- ✅ Added: [accessible titles to nested page nav toggle] by [@JPrevost] in [#950]
-- ✅ Added: [better title styling for AsciiDoc examples] by [@alyssais] in [#944]
-- ✅ Added: [provide ability to skip to main content] by [@JPrevost] in [#949]
-- ✅ Fixed: [exclude `vendor/` in Jekyll config] by [@manuelhenke] in [#941]
-- ✅ Fixed: [improve build time of navigation panel] by [@pdmosses] in [#956]
+- Added: [accessible titles to nested page nav toggle] by [@JPrevost] in [#950]
+- Added: [better title styling for AsciiDoc examples] by [@alyssais] in [#944]
+- Added: [provide ability to skip to main content] by [@JPrevost] in [#949]
+- Fixed: [exclude `vendor/` in Jekyll config] by [@manuelhenke] in [#941]
+- Fixed: [improve build time of navigation panel] by [@pdmosses] in [#956]
 
 [#950]: https://github.com/just-the-docs/just-the-docs/pull/950
 [#944]: https://github.com/just-the-docs/just-the-docs/pull/944
@@ -250,38 +240,38 @@ Changes to `main` that are *not* in the latest pre-release:
 ### Features
 
 * Added: Combination by [@pdmosses] in [#578]
-  - ✅ Added: [dark highlighting] in [#463]
-  - ✅ Added: [pages and collections] in [#448]
-  - ✅ Added: [callouts] in [#466]
-  - ✅ Fixed: [breadcrumb behaviour …] by [@AdityaTiwari2102] in [#477]
-  - ✅ Fixed: [prevent rake command corrupting search data] in [#495] (also listed below)
-  - ✅ Fixed: [nested lists] in [#496]
-  - ✅ Fixed: [set color for search input] in [#498] (also listed below)
-  - ✅ Fixed: [sites with no child pages] (no PR)
-  - ✅ Fixed: [TOC/breadcrumbs for multiple collections] in [#494]
-  - ✅ Added: [collection configuration option `nav_fold`] (no PR)
-  - ✅ Fixed: [indentation and color for folded collection navigation] (no PR)
-  - ✅ Fixed: [scroll navigation to show the link to the current page] in [#639]
-  - ✅ Fixed: [Replace all uses of `absolute_url` by `relative_url`], by [@svrooij] in [#544]
+  - Added: [dark highlighting] in [#463]
+  - Added: [pages and collections] in [#448]
+  - Added: [callouts] in [#466]
+  - Fixed: [breadcrumb behaviour …] by [@AdityaTiwari2102] in [#477]
+  - Fixed: [prevent rake command corrupting search data] in [#495] (also listed below)
+  - Fixed: [nested lists] in [#496]
+  - Fixed: [set color for search input] in [#498] (also listed below)
+  - Fixed: [sites with no child pages] (no PR)
+  - Fixed: [TOC/breadcrumbs for multiple collections] in [#494]
+  - Added: [collection configuration option `nav_fold`] (no PR)
+  - Fixed: [indentation and color for folded collection navigation] (no PR)
+  - Fixed: [scroll navigation to show the link to the current page] in [#639]
+  - Fixed: [Replace all uses of `absolute_url` by `relative_url`], by [@svrooij] in [#544]
 * Added: custom favicon `_includes` by [@burner1024] in [#364]
-* ✅ Added: [set color for search input] by [@pdmosses] in [#498]
-* ✅ Added: [search placeholder configuration] by [@mattxwang] in [#613]
-* ✅ Added: [`child_nav_order` front matter to sort navigation pages in reverse] by [@jmertic] in [#726]
-* ✅ Added: [`nav_footer_custom` include] by [@nathanjessen] in [#474]
-* ✅ Added: [style fixes for jekyll-asciidoc] by [@alyssais] in [#829]
-* ✅ Added: [mermaid.js support] by [@nascosto] in [#857]
-* ✅ Added: [support for external navigation links] by [@SPGoding] in [#876]
-* ✅ Added: [refactor `mermaid` config to use `mermaid_config.js` include, only require `mermaid.version`] in `_config.yml` by [@mattxwang] in [#909]
-* ✅ Fixed: [prepend `site.collections_dir` if exists] by [@alexsegura] in [#519]
-* ✅ Fixed: [nested task lists] (#517) by [@pdmosses] in [#855]
-* ✅ Fixed: [suppress Liquid processing in CSS comments] by [@pdmosses] in [#686]
-* ✅ Fixed: [prevent rake command corrupting search data] by [@pdmosses] in [#495]
-* ✅ Fixed: [anchor heading links should be visible on focus] by [@jacobhq] in [#846]
-* ✅ Fixed: [add `overflow-x: auto` to `figure.highlight`] by [@iridazzle] in [#727]
-* ✅ Fixed: [add `overflow-wrap: word-break` to `body`] by [@iridazzle] in [#889]
-* ✅ Fixed: [vertical alignment for consecutive labels] by [@Eisverygoodletter] in [#893]
-* ✅ Fixed: [allow links to wrap] by [@pdmosses] in [#905]
-* ✅ Fixed: [nav scroll feature and absolute/relative URLs] by [@pdmosses] in [#898]
+* Added: [set color for search input] by [@pdmosses] in [#498]
+* Added: [search placeholder configuration] by [@mattxwang] in [#613]
+* Added: [`child_nav_order` front matter to sort navigation pages in reverse] by [@jmertic] in [#726]
+* Added: [`nav_footer_custom` include] by [@nathanjessen] in [#474]
+* Added: [style fixes for jekyll-asciidoc] by [@alyssais] in [#829]
+* Added: [mermaid.js support] by [@nascosto] in [#857]
+* Added: [support for external navigation links] by [@SPGoding] in [#876]
+* Added: [refactor `mermaid` config to use `mermaid_config.js` include, only require `mermaid.version`] in `_config.yml` by [@mattxwang] in [#909]
+* Fixed: [prepend `site.collections_dir` if exists] by [@alexsegura] in [#519]
+* Fixed: [nested task lists] (#517) by [@pdmosses] in [#855]
+* Fixed: [suppress Liquid processing in CSS comments] by [@pdmosses] in [#686]
+* Fixed: [prevent rake command corrupting search data] by [@pdmosses] in [#495]
+* Fixed: [anchor heading links should be visible on focus] by [@jacobhq] in [#846]
+* Fixed: [add `overflow-x: auto` to `figure.highlight`] by [@iridazzle] in [#727]
+* Fixed: [add `overflow-wrap: word-break` to `body`] by [@iridazzle] in [#889]
+* Fixed: [vertical alignment for consecutive labels] by [@Eisverygoodletter] in [#893]
+* Fixed: [allow links to wrap] by [@pdmosses] in [#905]
+* Fixed: [nav scroll feature and absolute/relative URLs] by [@pdmosses] in [#898]
 
 [#578]: https://github.com/just-the-docs/just-the-docs/pull/578
 [#463]: https://github.com/just-the-docs/just-the-docs/pull/463
