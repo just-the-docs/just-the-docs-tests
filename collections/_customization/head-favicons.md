@@ -2,7 +2,7 @@
 title: Head and favicons
 ---
 
-# ✅ Head and favicons
+# Head and favicons
 
 {: .note}
 For a simpler way of setting a link to `favicon.ico`, see [Favicons](../favicon).

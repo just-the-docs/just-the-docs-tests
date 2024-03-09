@@ -2,7 +2,7 @@
 title: TOC heading
 ---
 
-# ✅ Customize TOC heading
+# Customize TOC heading
 
 1.  Check that `_includes/toc_heading_custom.html` does not exist.
 

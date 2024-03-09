@@ -2,7 +2,7 @@
 title: Active grandchild
 ---
 
-# ✅ Active grandchild
+# Active grandchild
 
 1.  Check that when the theme docs page [Code with line numbers] is selected,
     the link to it in the navigation panel changes appearance to show that it is active.

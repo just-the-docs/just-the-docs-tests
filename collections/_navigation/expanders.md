@@ -2,7 +2,7 @@
 title: Navigation expanders
 ---
 
-# ✅ Navigation expanders
+# Navigation expanders
 
 1.  Check that an expander symbol appears next to the title of each page
     that has (non-excluded) children.

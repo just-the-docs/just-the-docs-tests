@@ -2,7 +2,7 @@
 title: Links
 ---
 
-# ✅ Links
+# Links
 
 [A link whose anchor is longer than the line width should break normally
 at white space -- this link tests whether that happens or not.](.)

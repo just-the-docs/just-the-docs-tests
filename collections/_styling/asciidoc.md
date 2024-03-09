@@ -2,7 +2,7 @@
 title: AsciiDoc
 ---
 
-# ✅ AsciiDoc
+# AsciiDoc
 
 1.  Install the [`jekyll-asciidoc`] plugin in a local clone of this site,
     then build and serve the site.

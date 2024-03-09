@@ -2,7 +2,7 @@
 title: Deprecations
 ---
 
-# ✅ Deprecations
+# Deprecations
 
 1.  Build this tests website.
 

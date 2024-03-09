@@ -2,7 +2,7 @@
 title: Source maps
 ---
 
-# ✅ Source maps
+# Source maps
 
 1.  Build the theme docs website.
 

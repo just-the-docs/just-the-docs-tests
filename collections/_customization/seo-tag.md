@@ -2,7 +2,7 @@
 title: SEO Tag
 ---
 
-# ✅ SEO Tag
+# SEO Tag
 
 1.  Check that `_config.yml` contains:
     

@@ -2,7 +2,7 @@
 title: Navigation scroll
 ---
 
-# ✅ Navigation scroll
+# Navigation scroll
 
 1.  With the navigation panel unexpanded and visible on the left of the page,
     adjust the zoom and/or window height so that it shows a vertical scroll bar.

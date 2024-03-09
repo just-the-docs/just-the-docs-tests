@@ -2,7 +2,7 @@
 title: Empty collections
 ---
 
-# ✅ Empty collections
+# Empty collections
 
 1.  Build this tests site.
 

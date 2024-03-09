@@ -2,7 +2,7 @@
 title: Vendor files
 ---
 
-# ✅ Vendor files
+# Vendor files
 
 Check that the versions of the following files match the current vendor versions:
 

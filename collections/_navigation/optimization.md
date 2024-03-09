@@ -3,7 +3,7 @@ title: Optimization
 has_children: true
 ---
 
-# ✅ Optimization tests
+# Optimization tests
 
 1.  Check that the [build-time profiles](../build-time) can be reproduced locally.
 

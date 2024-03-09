@@ -6,7 +6,7 @@ has_children: true
 child_nav_order: desc
 ---
 
-# ✅ Descending
+# Descending
 
 1.  Check that the titles of the children of this page are shown in the order:
     

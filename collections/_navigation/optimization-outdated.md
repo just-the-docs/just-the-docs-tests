@@ -3,7 +3,7 @@ title: Optimization (outdated)
 nav_exclude: true
 ---
 
-# ✅ Optimization (outdated)
+# Optimization (outdated)
 
 This change increased the build time by an order of magnitude on [one large site].
 It was superseded by a simpler implementation.

@@ -2,7 +2,7 @@
 title: Narrow code
 ---
 
-# ✅ Narrow code
+# Narrow code
 
 1.  Check that the line numbers in the following example are close to the code
     and to the left of the code display:

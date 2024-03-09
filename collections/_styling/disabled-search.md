@@ -2,7 +2,7 @@
 title: Disabled search spacing
 ---
 
-# ✅ Disabled search spacing
+# Disabled search spacing
 
 1.  Check that on this site, the search input is left-aligned,
     and the auxiliary links are right-aligned.

@@ -2,7 +2,7 @@
 title: HTML compression
 ---
 
-# ✅ HTML compression
+# HTML compression
 
 1.  Clone the theme docs repository.
 

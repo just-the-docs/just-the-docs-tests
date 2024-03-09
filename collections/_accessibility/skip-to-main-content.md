@@ -2,7 +2,7 @@
 title: Skip to main content
 ---
 
-# ✅ Skip to main content
+# Skip to main content
 
 1.  Select the home page of this site in a browser.
 

@@ -2,7 +2,7 @@
 title: Nav toggle
 ---
 
-# ✅ Accessible titles to page nav toggle
+# Accessible titles to page nav toggle
 
 1.  Select page [A](../../navigation/grandparent/a/).
 

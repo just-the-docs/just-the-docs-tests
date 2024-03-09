@@ -2,7 +2,7 @@
 title: Favicons
 ---
 
-# ✅ Favicons
+# Favicons
 
 1.  Build and serve this tests website locally.
 

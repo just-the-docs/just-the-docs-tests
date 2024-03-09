@@ -2,7 +2,7 @@
 title: Custom import
 ---
 
-# ✅ Custom import
+# Custom import
 
 1.  Check that the last line of [`_includes/css/just-the-docs.scss.liquid`] is:
 

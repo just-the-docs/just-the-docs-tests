@@ -2,7 +2,7 @@
 title: Relative URLs
 ---
 
-# ✅ Relative URLs
+# Relative URLs
 
 1.  Open an editor on the HTML of [a page with a parent and children].
     

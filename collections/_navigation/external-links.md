@@ -2,7 +2,7 @@
 title: External links
 ---
 
-# ✅ External links
+# External links
 
 1.  In `_config.yml` check that `nav_external_links` is not set, then build the site.
 

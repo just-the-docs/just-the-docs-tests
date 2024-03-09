@@ -2,7 +2,7 @@
 title: Block quotes
 ---
 
-# ✅ Block quotes
+# Block quotes
 
 1.  Select <https://just-the-docs.github.io/just-the-docs/docs/index-test/#header-2>.
 

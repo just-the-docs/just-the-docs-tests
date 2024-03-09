@@ -2,7 +2,7 @@
 title: HTML validation
 ---
 
-# ✅ HTML validation
+# HTML validation
 
 1.  Check that [validation of the theme docs home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjust-the-docs.github.io%2Fjust-the-docs%2F) displays:
 

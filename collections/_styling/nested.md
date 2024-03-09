@@ -2,7 +2,7 @@
 title: Lists of lists
 ---
 
-# ✅ Lists of lists
+# Lists of lists
 
 ## Ordered list numbering
 

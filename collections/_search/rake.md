@@ -2,7 +2,7 @@
 title: Search data
 ---
 
-# ✅ Search data
+# Search data
 
 1.  On macOS, delete `_site`, then build this site again.
 

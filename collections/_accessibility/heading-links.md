@@ -2,7 +2,7 @@
 title: Heading links
 ---
 
-# ✅ Heading links focus
+# Heading links focus
 
 1.  Select the home page of the theme docs site in a browser.
 

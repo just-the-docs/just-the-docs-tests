@@ -2,7 +2,7 @@
 title: Code highlighting
 ---
 
-# ✅ Code highlighting
+# Code highlighting
 
 The following button toggles between the `light` and `dark` schemes on this page:
 

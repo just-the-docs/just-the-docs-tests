@@ -22,9 +22,9 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-1.  Check the styling and colors of the callouts shown below in the light scheme. ✅
+1.  Check the styling and colors of the callouts shown below in the light scheme.
 
-1.  Check the styling and colors of the callouts shown below in the dark scheme.  ✅
+1.  Check the styling and colors of the callouts shown below in the dark scheme.
 
 ## Admonition
 

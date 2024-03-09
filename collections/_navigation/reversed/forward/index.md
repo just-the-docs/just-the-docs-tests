@@ -5,7 +5,7 @@ nav_order: -20
 has_children: true
 ---
 
-# ✅ Forward
+# Forward
 
 1.  Check that the titles of the children of this page are shown in the order:
     

@@ -2,7 +2,7 @@
 title: Search input color
 ---
 
-# ✅ Search input color
+# Search input color
 
 The following button toggles between the `light` and `dark` color schemes on this page:
 

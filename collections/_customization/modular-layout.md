@@ -2,7 +2,7 @@
 title: Modular layouts
 ---
 
-# ✅ Modular layouts
+# Modular layouts
 
 1.  Check that `_config.yml` sets:
 

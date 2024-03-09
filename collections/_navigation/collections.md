@@ -2,7 +2,7 @@
 title: Collections
 ---
 
-# ✅ Collections
+# Collections
 
 1.  Check that the link to the [Home page] appears in the navigation panel
     above the first collection.

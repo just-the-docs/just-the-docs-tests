@@ -2,7 +2,7 @@
 title: Parent disambiguation
 ---
 
-# ✅ Parent disambiguation
+# Parent disambiguation
 
 The `grand_parent` title can be used to disambiguate an ambiguous `parent` title.
 
@@ -69,7 +69,7 @@ The `grand_parent` title can be used to disambiguate an ambiguous `parent` title
 1.  Check that when the grandchild [G](../efg/) is selected,
     the link to the child [G](../fg/) of top-level [F](../f/) does not appear.
 
-# ✅ Collections
+# Collections
 
 1.  Check that the breadcrumb link in the [child page in Collection 1]
     leads to the [parent page in Collection 1].

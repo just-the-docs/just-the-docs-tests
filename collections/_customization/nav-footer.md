@@ -2,7 +2,7 @@
 title: Nav footer
 ---
 
-# ✅ Customize navigation panel footer
+# Customize navigation panel footer
 
 1.  Check that `_includes/nav_footer_custom.html` does not exist.
 

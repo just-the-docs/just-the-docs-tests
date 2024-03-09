@@ -2,7 +2,7 @@
 title: Search placeholder
 ---
 
-# ✅ Customize search placeholder
+# Customize search placeholder
 
 1.  Check that `_includes/search_placeholder_custom.html` does not exist.
 

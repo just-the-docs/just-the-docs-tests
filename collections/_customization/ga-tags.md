@@ -2,7 +2,7 @@
 title: GA tags
 ---
 
-# ✅ Google Analytics tags
+# Google Analytics tags
 
 1.  Check that `_config.yml` contains:
     
