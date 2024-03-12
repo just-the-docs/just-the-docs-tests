@@ -75,7 +75,7 @@ term
 
   paragraph text
 
-term ❌
+term
 
 : ***
 

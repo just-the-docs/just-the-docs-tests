@@ -61,6 +61,6 @@ the preceding label in the following examples.
 
 1.  ***
 
-    ❌
+   
 
     paragraph text

@@ -61,6 +61,6 @@ the preceding bullet in the following examples.
 
 - ***
 
-  ❌
+ 
   
   paragraph text
