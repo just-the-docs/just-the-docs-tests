@@ -254,6 +254,10 @@ Longer Term
 : Longer description of Term,
   possibly more than one line
 
+A longer term that requires a line break
+: Longer description of Term,
+  possibly more than one line
+
 Term
 : First description of Term,
   possibly more than one line
