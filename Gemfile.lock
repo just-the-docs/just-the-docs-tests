@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pdmosses/just-the-docs.git
-  revision: d3e529053a719760ed1f73684c58a9b32b26b9e7
+  revision: f454aee224009b3e8feec602674c05f8f284acdf
   branch: multi-level
   specs:
     just-the-docs (0.8.1)
