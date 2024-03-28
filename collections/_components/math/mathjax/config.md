@@ -52,4 +52,5 @@ You can customise MathJax by adding further [options] in [`_includes/mathjax.htm
 
 [`_includes/mathjax.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_includes/mathjax.html
 [`_layouts/mathjax.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_layouts/mathjax.html
+[`assets/js/mathjax-script-type.js`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/assets/js/mathjax-script-type.js
 [options]: https://docs.mathjax.org/en/latest/web/configuration.html
