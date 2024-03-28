@@ -62,5 +62,5 @@ You can customise KaTeX by adding further [options].
 
 [`_includes/katex.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_includes/katex.html
 [`_layouts/katex.html`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/_layouts/katex.html
-[`assets/js/mathtex-script-type.js`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/assets/js/kmathtex-script-type.js
+[`assets/js/mathtex-script-type.js`]: https://github.com/just-the-docs/just-the-docs-tests/blob/main/assets/js/mathtex-script-type.js
 [options]: https://katex.org/docs/options.html
