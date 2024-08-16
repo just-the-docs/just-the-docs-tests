@@ -1,0 +1,79 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+ Theme Config file: /Users/pdm/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/bundler/gems/just-the-docs-c0cb72562ff9/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+         Tag pages: Generating...
+         Tag pages: Done in 0.001 seconds.
+
+Build Process Summary: 
+
+| PHASE    |    TIME |
++----------+---------+
+| RESET    |  0.0001 |
+| READ     |  1.0248 |
+| GENERATE |  0.0018 |
+| RENDER   | 17.6742 |
+| CLEANUP  |  0.0939 |
+| WRITE    |  0.9649 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                            | Count |     Bytes |   Time |
++---------------------------------------------------------------------+-------+-----------+--------+
+| _layouts/product.html                                               |   337 |  4059.19K | 10.364 |
+| just-the-docs-c0cb72562ff9/_layouts/default.html                    |   410 | 21591.93K |  3.204 |
+| just-the-docs-c0cb72562ff9/_includes/head.html                      |   410 |  1216.91K |  2.537 |
+| sitemap.xml                                                         |     1 |   111.82K |  2.037 |
+| just-the-docs-c0cb72562ff9/_includes/css/activation.scss.liquid     |   410 |   213.24K |  1.775 |
+| just-the-docs-c0cb72562ff9/_includes/components/site_nav.html       |     2 |    67.77K |  0.374 |
+| just-the-docs-c0cb72562ff9/_includes/components/nav/pages.html      |     2 |    66.88K |  0.348 |
+| just-the-docs-c0cb72562ff9/_includes/components/nav/sorted.html     |   750 |     0.00K |  0.254 |
+| just-the-docs-c0cb72562ff9/_includes/components/children_nav.html   |   410 |     0.00K |  0.231 |
+| _layouts/product-list.html                                          |    68 |   729.86K |  0.224 |
+| just-the-docs-c0cb72562ff9/_includes/vendor/anchor_headings.html    |   410 |  4930.51K |  0.204 |
+| assets/js/zzzz-search-data.json                                     |     1 |   393.19K |  0.124 |
+| just-the-docs-c0cb72562ff9/_includes/components/nav/links.html      |     2 |    66.88K |  0.111 |
+| just-the-docs-c0cb72562ff9/_layouts/table_wrappers.html             |   410 | 21605.86K |  0.094 |
+| just-the-docs-c0cb72562ff9/_includes/components/nav/children.html   |   748 |     0.00K |  0.077 |
+| just-the-docs-c0cb72562ff9/_includes/components/header.html         |   410 |   739.52K |  0.055 |
+| _redirects                                                          |     1 |   110.79K |  0.045 |
+| just-the-docs-c0cb72562ff9/_includes/favicon.html                   |     1 |     0.00K |  0.039 |
+| _includes/identifiers.html                                          |   337 |   210.77K |  0.039 |
+| just-the-docs-c0cb72562ff9/_includes/components/footer.html         |   410 |   276.92K |  0.035 |
+| just-the-docs-c0cb72562ff9/_includes/components/aux_nav.html        |   410 |   526.51K |  0.031 |
+| assets/css/just-the-docs-head-nav.css                               |     1 |     0.13K |  0.031 |
+| just-the-docs-c0cb72562ff9/_includes/icons/icons.html               |   410 |  1627.99K |  0.027 |
+| _includes/product-icon.html                                         |  1033 |   123.66K |  0.026 |
+| just-the-docs-c0cb72562ff9/_includes/components/sidebar.html        |   410 | 12424.12K |  0.022 |
+| just-the-docs-c0cb72562ff9/_includes/components/mermaid.html        |   410 |   100.50K |  0.021 |
+| _headers                                                            |     1 |   194.10K |  0.021 |
+| _includes/table.html                                                |    31 |    27.03K |  0.017 |
+| pages/help/identifiers-needed.md                                    |     1 |    18.14K |  0.013 |
+| just-the-docs-c0cb72562ff9/_includes/components/search_header.html  |   410 |   182.98K |  0.010 |
+| _includes/head_custom.html                                          |   410 |   247.44K |  0.009 |
+| _includes/custom-column-td.html                                     |   285 |    10.30K |  0.007 |
+| just-the-docs-c0cb72562ff9/_includes/footer_custom.html             |   410 |   111.71K |  0.006 |
+| just-the-docs-c0cb72562ff9/_includes/mermaid_config.js              |   410 |     1.20K |  0.006 |
+| just-the-docs-c0cb72562ff9/_includes/components/breadcrumbs.html    |   410 |     0.00K |  0.005 |
+| just-the-docs-c0cb72562ff9/_includes/title.html                     |   410 |     7.61K |  0.004 |
+| index.md                                                            |     1 |     4.28K |  0.004 |
+| just-the-docs-c0cb72562ff9/_includes/components/search_footer.html  |   410 |    95.69K |  0.004 |
+| just-the-docs-c0cb72562ff9/_includes/css/just-the-docs.scss.liquid  |     4 |    29.17K |  0.003 |
+| feed.xml                                                            |     1 |     0.49K |  0.002 |
+| _layouts/schema.html                                                |     1 |     1.79K |  0.002 |
+| just-the-docs-c0cb72562ff9/_includes/css/callouts.scss.liquid       |     4 |    28.59K |  0.002 |
+| products/apple-watch.md                                             |     1 |     1.39K |  0.002 |
+| just-the-docs-c0cb72562ff9/_includes/search_placeholder_custom.html |   410 |     8.81K |  0.002 |
+| products/amazon-neptune.md                                          |     1 |     2.95K |  0.002 |
+| assets/css/just-the-docs-dark.scss                                  |     1 |     7.32K |  0.002 |
+| just-the-docs-c0cb72562ff9/_includes/icons/external_link.html       |   410 |   216.21K |  0.002 |
+| _includes/variables.html                                            |     1 |     0.00K |  0.002 |
+| products/vmware-horizon.md                                          |     1 |     3.41K |  0.001 |
+| products/gradle.md                                                  |     1 |     3.06K |  0.001 |
+ 
+                    done in 19.768 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

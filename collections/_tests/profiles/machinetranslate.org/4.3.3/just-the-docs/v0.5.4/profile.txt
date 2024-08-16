@@ -1,0 +1,76 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: enabled
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.0001 |
+| READ     |   0.7072 |
+| GENERATE |   0.2245 |
+| RENDER   | 235.4936 |
+| CLEANUP  |   0.0036 |
+| WRITE    |   0.1715 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                                                  | Count |     Bytes |    Time |
++-----------------------------------------------------------------------------------------------------------+-------+-----------+---------+
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_layouts/default.html                    |   933 | 41303.37K | 212.996 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/sidebar.html        |   933 | 24829.45K | 197.272 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/nav.html                       |   933 | 24212.62K | 183.676 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/sorted_pages.html              |   955 |     0.00K |  89.787 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/breadcrumbs.html    |   933 |   232.66K |  13.328 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/head.html                      |   933 |  2269.04K |   1.429 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_layouts/vendor/compress.html            |   933 | 37161.15K |   0.885 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/vendor/anchor_headings.html    |   933 |  4257.93K |   0.444 |
+| contributing/contributors.md                                                                              |     1 |    16.67K |   0.293 |
+| _includes/contributions.html                                                                              |     2 |     0.07K |   0.292 |
+| assets/js/zzzz-search-data.json                                                                           |     1 |   579.75K |   0.268 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/footer.html         |   933 |  4871.88K |   0.162 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/children_nav.html   |    22 |    42.94K |   0.126 |
+| _includes/footer_custom.html                                                                              |   933 |  4711.52K |   0.122 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_layouts/table_wrappers.html             |   933 | 41316.16K |   0.100 |
+| _layouts/language.html                                                                                    |   511 |  1219.41K |   0.079 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/icons.html               |   933 |  3704.67K |   0.059 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/header.html         |   933 |   482.90K |   0.053 |
+| _includes/head_custom.html                                                                                |   933 |   213.21K |   0.050 |
+| _layouts/api.html                                                                                         |    77 |   787.06K |   0.041 |
+| sitemap.xml                                                                                               |     1 |    57.69K |   0.040 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/search_header.html  |   933 |   421.85K |   0.026 |
+| events/events.md                                                                                          |     1 |    18.90K |   0.025 |
+| _layouts/event.html                                                                                       |    97 |   734.31K |   0.018 |
+| _layouts/wmt_event.html                                                                                   |    19 |   591.49K |   0.011 |
+| features/customisation/customisation.md                                                                   |     1 |     6.23K |   0.010 |
+| _includes/title.html                                                                                      |   933 |    47.38K |   0.010 |
+| contributing/coming-soon.md                                                                               |     1 |     5.89K |   0.009 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/components/search_footer.html  |   933 |   217.76K |   0.008 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/search_placeholder_custom.html |   933 |    22.78K |   0.007 |
+| _layouts/integration.html                                                                                 |    27 |    67.66K |   0.006 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/nav_footer_custom.html         |   933 |     0.00K |   0.005 |
+| _layouts/quality_estimation.html                                                                          |     6 |    88.98K |   0.005 |
+| calls-for-papers/calls-for-papers.md                                                                      |     1 |     3.00K |   0.004 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/lunr/custom-data.json          |  1543 |     0.00K |   0.003 |
+| _layouts/language_family.html                                                                             |    43 |    39.56K |   0.003 |
+| _layouts/page.html                                                                                        |   145 |   492.35K |   0.003 |
+| features/customisation/fine-tuning.md                                                                     |     1 |     1.18K |   0.002 |
+| features/customisation/glossaries.md                                                                      |     1 |     3.13K |   0.002 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/document.html            |   933 |   388.14K |   0.002 |
+| index/index.md                                                                                            |     1 |     5.14K |   0.002 |
+| assets/css/just-the-docs-dark.scss                                                                        |     1 |     0.26K |   0.002 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/code_copy.html           |   933 |  1226.38K |   0.002 |
+| feed.xml                                                                                                  |     1 |     0.58K |   0.002 |
+| features/customisation/adaptive.md                                                                        |     1 |     2.13K |   0.002 |
+| _layouts/aggregator.html                                                                                  |     7 |    17.51K |   0.002 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/link.html                |   933 |   416.39K |   0.002 |
+| features/customisation/formality.md                                                                       |     1 |     0.84K |   0.002 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/expand.html              |   933 |   332.56K |   0.002 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-9959191af189/_includes/icons/external_link.html       |   933 |   492.01K |   0.002 |
+ 
+                    done in 236.611 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

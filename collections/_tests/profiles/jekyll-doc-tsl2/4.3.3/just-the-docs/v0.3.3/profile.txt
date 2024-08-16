@@ -1,0 +1,47 @@
+Configuration file: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_config.yml
+            Source: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2
+       Destination: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.0000 |
+| READ     |   0.1057 |
+| GENERATE |   0.0006 |
+| RENDER   | 348.5816 |
+| CLEANUP  |   0.0058 |
+| WRITE    |   0.1195 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                           | Count |     Bytes |    Time |
++--------------------------------------------------------------------+-------+-----------+---------+
+| just-the-docs-5a78a7d39bc6/_layouts/default.html                   |   560 | 75082.81K | 337.986 |
+| just-the-docs-5a78a7d39bc6/_includes/nav.html                      |   560 | 69952.98K | 335.785 |
+| just-the-docs-5a78a7d39bc6/_layouts/vendor/compress.html           |   560 | 62274.32K |   9.109 |
+| assets/js/zzzz-search-data.json                                    |     1 |  1070.17K |   0.310 |
+| just-the-docs-5a78a7d39bc6/_includes/head.html                     |   560 |   950.24K |   0.286 |
+| just-the-docs-5a78a7d39bc6/_layouts/table_wrappers.html            |   560 | 75097.34K |   0.199 |
+| just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |   560 |  1527.46K |   0.164 |
+| 404.html                                                           |     1 |     0.19K |   0.012 |
+| just-the-docs-5a78a7d39bc6/_includes/title.html                    |   560 |    10.94K |   0.006 |
+| feed.xml                                                           |     1 |     0.43K |   0.005 |
+| just-the-docs-5a78a7d39bc6/_includes/footer_custom.html            |   560 |     0.00K |   0.004 |
+| just-the-docs-5a78a7d39bc6/_includes/header_custom.html            |   560 |     0.00K |   0.003 |
+| assets/css/just-the-docs-dark.scss                                 |     1 |     0.11K |   0.002 |
+| just-the-docs-5a78a7d39bc6/_includes/head_custom.html              |   560 |     0.00K |   0.001 |
+| assets/js/just-the-docs.js                                         |     1 |    14.36K |   0.001 |
+| just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |     0.33K |   0.001 |
+| assets/css/just-the-docs-default.scss                              |     1 |     0.11K |   0.000 |
+| assets/css/just-the-docs-light.scss                                |     1 |     0.11K |   0.000 |
+| just-the-docs-5a78a7d39bc6/_layouts/page.html                      |     1 |     0.12K |   0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/css/custom.scss.liquid        |     3 |     0.08K |   0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/js/custom.js                  |     1 |     0.00K |   0.000 |
+ 
+                    done in 348.834 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

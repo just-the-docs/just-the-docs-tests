@@ -1,0 +1,76 @@
+Configuration file: /Users/pdm/Projects/GitHub/machinetranslate.org/_config.yml
+            Source: /Users/pdm/Projects/GitHub/machinetranslate.org
+       Destination: /Users/pdm/Projects/GitHub/machinetranslate.org/_site
+ Incremental build: enabled
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+
+Build Process Summary: 
+
+| PHASE    |     TIME |
++----------+----------+
+| RESET    |   0.0001 |
+| READ     |   0.6592 |
+| GENERATE |   0.2186 |
+| RENDER   | 532.8738 |
+| CLEANUP  |   0.0035 |
+| WRITE    |   0.1695 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                                                 | Count |     Bytes |    Time |
++----------------------------------------------------------------------------------------------------------+-------+-----------+---------+
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_layouts/default.html                   |   933 | 43641.53K | 507.722 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_includes/nav.html                      |   933 | 27731.27K | 429.291 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_includes/head.html                     |   933 |  2352.86K |   1.089 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_layouts/vendor/compress.html           |   933 | 39372.44K |   0.785 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html   |   933 |  4436.51K |   0.377 |
+| contributing/contributors.md                                                                             |     1 |    16.67K |   0.275 |
+| _includes/contributions.html                                                                             |     2 |     0.07K |   0.274 |
+| assets/js/zzzz-search-data.json                                                                          |     1 |   614.41K |   0.261 |
+| _includes/footer_custom.html                                                                             |   933 |  4711.52K |   0.127 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_layouts/table_wrappers.html            |   933 | 43654.32K |   0.102 |
+| _layouts/language.html                                                                                   |   511 |  1219.41K |   0.079 |
+| sitemap.xml                                                                                              |     1 |    57.69K |   0.072 |
+| _includes/head_custom.html                                                                               |   933 |   213.21K |   0.051 |
+| _layouts/api.html                                                                                        |    77 |   787.06K |   0.041 |
+| events/events.md                                                                                         |     1 |    18.90K |   0.024 |
+| _layouts/event.html                                                                                      |    97 |   734.31K |   0.018 |
+| _includes/title.html                                                                                     |   933 |    47.38K |   0.011 |
+| _layouts/wmt_event.html                                                                                  |    19 |   591.49K |   0.011 |
+| features/customisation/customisation.md                                                                  |     1 |     6.23K |   0.010 |
+| contributing/coming-soon.md                                                                              |     1 |     5.89K |   0.009 |
+| _layouts/quality_estimation.html                                                                         |     6 |    88.98K |   0.006 |
+| feed.xml                                                                                                 |     1 |     0.58K |   0.006 |
+| _layouts/integration.html                                                                                |    27 |    67.66K |   0.006 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_includes/header_custom.html            |   933 |     0.00K |   0.005 |
+| calls-for-papers/calls-for-papers.md                                                                     |     1 |     3.00K |   0.003 |
+| _layouts/language_family.html                                                                            |    43 |    39.56K |   0.003 |
+| _layouts/page.html                                                                                       |   145 |   492.35K |   0.003 |
+| features/customisation/fine-tuning.md                                                                    |     1 |     1.18K |   0.002 |
+| features/customisation/glossaries.md                                                                     |     1 |     3.13K |   0.002 |
+| features/customisation/adaptive.md                                                                       |     1 |     2.13K |   0.002 |
+| features/customisation/formality.md                                                                      |     1 |     0.84K |   0.002 |
+| _layouts/aggregator.html                                                                                 |     7 |    17.51K |   0.002 |
+| features/file-translation.md                                                                             |     1 |     1.36K |   0.001 |
+| assets/js/just-the-docs.js                                                                               |     1 |    14.43K |   0.001 |
+| index/index.md                                                                                           |     1 |     5.14K |   0.001 |
+| assets/css/just-the-docs-dark.scss                                                                       |     1 |     0.17K |   0.001 |
+| _layouts/coming_soon.html                                                                                |    22 |     6.13K |   0.000 |
+| vendor/bundle/ruby/3.2.0/gems/jekyll-redirect-from-0.16.0/lib/jekyll-redirect-from/redirect.html         |    23 |    10.98K |   0.000 |
+| vendor/bundle/ruby/3.2.0/bundler/gems/just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid |     3 |     0.50K |   0.000 |
+| assets/css/just-the-docs-default.scss                                                                    |     1 |     0.17K |   0.000 |
+| index/about.md                                                                                           |     1 |     3.16K |   0.000 |
+| assets/css/just-the-docs-light.scss                                                                      |     1 |     0.17K |   0.000 |
+| robots.txt                                                                                               |     1 |     0.05K |   0.000 |
+| more/associations/iamt.md                                                                                |     1 |    14.03K |   0.000 |
+| contributing/roadmap.md                                                                                  |     1 |     9.57K |   0.000 |
+| more/community/communities.md                                                                            |     1 |     7.34K |   0.000 |
+| more/industry/companies.md                                                                               |     1 |     7.84K |   0.000 |
+| resources/publications.md                                                                                |     1 |     8.97K |   0.000 |
+| events/eamt-2023.md                                                                                      |     1 |     7.75K |   0.000 |
+| contributing/style.md                                                                                    |     1 |     7.22K |   0.000 |
+ 
+                    done in 533.936 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

@@ -1,0 +1,65 @@
+Configuration file: /Users/pdm/Projects/GitHub/endoflife.date/_config.yml
+            Source: /Users/pdm/Projects/GitHub/endoflife.date
+       Destination: /Users/pdm/Projects/GitHub/endoflife.date/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+         Tag pages: Generating...
+         Tag pages: Done in 0.003 seconds.
+
+Filename                                                            | Count |     Bytes |   Time
+--------------------------------------------------------------------+-------+-----------+-------
+_layouts/product.html                                               |   337 |  4059.19K | 10.029
+_layouts/default.html                                               |   410 | 20964.54K |  5.451
+just-the-docs-c0cb72562ff9/_includes/head.html                      |   410 |  1203.97K |  3.232
+just-the-docs-c0cb72562ff9/_includes/css/activation.scss.liquid     |   410 |   213.24K |  2.203
+sitemap.xml                                                         |     1 |   111.82K |  2.066
+just-the-docs-c0cb72562ff9/_includes/vendor/anchor_headings.html    |   410 |  4930.51K |  0.597
+just-the-docs-c0cb72562ff9/_includes/components/site_nav.html       |     1 |    67.03K |  0.503
+just-the-docs-c0cb72562ff9/_includes/components/children_nav.html   |   410 |     0.00K |  0.503
+just-the-docs-c0cb72562ff9/_includes/components/nav/pages.html      |     1 |    66.88K |  0.419
+_layouts/product-list.html                                          |    68 |   729.86K |  0.346
+just-the-docs-c0cb72562ff9/_includes/components/nav/sorted.html     |     1 |     0.00K |  0.259
+assets/css/just-the-docs-head-nav.css                               |     1 |     0.14K |  0.210
+assets/js/zzzz-search-data.json                                     |     1 |   393.19K |  0.202
+just-the-docs-c0cb72562ff9/_includes/icons/icons.html               |   410 |  1627.99K |  0.183
+just-the-docs-c0cb72562ff9/_includes/components/breadcrumbs.html    |   410 |     0.00K |  0.182
+just-the-docs-c0cb72562ff9/_includes/components/header.html         |   410 |   656.64K |  0.178
+just-the-docs-c0cb72562ff9/_includes/components/footer.html         |   410 |     0.80K |  0.150
+just-the-docs-c0cb72562ff9/_includes/components/nav/links.html      |     1 |    66.88K |  0.143
+just-the-docs-c0cb72562ff9/_includes/components/sidebar.html        |   410 | 12272.37K |  0.112
+_redirects                                                          |     1 |   110.79K |  0.107
+_includes/head_custom.html                                          |   410 |   247.44K |  0.102
+_includes/identifiers.html                                          |   337 |   210.77K |  0.101
+_layouts/table_wrappers.html                                        |   410 | 20978.47K |  0.092
+just-the-docs-c0cb72562ff9/_includes/components/nav/children.html   |     1 |     0.00K |  0.086
+_includes/product-icon.html                                         |   405 |   123.66K |  0.080
+_headers                                                            |     1 |   194.10K |  0.065
+just-the-docs-c0cb72562ff9/_includes/components/search_header.html  |   410 |   182.98K |  0.050
+just-the-docs-c0cb72562ff9/_includes/components/aux_nav.html        |   410 |   443.63K |  0.048
+just-the-docs-c0cb72562ff9/_includes/favicon.html                   |     1 |     0.00K |  0.034
+pages/help/identifiers-needed.md                                    |     1 |    18.14K |  0.030
+just-the-docs-c0cb72562ff9/_includes/title.html                     |   410 |     7.61K |  0.022
+_includes/table.html                                                |    26 |    27.03K |  0.021
+just-the-docs-c0cb72562ff9/_includes/footer_custom.html             |   410 |     0.00K |  0.014
+just-the-docs-c0cb72562ff9/_includes/components/search_footer.html  |   410 |    95.69K |  0.014
+index.md                                                            |     1 |     4.28K |  0.009
+just-the-docs-c0cb72562ff9/_includes/search_placeholder_custom.html |   410 |     8.81K |  0.009
+_includes/custom-column-td.html                                     |    16 |    10.30K |  0.008
+just-the-docs-c0cb72562ff9/_includes/icons/code_copy.html           |   410 |   538.93K |  0.004
+just-the-docs-c0cb72562ff9/_includes/icons/link.html                |   410 |   182.98K |  0.004
+just-the-docs-c0cb72562ff9/_includes/icons/menu.html                |   410 |   172.97K |  0.003
+_includes/nav_footer_custom.html                                    |   410 |    47.65K |  0.003
+just-the-docs-c0cb72562ff9/_includes/icons/search.html              |   410 |   159.36K |  0.003
+just-the-docs-c0cb72562ff9/_includes/css/just-the-docs.scss.liquid  |     4 |    12.45K |  0.003
+just-the-docs-c0cb72562ff9/_includes/icons/expand.html              |   410 |   146.14K |  0.003
+just-the-docs-c0cb72562ff9/_includes/icons/external_link.html       |   410 |   216.21K |  0.003
+just-the-docs-c0cb72562ff9/_includes/icons/document.html            |   410 |   170.57K |  0.003
+feed.xml                                                            |     1 |     0.43K |  0.002
+_layouts/schema.html                                                |     1 |     1.79K |  0.002
+just-the-docs-c0cb72562ff9/_includes/css/callouts.scss.liquid       |     4 |    11.88K |  0.002
+_includes/custom-column-th.html                                     |    16 |     2.11K |  0.002
+
+ 
+                    done in 22.961 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

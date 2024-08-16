@@ -1,0 +1,6 @@
+Configuration file: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_config.yml
+            Source: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2
+       Destination: /Users/pdm/Projects/GitHub/jekyll-doc-tsl2/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts

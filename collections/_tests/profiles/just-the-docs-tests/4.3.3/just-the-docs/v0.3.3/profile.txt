@@ -1,0 +1,75 @@
+Configuration file: /Users/pdm/Projects/GitHub/just-the-docs-tests/_config.yml
+            Source: /Users/pdm/Projects/GitHub/just-the-docs-tests
+       Destination: /Users/pdm/Projects/GitHub/just-the-docs-tests/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+
+Build Process Summary: 
+
+| PHASE    |   TIME |
++----------+--------+
+| RESET    | 0.0001 |
+| READ     | 0.1173 |
+| GENERATE | 0.0013 |
+| RENDER   | 2.8504 |
+| CLEANUP  | 0.0078 |
+| WRITE    | 0.1257 |
+ 
+
+Site Render Stats: 
+
+| Filename                                                                                 | Count |    Bytes |  Time |
++------------------------------------------------------------------------------------------+-------+----------+-------+
+| just-the-docs-5a78a7d39bc6/_layouts/default.html                                         |   152 | 5831.55K | 1.587 |
+| just-the-docs-5a78a7d39bc6/_includes/nav.html                                            |  1824 | 4191.93K | 1.331 |
+| just-the-docs-5a78a7d39bc6/_layouts/vendor/compress.html                                 |   152 | 5603.89K | 0.616 |
+| collections/_navigation/grandparent/index.md                                             |     1 |    2.58K | 0.164 |
+| just-the-docs-5a78a7d39bc6/_includes/head.html                                           |   152 |  294.28K | 0.137 |
+| assets/js/zzzz-search-data.json                                                          |     1 |  131.91K | 0.041 |
+| just-the-docs-5a78a7d39bc6/_includes/vendor/anchor_headings.html                         |   152 |  311.63K | 0.031 |
+| just-the-docs-5a78a7d39bc6/_layouts/table_wrappers.html                                  |   152 | 5833.16K | 0.013 |
+| collections/_tests/profiles/index.md                                                     |     1 |    7.30K | 0.010 |
+| _includes/profiles/jekyll.md                                                             |     2 |    4.94K | 0.010 |
+| _includes/profiles/site.md                                                               |     8 |    4.45K | 0.009 |
+| _includes/profiles/theme.md                                                              |    64 |    4.10K | 0.008 |
+| _includes/head_custom.html                                                               |   152 |    3.81K | 0.003 |
+| just-the-docs-5a78a7d39bc6/_includes/title.html                                          |   152 |    3.56K | 0.002 |
+| collections/_styling/copy-code.md                                                        |     1 |    3.33K | 0.001 |
+| just-the-docs-5a78a7d39bc6/_includes/footer_custom.html                                  |   152 |    0.00K | 0.001 |
+| assets/js/just-the-docs.js                                                               |     1 |   14.46K | 0.001 |
+| assets/css/just-the-docs-dark.scss                                                       |     1 |    0.11K | 0.001 |
+| collections/_styling/narrow-code.md                                                      |     1 |    1.58K | 0.000 |
+| collections/_tests/profiles/jekyll-doc-tsl2/3.10.0/just-the-docs/v0.4.2/profile.txt      |     1 |    4.63K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/css/just-the-docs.scss.liquid                       |     3 |    0.33K | 0.000 |
+| index.md                                                                                 |     1 |    1.14K | 0.000 |
+| collections/_styling/linenos.md                                                          |     1 |    1.70K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/header_custom.html                                  |   152 |    0.00K | 0.000 |
+| collections/_tests/about.md                                                              |     1 |    2.08K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_includes/fix_linenos.html                                    |     3 |    1.78K | 0.000 |
+| assets/css/just-the-docs-default.scss                                                    |     1 |    0.11K | 0.000 |
+| collections/_tests/current.md                                                            |     1 |   37.36K | 0.000 |
+| collections/_navigation/collections.md                                                   |     1 |    0.71K | 0.000 |
+| assets/css/just-the-docs-light.scss                                                      |     1 |    0.11K | 0.000 |
+| 404.html                                                                                 |     1 |    0.21K | 0.000 |
+| collections/_customization/nav-footer.md                                                 |     1 |    0.84K | 0.000 |
+| collections/_color/code.md                                                               |     1 |    3.09K | 0.000 |
+| docs/markdown.md                                                                         |     1 |    7.33K | 0.000 |
+| collections/_components/math/katex/config.md                                             |     1 |    1.50K | 0.000 |
+| _includes/katex.html                                                                     |     2 |    2.53K | 0.000 |
+| collections/_components/math/mathjax/config.md                                           |     1 |    1.40K | 0.000 |
+| _includes/tests.md                                                                       |     2 |   12.49K | 0.000 |
+| collections/_tests/profiles/just-the-docs-tests/3.10.0/just-the-docs/v0.8.1/profile.txt  |     1 |    5.21K | 0.000 |
+| collections/_navigation/order/strings/index.md                                           |     1 |    0.60K | 0.000 |
+| collections/_tests/profiles/machinetranslate.org/3.10.0/just-the-docs/v0.3.3/profile.txt |     1 |    7.32K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_layouts/page.html                                            |     1 |   18.11K | 0.000 |
+| collections/_customization/head-favicons.md                                              |     1 |    0.73K | 0.000 |
+| collections/_search/rake.md                                                              |     1 |    0.19K | 0.000 |
+| just-the-docs-5a78a7d39bc6/_layouts/home.html                                            |     1 |    1.45K | 0.000 |
+| collections/_tests/profiles/machinetranslate.org/3.10.0/just-the-docs/v0.4.2/profile.txt |     1 |    7.37K | 0.000 |
+| collections/_styling/asciidoc.md                                                         |     1 |    0.58K | 0.000 |
+| collections/_tests/profiles/endoflife.date/4.3.3/just-the-docs/v0.6.2/profile.txt        |     1 |    5.97K | 0.000 |
+| collections/_tests/profiles/just-the-docs-tests/3.10.0/just-the-docs/v0.7.0/profile.txt  |     1 |    5.21K | 0.000 |
+| collections/_tests/profiles/just-the-docs-tests/3.10.0/just-the-docs/v0.3.3/profile.txt  |     1 |    6.28K | 0.000 |
+ 
+                    done in 3.111 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
