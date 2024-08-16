@@ -19,15 +19,14 @@ Platform
 
 System
 : macOS Sonoma 14.4
-
-{: .note }
-> When a website depends on the `github-pages` gem,
-> it is automatically built with Jekyll v3.9.3.
-> For profiling, the gem was replaced by other gems.
+: Ruby 3.3.4
 
 {% include profiles/jekyll.md jekyll="3.10.0" %}
 
 {% include profiles/jekyll.md jekyll="4.3.3" %}
+
+(The increased time for building `machinetranslate.org` using Jekyll 4
+and the `multi-level` PR is from a known inefficiency in generating links to child pages.)
 
 [v0.3.3]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.3.3 "Theme release v0.3.3"
 [v0.4.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.4.2 "Theme release v0.4.2"
