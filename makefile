@@ -12,17 +12,17 @@ SITE := \
 
 # The versions of Jekyll to use:
 JEKYLL := \
-	3.9.3 \
-	4.3.2
+	3.10.0 \
+	4.3.3
 
 # The versions of Just the Docs to use:
 JTD := \
-	just-the-docs/just-the-docs@v0.3.3 \
 	just-the-docs/just-the-docs@v0.4.2 \
 	just-the-docs/just-the-docs@v0.5.4 \
 	just-the-docs/just-the-docs@v0.6.2 \
 	just-the-docs/just-the-docs@v0.7.0 \
 	just-the-docs/just-the-docs@v0.8.1 \
+	just-the-docs/just-the-docs@v0.9.0 \
 	pdmosses/just-the-docs@multi-level
 
 .PHONY: help

@@ -18,16 +18,16 @@ Platform
 : Apple MacBook Air M2, 2022
 
 System
-: macOS Ventura 13.4, 13.5, 13.6; Sonoma 14.2
+: macOS Sonoma 14.4
 
 {: .note }
 > When a website depends on the `github-pages` gem,
 > it is automatically built with Jekyll v3.9.3.
 > For profiling, the gem was replaced by other gems.
 
-{% include profiles/jekyll.md jekyll="3.9.3" %}
+{% include profiles/jekyll.md jekyll="3.10.0" %}
 
-{% include profiles/jekyll.md jekyll="4.3.2" %}
+{% include profiles/jekyll.md jekyll="4.3.3" %}
 
 [v0.3.3]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.3.3 "Theme release v0.3.3"
 [v0.4.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.4.2 "Theme release v0.4.2"
@@ -41,6 +41,7 @@ System
 [v0.6.2]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.6.2 "Theme release v0.6.2"
 [v0.7.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.7.0 "Theme release v0.7.0"
 [v0.8.1]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.8.1 "Theme release v0.8.1"
+[v0.9.0]: https://github.com/just-the-docs/just-the-docs/releases/tag/v0.9.0 "Theme release v0.9.0"
 
 [just-the-docs-tests]: ../just-the-docs-tests/index/ "About profiling Just the Docs Tests"
 [endoflife.date]: ../endoflife.date/index/ "About profiling endoflife.date"
