@@ -12,7 +12,7 @@ The maintainers are developing this website to test various features of Just the
 The source code of the web pages illustrates how to use the tested features,
 and the published pages show their resulting effects.
 
-{: ,note }
+{: .note }
 The tests site can be used as a collection of regression tests for theme features.
 Pull requests for new features should generally be backwards compatible,
 and not affect the HTML of the website.
